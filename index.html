@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Insider Monitor</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0b0f17">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Insider">
+<style>
+  :root{
+    --bg:#0b0f17; --surface:#141a24; --surface2:#1b2330; --line:#252f3d;
+    --text:#eaf0f7; --muted:#8b97a8; --faint:#5b6676;
+    --green:#22c55e; --amber:#f59e0b; --red:#ef4444; --info:#64748b;
+    --teal:#2dd4bf; --blue:#60a5fa; --gold:#eab308;
+    --shadow:0 6px 24px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
+    line-height:1.45}
+  a{color:inherit}
+  .wrap{max-width:1180px;margin:0 auto;
+    padding:0 max(20px, env(safe-area-inset-left)) 0 max(20px, env(safe-area-inset-right))}
+
+  /* Top bar */
+  .topbar{position:sticky;top:0;z-index:10;background:rgba(11,15,23,.85);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+    /* keep content below the iPhone Dynamic Island / status bar */
+    padding-top:env(safe-area-inset-top)}
+  .topbar .wrap{display:flex;align-items:center;gap:16px;height:60px}
+  .brand{font-weight:800;font-size:17px;letter-spacing:.2px;display:flex;gap:9px;align-items:center}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--teal);box-shadow:0 0 12px var(--teal)}
+  .meta{color:var(--muted);font-size:12.5px;margin-left:auto;text-align:right}
+
+  /* Controls */
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:22px 0 10px}
+  input[type=search],select{background:var(--surface2);color:var(--text);
+    border:1px solid var(--line);border-radius:10px;padding:10px 13px;font-size:14px;outline:none}
+  input[type=search]{min-width:240px;flex:1}
+  input[type=search]:focus,select:focus{border-color:var(--teal)}
+  .pill{background:var(--surface2);border:1px solid var(--line);border-radius:999px;
+    padding:8px 14px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none;transition:.15s}
+  .pill:hover{color:var(--text)}
+  .pill.active{color:#04110f;background:var(--teal);border-color:var(--teal);font-weight:600}
+
+  /* Overview grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;padding:8px 0 50px}
+  .stock{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;
+    cursor:pointer;transition:.15s;display:flex;flex-direction:column;gap:12px}
+  .stock:hover{transform:translateY(-2px);border-color:var(--teal);box-shadow:var(--shadow)}
+  .stock.hot{border-color:var(--gold)}
+  .stock__top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .tk{font-size:22px;font-weight:800;letter-spacing:.3px}
+  .co{color:var(--muted);font-size:12.5px;margin-top:2px;max-width:180px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .price{font-size:16px;font-weight:600}
+  .price .eur{color:var(--muted);font-weight:400;font-size:13px}
+  .vs{font-size:12px;font-weight:600}
+  .up{color:var(--green)} .down{color:var(--red)}
+  .badges{display:flex;flex-wrap:wrap;gap:6px}
+  .badge{font-size:11px;padding:3px 9px;border-radius:7px;border:1px solid var(--line);color:var(--muted)}
+  .badge.cluster{color:var(--gold);border-color:var(--gold)}
+  .badge.cong{color:var(--blue);border-color:var(--blue)}
+  .badge.sec{color:var(--muted)}
+
+  /* Score ring */
+  .ring{--p:0;width:56px;height:56px;border-radius:50%;flex:none;
+    background:conic-gradient(var(--rc) calc(var(--p)*1%), var(--surface2) 0);
+    display:grid;place-items:center;position:relative}
+  .ring::before{content:"";position:absolute;inset:5px;border-radius:50%;background:var(--surface)}
+  .ring span{position:relative;font-weight:800;font-size:14px}
+  .stock__foot{display:flex;align-items:center;justify-content:space-between;margin-top:2px}
+  .buydate{color:var(--muted);font-size:11.5px}
+  .dotsline{display:flex;gap:5px}
+  .kdot{width:9px;height:9px;border-radius:50%;background:var(--info)}
+  .kdot.pass{background:var(--green)} .kdot.warn{background:var(--amber)}
+  .kdot.fail{background:var(--red)} .kdot.info{background:var(--faint)} .kdot.na{background:var(--faint)}
+
+  /* Detail page */
+  .back{display:inline-flex;align-items:center;gap:7px;color:var(--muted);
+    text-decoration:none;font-size:14px;margin:20px 0 6px;cursor:pointer}
+  .back:hover{color:var(--text)}
+  .hero{background:var(--surface);border:1px solid var(--line);border-radius:18px;
+    padding:24px;display:flex;flex-wrap:wrap;gap:26px;align-items:center;margin-bottom:14px}
+  .hero.hot{border-color:var(--gold)}
+  .hero__id .tkbig{font-size:38px;font-weight:800;letter-spacing:.5px;line-height:1}
+  .hero__id .cobig{color:var(--muted);font-size:14px;margin-top:6px}
+  .hero__id .secbig{color:var(--faint);font-size:12.5px;margin-top:2px}
+  .hero__prices{display:flex;gap:28px;flex-wrap:wrap;margin-left:auto}
+  .pblock .plabel{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
+  .pblock .pval{font-size:26px;font-weight:800;margin-top:3px}
+  .pblock .psub{color:var(--muted);font-size:13px}
+  .scorebox{text-align:center}
+  .scorebox .ringbig{--p:0;width:92px;height:92px;border-radius:50%;
+    background:conic-gradient(var(--rc) calc(var(--p)*1%), var(--surface2) 0);
+    display:grid;place-items:center;position:relative;margin:0 auto}
+  .scorebox .ringbig::before{content:"";position:absolute;inset:8px;border-radius:50%;background:var(--surface)}
+  .scorebox .ringbig b{position:relative;font-size:22px;font-weight:800}
+  .scorebox .slabel{color:var(--muted);font-size:12px;margin-top:8px}
+  .copyid{cursor:pointer;border-radius:12px;padding:6px 10px;margin:-6px -10px;transition:.15s}
+  .copyid:hover{background:var(--surface2)}
+  .copyhint{font-size:11px;color:var(--teal);font-weight:600;vertical-align:middle;opacity:.6}
+  .copyid:hover .copyhint{opacity:1}
+  .context{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 6px}
+  .cx{background:var(--surface);border:1px solid var(--line);border-radius:12px;
+    padding:10px 14px;font-size:11.5px;color:var(--faint);display:flex;flex-direction:column;gap:3px;
+    max-width:240px}
+  .cx>span{color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-size:10.5px}
+  .cx b{color:var(--text);font-size:16px}
+  .cx em{font-style:normal;color:var(--muted);line-height:1.35}
+  .cx em.ref{color:var(--teal);opacity:.85}
+  .cx-mc{max-width:320px}
+  #toast{position:fixed;left:50%;bottom:calc(28px + env(safe-area-inset-bottom));
+    transform:translateX(-50%) translateY(20px);
+    background:var(--teal);color:#04110f;font-weight:600;font-size:13.5px;padding:11px 18px;
+    border-radius:12px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.2s;z-index:50}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  .section-title{font-size:15px;font-weight:700;color:var(--muted);
+    text-transform:uppercase;letter-spacing:.8px;margin:24px 2px 12px}
+
+  /* KPI cards */
+  .kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+  .kpi{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    padding:18px;position:relative;overflow:hidden}
+  .kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--kc)}
+  .kpi__head{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .kpi__n{width:26px;height:26px;border-radius:8px;background:var(--surface2);
+    display:grid;place-items:center;font-weight:800;font-size:13px;color:var(--muted);flex:none}
+  .kpi__title{font-weight:700;font-size:14.5px}
+  .kpi__flag{margin-left:auto;font-size:16px}
+  .metric{padding:9px 0;border-top:1px dashed var(--line)}
+  .metric:first-child{border-top:none;padding-top:0}
+  .metric__label{font-size:13px;color:var(--text);font-weight:600}
+  .metric__ideal{font-size:11.5px;color:var(--muted);margin-top:1px}
+  .metric__value{font-size:27px;font-weight:800;margin-top:5px;letter-spacing:.3px}
+  .v-pass{color:var(--green)} .v-warn{color:var(--amber)} .v-fail{color:var(--red)}
+  .v-info{color:var(--text)} .v-na{color:var(--muted)}
+  .legend{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    padding:6px 18px;margin:8px 0 14px}
+  .legend summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--text);
+    padding:12px 2px;list-style:none;user-select:none}
+  .legend summary::-webkit-details-marker{display:none}
+  .legend summary::before{content:"▸ ";color:var(--teal)}
+  .legend[open] summary::before{content:"▾ "}
+  .lg-body{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;padding:6px 0 12px}
+  .lg-h{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);
+    margin-bottom:8px;font-weight:700}
+  .lg-row{padding:6px 0;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.45}
+  .lg-row b{color:var(--text);display:block;margin-bottom:1px}
+  .lg-note{color:var(--faint);font-size:11.5px;padding:4px 0 12px}
+
+  /* Tables / lists */
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{text-align:left;color:var(--muted);font-weight:600;font-size:11.5px;
+    text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;border-bottom:1px solid var(--line)}
+  td{padding:9px 8px;border-bottom:1px solid var(--line)}
+  tr:last-child td{border-bottom:none}
+  .congrow{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .congrow:last-child{border-bottom:none}
+  .congrow .who{font-weight:600}
+  .congrow .sub{color:var(--muted);font-size:12px}
+  .links{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 50px}
+  .links a{background:var(--surface2);border:1px solid var(--line);border-radius:10px;
+    padding:9px 14px;font-size:13px;text-decoration:none;color:var(--text)}
+  .links a:hover{border-color:var(--teal);color:var(--teal)}
+
+  .wl-note{color:var(--muted);font-size:12.5px;padding:0 2px 12px}
+  .badge.boughtb{color:var(--green);border-color:var(--green)}
+  .buybtn{margin-top:10px;background:var(--surface2);border:1px solid var(--line);color:var(--text);
+    border-radius:10px;padding:8px 14px;font-size:13px;cursor:pointer;transition:.15s;font-weight:600}
+  .buybtn:hover{border-color:var(--green);color:var(--green)}
+  .buybtn.on{background:var(--green);border-color:var(--green);color:#04110f}
+  .stock.snap{opacity:.85}
+  .stock.snap .links a{color:var(--blue);text-decoration:none;background:none;border:none;padding:0;font-size:12.5px;margin-right:12px}
+  .empty{padding:70px;text-align:center;color:var(--muted)}
+  footer{color:var(--faint);font-size:12px;padding:10px 0 40px;text-align:center}
+  @media(max-width:640px){.hero__prices{margin-left:0}.pblock .pval{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap">
+  <div class="brand"><span class="dot"></span>Insider-Buy Monitor</div>
+  <div class="meta" id="meta">…</div>
+</div></div>
+
+<div class="wrap" id="app"></div>
+<footer>Data: OpenInsider · Finviz · Kadoa Congress · ECB FX. Own estimates, not financial advice.</footer>
+
+<script>
+const ICON={pass:"✅",warn:"🟡",fail:"❌",info:"ℹ️",na:"⚪"};
+const RINGCOL={hi:"var(--green)",mid:"var(--amber)",lo:"var(--red)"};
+
+function parseCap(s){ if(!s) return null; const m=(''+s).match(/([\d.]+)\s*([TBMK]?)/i); if(!m) return null;
+  const mul={T:1e12,B:1e9,M:1e6,K:1e3,"":1}[(m[2]||"").toUpperCase()]; return parseFloat(m[1])*mul; }
+function marketCapTier(s){
+  const v=parseCap(s); if(v==null) return null;
+  if(v<3e8)  return {t:"Micro-cap",pos:"very speculative → small position (guide ≤1-2% of portfolio)"};
+  if(v<2e9)  return {t:"Small-cap",pos:"elevated risk → moderate position (guide 2-3%)"};
+  if(v<1e10) return {t:"Mid-cap",pos:"moderate → normal position (guide 3-5%)"};
+  return {t:"Large-cap",pos:"solid/liquid → full position possible (guide up to ~5-8%)"};
+}
+
+// Legend (bottom, collapsed) explaining all checks + context values.
+const LEGEND=[
+  ["The 8 checks",[
+    ["1 · Momentum (1M)","Price change over the last month. >5% up or down = a lot of movement right now."],
+    ["2 · Fundamental growth","Sales growth: Q/Q vs the previous quarter, 5Y as the 5-year average. Positive and rising is good."],
+    ["3 · Financial health","Balance-sheet stability. Debt/Eq = debt ÷ equity (<1 solid, >2 risky). Current/Quick = short-term liquidity (>1 good). For banks a flag derived from ROE, margin & leverage."],
+    ["4 · Valuation","Cheap or expensive? P/S = price ÷ sales, P/B = price ÷ book value (lower = cheaper). DCF = fair value vs price (+ = undervalued), only meaningful for profitable firms."],
+    ["5 · Technical dip & timing","Distance from 52W high (strongly negative = in a correction). RSI = momentum 0-100 (<30 oversold, >70 overbought)."],
+    ["6 · Short float","% of shares sold short. High (>10%) = many bet on falling prices → short-squeeze potential."],
+    ["7 · Target upside","Distance from the current price to the average analyst price target."],
+    ["8 · Profitability","Does the company make money? Net and operating margin above 0%. Loss-making firms in a dip carry dilution risk (secondary offerings)."],
+  ]],
+  ["Context & signals",[
+    ["Market cap","Company value (price × shares). Position guide: micro (<300M) ≤1-2%, small (<2B) 2-3%, mid (<10B) 3-5%, large (>10B) up to ~5-8% of your portfolio."],
+    ["Avg volume","Average shares traded per day = liquidity. >300k ok, >1M easily tradable."],
+    ["Beta","Volatility vs the overall market. 1 = like the market, >1 more volatile, <1 calmer."],
+    ["Analyst recom","Average analyst rating: 1 = strong buy … 5 = sell (<2.5 = positive)."],
+    ["P/E (fwd)","Price ÷ earnings per share, in brackets based on expected earnings. <15 cheap, >25 expensive, '-' = no profit."],
+    ["Insider own","% of the company owned by management/insiders. Higher = more skin in the game (often high for micro-caps)."],
+    ["📅 Earnings","Next quarterly report (BMO = before market open, AMC = after market close). Buying right before = event risk."],
+    ["Insider buy volume","Sum of all qualifying insider buys. Higher = more conviction."],
+    ["🔥 Cluster","CEO and CFO of the same company buying within 2 weeks. A rare, strong confidence signal."],
+    ["🏛️ Congress","Buys of the same stock by US politicians (House/Senate) in the last 6 months."],
+    ["👑 Politician watchlist","All buys filed within the last month by Pelosi, Khanna, McCaul, Gottheimer and Trump. Note: politicians file up to 45 days late and disclose only amount ranges, never a price. 'Option' = call options instead of stock."],
+    ["🎯 since buy","Estimated entry = closing price of the buy day (Nasdaq data). The '≤ +X% since buy' filter shows only stocks that have barely risen (or fallen) since. There the information edge is not priced in yet despite the filing delay."],
+    ["📜 Alerts","Every Telegram alert with the price at alert time vs now. An honest self-check of how the signals perform."],
+  ]],
+];
+function legendHTML(){
+  const groups=LEGEND.map(([title,items])=>`
+    <div class="lg-group"><div class="lg-h">${title}</div>
+      ${items.map(([t,d])=>`<div class="lg-row"><b>${esc(t)}</b><span>${esc(d)}</span></div>`).join("")}
+    </div>`).join("");
+  return `<details class="legend"><summary>ℹ️ Legend – what do the values mean?</summary>
+    <div class="lg-body">${groups}</div>
+    <div class="lg-note">All values are guidelines, not financial advice.</div>
+  </details>`;
+}
+let DATA={records:[]};
+
+const money=(v,c)=> v==null? "–" : (c||"$")+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
+const esc=s=> (s==null?"":String(s)).replace(/[&<>]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m]));
+function ringCol(s,t){const r=s/t; return r>=.66?RINGCOL.hi:r>=.33?RINGCOL.mid:RINGCOL.lo;}
+function byId(id){return DATA.records.find(r=>r.ticker===id);}
+function wlById(id){return (((DATA.watchlist||{}).records)||[]).find(r=>r.ticker===id);}
+
+/* ---------- Bought list (localStorage, per device) ---------- */
+function getBought(){ try{return JSON.parse(localStorage.getItem("bought")||"{}")}catch(e){return {}} }
+function setBought(o){ try{localStorage.setItem("bought", JSON.stringify(o))}catch(e){} }
+function isBought(tk){ return !!getBought()[tk]; }
+function toggleBoughtR(tk, isWl){
+  const r = isWl ? wlById(tk) : (byId(tk)||wlById(tk));
+  const b = getBought();
+  if(b[tk]){ delete b[tk]; toast(tk+" removed from bought list"); }
+  else {
+    b[tk]={ticker:tk, company:(r&&r.company)||"", source:(r&&r.is_watchlist)?"watchlist":"insider",
+           marked_at:new Date().toISOString().slice(0,10), price_at_mark:(r&&r.price_usd)??null};
+    toast(tk+" marked as bought ✓");
+  }
+  setBought(b); route();
+}
+function removeBought(tk){ const b=getBought(); delete b[tk]; setBought(b); renderOverview(); }
+function isTracked(tk){ return isBought(tk) || (DATA.portfolio||[]).some(p=>p.ticker===tk); }
+function pfCard(p){
+  const live=byId(p.ticker)||wlById(p.ticker);
+  const target=live?(live.is_watchlist?`pol-${p.ticker}`:p.ticker):null;
+  const pnl=p.pnl_pct;
+  return `<div class="stock" ${target?`onclick="location.hash='${target}'"`:""} ${target?"":'style="cursor:default"'}>
+    <div class="stock__top">
+      <div><div class="tk">${esc(p.ticker)}</div>
+        <div class="co">${live?esc(live.company):""}</div></div>
+      <span class="badge boughtb">🔄 synced</span>
+    </div>
+    <div class="price">${money(p.price_now)} <span class="eur">/ ${money(p.price_now_eur,"€")}</span>
+      ${pnl!=null?`&nbsp;<span class="vs ${pnl>=0?'up':'down'}">${pnl>=0?'+':''}${pnl}% vs entry</span>`:""}</div>
+    <div class="buydate">${p.entry?`entry $${p.entry}`:"no entry price"} · from /buy · remove with /sell ${esc(p.ticker)}</div>
+  </div>`;
+}
+function snapCard(s){
+  return `<div class="stock snap">
+    <div class="stock__top">
+      <div><div class="tk">${esc(s.ticker)}</div><div class="co">${esc(s.company)}</div></div>
+      <span class="badge boughtb">✓ bought</span>
+    </div>
+    <div class="price"><span class="eur">marked ${esc(s.marked_at)}${s.price_at_mark!=null?` @ ${money(s.price_at_mark)}`:""}</span></div>
+    <div class="buydate">No longer in the live feed.</div>
+    <div class="links" style="margin:8px 0 0">
+      <a href="https://finviz.com/quote.ashx?t=${esc(s.ticker)}" target="_blank">Finviz</a>
+      <a style="cursor:pointer" onclick="removeBought('${esc(s.ticker)}')">Remove</a>
+    </div>
+  </div>`;
+}
+
+/* ---------- Overview ---------- */
+function stockCard(r){
+  const hot=r.cluster||r.congress_bought;
+  const vs=r.vs_entry_pct;
+  const dots=(r.checks||[]).map(c=>`<span class="kdot ${c.status}"></span>`).join("");
+  const badges=[];
+  if(isTracked(r.ticker)) badges.push(`<span class="badge boughtb">✓ bought</span>`);
+  if(r.cluster) badges.push(`<span class="badge cluster">🔥 Cluster</span>`);
+  if(r.congress_bought) badges.push(`<span class="badge cong">🏛️ ${r.congress_count}</span>`);
+  if(r.sector) badges.push(`<span class="badge sec">${esc(r.sector)}</span>`);
+  const p=(r.score/r.total*100).toFixed(0);
+  return `<div class="stock ${hot?'hot':''}" onclick="location.hash='${r.ticker}'">
+    <div class="stock__top">
+      <div><div class="tk">${r.ticker}</div><div class="co">${esc(r.company)}</div></div>
+      <div class="ring" style="--p:${p};--rc:${ringCol(r.score,r.total)}"><span>${r.score}/${r.total}</span></div>
+    </div>
+    <div class="price">${money(r.price_usd)} <span class="eur">/ ${money(r.price_eur,"€")}</span>
+      ${vs==null?"":`&nbsp;<span class="vs ${vs>=0?'up':'down'}">${vs>=0?'+':''}${vs}%</span>`}</div>
+    <div class="badges">${badges.join("")}</div>
+    <div class="stock__foot"><span class="dotsline">${dots}</span>
+      <span class="buydate">🗓 ${esc(r.last_buy_date)||"–"}</span></div>
+  </div>`;
+}
+function watchCard(r){
+  const dots=(r.checks||[]).map(c=>`<span class="kdot ${c.status}"></span>`).join("");
+  const p=(r.score/r.total*100).toFixed(0);
+  const who=[...new Set((r.entries||[]).map(e=>e.politician))].join(", ");
+  const nearMax=(DATA.watchlist||{}).near_entry_max_pct??4;
+  const vs=r.vs_entry_pct;
+  const vsHtml=vs==null?"":`&nbsp;<span class="vs ${vs<=nearMax?'up':'down'}">${vs>=0?'+':''}${vs}% since buy</span>`;
+  return `<div class="stock" onclick="location.hash='pol-${r.ticker}'">
+    <div class="stock__top">
+      <div><div class="tk">${r.ticker}</div><div class="co">${esc(r.company)}</div></div>
+      <div class="ring" style="--p:${p};--rc:${ringCol(r.score,r.total)}"><span>${r.score}/${r.total}</span></div>
+    </div>
+    <div class="price">${money(r.price_usd)} <span class="eur">/ ${money(r.price_eur,"€")}</span>${vsHtml}</div>
+    <div class="badges">${isTracked(r.ticker)?`<span class="badge boughtb">✓ bought</span>`:""}<span class="badge cong">🏛️ ${esc(who)}</span>
+      ${r.buy_count>1?`<span class="badge sec">${r.buy_count} buys</span>`:""}</div>
+    <div class="stock__foot"><span class="dotsline">${dots}</span>
+      <span class="buydate">🗓 ${esc(r.last_buy_date)||"–"}</span></div>
+  </div>`;
+}
+let filter="all", wlNear=false;
+function renderOverview(){
+  const q=(document.getElementById("q")?.value||"").toLowerCase();
+  const pool = filter==="watchlist" ? ((DATA.watchlist||{}).records||[]) : DATA.records;
+  const nearMax=(DATA.watchlist||{}).near_entry_max_pct??4;
+  let rows, gridHTML;
+  if(filter==="alerts"){
+    rows=(DATA.alerts||[]).filter(a=>!q || (a.ticker||"").toLowerCase().includes(q));
+    const withChg=rows.filter(a=>a.change_pct!=null);
+    const avg=withChg.length?(withChg.reduce((s,a)=>s+a.change_pct,0)/withChg.length):null;
+    const wins=withChg.filter(a=>a.change_pct>0).length;
+    const trs=rows.map(a=>{
+      const link=a.type==="politician"?`pol-${a.ticker}`:a.ticker;
+      const chg=a.change_pct;
+      return `<tr>
+        <td>${esc(a.date)||"–"}</td>
+        <td>${a.type==="politician"?"👑":"🟢"}</td>
+        <td><a href="#${link}" style="color:var(--teal);text-decoration:none"><b>${esc(a.ticker)}</b></a></td>
+        <td>${money(a.price_at_alert)}</td>
+        <td>${money(a.price_now)}</td>
+        <td>${chg==null?"–":`<span class="${chg>=0?'up':'down'}">${chg>=0?'+':''}${chg}%</span>`}</td></tr>`;
+    }).join("");
+    gridHTML=`<div class="panel" style="grid-column:1/-1">
+      ${withChg.length?`<div class="wl-note" style="padding:0 0 10px">Avg since alert: <b class="${avg>=0?'up':'down'}">${avg>=0?'+':''}${avg.toFixed(1)}%</b> · ${wins}/${withChg.length} positive</div>`:""}
+      <table><thead><tr><th>Alert date</th><th>Type</th><th>Ticker</th><th>Price then</th><th>Now</th><th>Since</th></tr></thead>
+      <tbody>${trs}</tbody></table></div>`;
+  } else if(filter==="bought"){
+    const pf=(DATA.portfolio||[]);
+    const pfTickers=new Set(pf.map(p=>p.ticker));
+    const locals=Object.values(getBought())
+      .filter(s=>!pfTickers.has(s.ticker))
+      .sort((a,b)=>(b.marked_at||"").localeCompare(a.marked_at||""));
+    rows=[...pf.map(p=>({_pf:true,...p})), ...locals]
+      .filter(x=>!q || x.ticker.toLowerCase().includes(q) || (x.company||"").toLowerCase().includes(q));
+    gridHTML=rows.map(x=>{
+      if(x._pf) return pfCard(x);
+      const live = x.source==="watchlist" ? (wlById(x.ticker)||byId(x.ticker))
+                                          : (byId(x.ticker)||wlById(x.ticker));
+      return live ? (live.is_watchlist?watchCard(live):stockCard(live)) : snapCard(x);
+    }).join("");
+  } else {
+    rows=pool.filter(r=>{
+      if(q && !(r.ticker.toLowerCase().includes(q)||(r.company||"").toLowerCase().includes(q))) return false;
+      if(filter==="watchlist") return !wlNear || (r.vs_entry_pct!=null && r.vs_entry_pct<=nearMax);
+      if(filter==="strong") return r.score>=4;
+      if(filter==="cluster") return r.cluster;
+      if(filter==="congress") return r.congress_bought;
+      return true;
+    });
+    gridHTML=rows.map(filter==='watchlist'?watchCard:stockCard).join("");
+  }
+  const app=document.getElementById("app");
+  const empty = filter==="watchlist"
+    ? "No politician buys filed in the last month."
+    : filter==="bought"
+    ? "Nothing marked as bought yet. Open a stock and tap 'Mark as bought'."
+    : filter==="alerts"
+    ? "No alerts sent yet. Every Telegram alert will appear here with its performance."
+    : "No stocks in this view.";
+  app.innerHTML=`
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search ticker / company…" value="${q?esc(document.getElementById('q').value):''}">
+      <span class="pill ${filter==='all'?'active':''}" data-f="all">All</span>
+      <span class="pill ${filter==='strong'?'active':''}" data-f="strong">Score ≥ 4</span>
+      <span class="pill ${filter==='cluster'?'active':''}" data-f="cluster">🔥 Cluster</span>
+      <span class="pill ${filter==='congress'?'active':''}" data-f="congress">🏛️ Congress</span>
+      <span class="pill ${filter==='watchlist'?'active':''}" data-f="watchlist">👑 Politicians</span>
+      ${filter==='watchlist'?`<span class="pill ${wlNear?'active':''}" data-f="wlnear">🎯 ≤ +${nearMax}% since buy</span>`:""}
+      <span class="pill ${filter==='bought'?'active':''}" data-f="bought">✅ Bought</span>
+      <span class="pill ${filter==='alerts'?'active':''}" data-f="alerts">📜 Alerts</span>
+    </div>
+    ${filter==='watchlist'?`<div class="wl-note">Buys by ${esc(((DATA.watchlist||{}).politicians||[]).join(", "))} · filed within the last month (disclosures lag up to 45 days) · "since buy" compares to the closing price of the buy day (estimate)</div>`:""}
+    ${filter==='bought'?`<div class="wl-note">🔄 synced = tracked via /buy command to the bot, visible on every device. ✓ marks from the button are stored per device only. Tip: message Warren "/buy TICKER PRICE" to sync a position everywhere.</div>`:""}
+    ${rows.length?`<div class="grid">${gridHTML}</div>`:`<div class="empty">${empty}</div>`}`;
+  const inp=document.getElementById("q");
+  inp.addEventListener("input",renderOverview);
+  inp.selectionStart=inp.selectionEnd=inp.value.length;
+  app.querySelectorAll(".pill").forEach(p=>p.onclick=()=>{
+    if(p.dataset.f==="wlnear"){ wlNear=!wlNear; }
+    else { filter=p.dataset.f; if(filter!=="watchlist") wlNear=false; }
+    renderOverview();
+  });
+}
+
+/* ---------- Detail landing page ---------- */
+function kpiCard(c){
+  const kc={pass:"var(--green)",warn:"var(--amber)",fail:"var(--red)",info:"var(--info)",na:"var(--faint)"}[c.status];
+  const parts=(c.parts||[]).map(p=>`
+    <div class="metric">
+      <div class="metric__label">${esc(p.label)}</div>
+      <div class="metric__ideal">Ideal: ${esc(p.ideal)||"–"}</div>
+      <div class="metric__value v-${p.status}">${esc(p.value)}</div>
+    </div>`).join("");
+  return `<div class="kpi" style="--kc:${kc}">
+    <div class="kpi__head"><span class="kpi__n">${c.n}</span>
+      <span class="kpi__title">${esc(c.title)}</span>
+      <span class="kpi__flag">${ICON[c.status]}</span></div>
+    ${parts}</div>`;
+}
+function copyTR(ticker, company){
+  const txt=ticker+" "+(company||"");
+  const done=()=>toast(`"${txt.trim()}" copied – paste into Trade Republic search`);
+  if(navigator.clipboard) navigator.clipboard.writeText(txt.trim()).then(done,done);
+  else { const t=document.createElement("textarea"); t.value=txt.trim(); document.body.appendChild(t);
+         t.select(); document.execCommand("copy"); t.remove(); done(); }
+}
+let _toastT;
+function toast(msg){
+  let el=document.getElementById("toast");
+  if(!el){el=document.createElement("div");el.id="toast";document.body.appendChild(el);}
+  el.textContent=msg; el.classList.add("show");
+  clearTimeout(_toastT); _toastT=setTimeout(()=>el.classList.remove("show"),1900);
+}
+function cxTile(label, value){
+  return `<div class="cx"><span>${label}</span><b>${value}</b></div>`;
+}
+function renderDetail(r){
+  const wl=!!r.is_watchlist;
+  const hot=r.cluster||r.congress_bought;
+  const vs=r.vs_entry_pct;
+  const p=(r.score/r.total*100).toFixed(0);
+  const mc=marketCapTier(r.market_cap);
+  const insiders=(r.insiders||[]).map(i=>`<tr>
+     <td><b>${esc(i.name)}</b></td><td>${esc(i.title)}</td><td>${esc(i.date)}</td>
+     <td>${esc(i.delta_own)}</td><td>${money(i.ek_usd)}</td>
+     <td><b>${i.value_usd?money(i.value_usd):esc(i.value)}</b></td></tr>`).join("");
+  const polRows=(r.entries||[]).map(e=>`<tr>
+     <td><b>${esc(e.politician)}</b></td><td>${esc(e.date)}</td><td>${esc(e.filed)||"–"}</td>
+     <td><b>${esc(e.amount)||"?"}</b></td><td>${e.option?"Option":"Stock"}</td>
+     <td>${e.entry_est!=null?money(e.entry_est):"–"}</td>
+     <td>${e.since_pct!=null?`<span class="${e.since_pct<=((DATA.watchlist||{}).near_entry_max_pct??4)?'up':'down'}">${e.since_pct>=0?'+':''}${e.since_pct}%</span>`:"–"}</td></tr>`).join("");
+  const last=(r.entries||[])[0];
+  const cong=(r.congress_matches||[]).map(m=>`<div class="congrow">
+     <span class="who">${esc(m.politician)}</span>
+     <span class="sub">${esc(m.date)}${m.chamber?" · "+esc(m.chamber):""}${m.amount?" · "+esc(m.amount):""}</span></div>`).join("");
+  const congBlock = r.congress_status==="unavailable"
+     ? `<div class="panel">Congress data currently unavailable.</div>`
+     : (r.congress_bought
+        ? `<div class="panel">${cong}</div>`
+        : `<div class="panel" style="color:var(--muted)">No politician buy found in the last 6 months.</div>`);
+  const badges=[];
+  if(r.cluster) badges.push(`<span class="badge cluster">🔥 CEO+CFO cluster: ${esc((r.cluster_names||[]).join(", "))}</span>`);
+  if(r.congress_bought) badges.push(`<span class="badge cong">🏛️ ${r.congress_count} congress buy${r.congress_count>1?"s":""} (6M)</span>`);
+
+  const wlVs=r.vs_entry_pct;
+  const wlNearMax=(DATA.watchlist||{}).near_entry_max_pct??4;
+  const priceBlocks = wl
+    ? `<div class="pblock"><div class="plabel">Current price</div>
+         <div class="pval">${money(r.price_usd)}</div><div class="psub">${money(r.price_eur,"€")}</div></div>
+       <div class="pblock"><div class="plabel">Price on buy day (est.)</div>
+         <div class="pval">${money(r.entry_est_usd)}</div>
+         <div class="psub">${money(r.entry_est_eur,"€")}${wlVs!=null?` · <span class="${wlVs<=wlNearMax?'up':'down'}">${wlVs>=0?'+':''}${wlVs}% since buy</span>`:""}</div></div>
+       <div class="pblock"><div class="plabel">Latest buy</div>
+         <div class="pval" style="font-size:19px">${last?esc(last.politician):"–"}</div>
+         <div class="psub">${last?esc(last.date):""}${last&&last.amount?" · "+esc(last.amount):""}</div></div>`
+    : `<div class="pblock"><div class="plabel">Current price</div>
+         <div class="pval">${money(r.price_usd)}</div><div class="psub">${money(r.price_eur,"€")}</div></div>
+       <div class="pblock"><div class="plabel">Insider entry</div>
+         <div class="pval">${money(r.ek_usd)}</div><div class="psub">${money(r.ek_eur,"€")}</div></div>
+       <div class="pblock"><div class="plabel">vs. insider entry</div>
+         <div class="pval ${vs>=0?'up':'down'}">${vs==null?"–":(vs>=0?'+':'')+vs+'%'}</div>
+         <div class="psub">${money(r.price_eur,"€")} vs ${money(r.ek_eur,"€")}</div></div>`;
+
+  document.getElementById("app").innerHTML=`
+    <div class="back" onclick="${wl?"filter='watchlist';":""}location.hash=''">← Back to overview</div>
+    <div class="hero ${hot?'hot':''}">
+      <div class="hero__id copyid" title="Copy ticker + company (for Trade Republic)"
+           onclick="copyTR('${r.ticker}', ${JSON.stringify(r.company||"")})">
+        <div class="tkbig">${r.ticker} <span class="copyhint">⧉ copy</span></div>
+        <div class="cobig">${esc(r.company)}</div>
+        <div class="secbig">${esc(r.sector)||"?"} · ${esc(r.industry)||"?"}</div>
+      </div>
+      <div class="scorebox">
+        <div class="ringbig" style="--p:${p};--rc:${ringCol(r.score,r.total)}"><b>${r.score}/${r.total}</b></div>
+        <div class="slabel">KPI score</div>
+        <button class="buybtn ${isBought(r.ticker)?'on':''}"
+          onclick="toggleBoughtR('${r.ticker}', ${wl})">${isBought(r.ticker)?'✓ Bought':'Mark as bought'}</button>
+      </div>
+      <div class="hero__prices">${priceBlocks}</div>
+    </div>
+    ${badges.length?`<div class="badges" style="margin:0 2px 8px">${badges.join("")}</div>`:""}
+    <div class="context">
+      <div class="cx cx-mc"><span>Market Cap</span>
+        <b>${esc(r.market_cap)||"–"}${mc?` · ${mc.t}`:""}</b>
+        ${mc?`<em class="ref">${mc.pos}</em>`:""}</div>
+      ${cxTile("Avg volume", esc(r.avg_volume)||"–")}
+      ${cxTile("Beta", esc(r.beta)||"–")}
+      ${cxTile("Analyst recom", esc(r.recom)||"–")}
+      ${cxTile("P/E (fwd)", `${esc(r.pe)||"–"} (${esc(r.forward_pe)||"–"})`)}
+      ${cxTile("Insider own", esc(r.insider_own)||"–")}
+      ${cxTile("📅 Earnings", esc(r.earnings)||"–")}
+      ${wl?"":cxTile("Insider buy volume", r.total_value_usd?money(r.total_value_usd):"–")}
+    </div>
+
+    <div class="section-title">The 8 checks</div>
+    <div class="kpis">${(r.checks||[]).map(kpiCard).join("")}</div>
+
+    ${wl?`
+    <div class="section-title">Politician buys (filed last month)</div>
+    <div class="panel"><table>
+      <thead><tr><th>Politician</th><th>Buy date</th><th>Filed</th><th>Amount</th><th>Type</th><th>Price then</th><th>Since buy</th></tr></thead>
+      <tbody>${polRows}</tbody></table></div>
+    `:`
+    <div class="section-title">Insider buys</div>
+    <div class="panel"><table>
+      <thead><tr><th>Insider</th><th>Role</th><th>Date</th><th>ΔOwn</th><th>Entry</th><th>Value</th></tr></thead>
+      <tbody>${insiders}</tbody></table></div>
+
+    <div class="section-title">Congress trading (6 months)</div>
+    ${congBlock}`}
+
+    ${legendHTML()}
+
+    <div class="links">
+      <a href="http://openinsider.com/search?q=${r.ticker}" target="_blank">OpenInsider</a>
+      <a href="https://finviz.com/quote.ashx?t=${r.ticker}" target="_blank">Finviz</a>
+      <a href="https://www.capitoltrades.com/trades?search=${r.ticker}" target="_blank">Capitol Trades</a>
+      <a href="https://www.alphaspread.com/search?query=${r.ticker}" target="_blank">AlphaSpread</a>
+    </div>`;
+  window.scrollTo(0,0);
+}
+
+/* ---------- Router ---------- */
+function route(){
+  const raw=decodeURIComponent(location.hash.replace(/^#/,""));
+  if(/^pol-/i.test(raw)){
+    const tk=raw.replace(/^pol-/i,"").toUpperCase();
+    const r=(((DATA.watchlist||{}).records)||[]).find(x=>x.ticker===tk);
+    if(r){ renderDetail(r); return; }
+  }
+  const r=raw&&byId(raw.toUpperCase());
+  if(r) renderDetail(r); else renderOverview();
+}
+function load(){
+  fetch("data.json?_="+Date.now()).then(r=>r.json()).then(d=>{
+    DATA=d;
+    document.getElementById("meta").innerHTML=
+      `${d.count} stocks · updated ${esc(d.generated_at)}`+(d.eur_rate?` · 1 USD = €${d.eur_rate}`:"");
+    route();
+  }).catch(()=>{document.getElementById("meta").textContent="No data yet. Run dashboard.py first.";});
+}
+window.addEventListener("hashchange",route);
+if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
+load();
+setInterval(load,5*60*1000);
+</script>
+</body>
+</html>
