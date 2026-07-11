@@ -1,8 +1,404 @@
 {
-  "generated_at": "2026-07-11 13:19 CEST",
-  "count": 10,
+  "generated_at": "2026-07-11 13:36 CEST",
+  "count": 12,
   "eur_rate": 0.87489,
   "records": [
+    {
+      "ticker": "WRAP",
+      "company": "Wrap Technologies, Inc.",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "market_cap": "137.12M",
+      "avg_volume": "1.35M",
+      "beta": "1.35",
+      "recom": "3.00",
+      "earnings": "May 13 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "31.92%",
+      "total_value_usd": 230288.0,
+      "price_usd": 2.46,
+      "price_eur": 2.15,
+      "ek_usd": 1.1,
+      "ek_eur": 0.96,
+      "vs_entry_pct": 123.6,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "105%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 105% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "45.23%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 45.23% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.04",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.04 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "7.59",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 7.59 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "27.31",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 27.31 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "9.46",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 9.46 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-23.84%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -23.84% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "79.72",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 79.72 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "15.18%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 15.18% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "1.6%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 1.6% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-318.29%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -318.29% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-285.57%",
+              "ideal": "> 0%",
+              "text": "Operating margin -285.57% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Cohen Scot",
+          "title": "Exec COB, CEO, 10%",
+          "date": "2026-07-08",
+          "delta_own": "+3%",
+          "ek_usd": 1.1,
+          "value": "+$230,288",
+          "value_usd": 230288.0
+        }
+      ],
+      "last_buy_date": "2026-07-08",
+      "last_filing_date": "2026-07-10 07:30:08",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
+    {
+      "ticker": "UUUU",
+      "company": "Energy Fuels Inc",
+      "sector": "Energy",
+      "industry": "Uranium",
+      "market_cap": "3.39B",
+      "avg_volume": "10.43M",
+      "beta": "1.52",
+      "recom": "1.22",
+      "earnings": "May 06 AMC",
+      "pe": "-",
+      "forward_pe": "76.46",
+      "insider_own": "1.59%",
+      "total_value_usd": 967920.0,
+      "price_usd": 13.58,
+      "price_eur": 11.88,
+      "ek_usd": 13.08,
+      "ek_eur": 11.44,
+      "vs_entry_pct": 3.8,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-5.5%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -5.5% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "112.08%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 112.08% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.94",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.94 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "27.51",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 27.51 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "39.99",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 39.99 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "4.59",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 4.59 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-51.33%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -51.33% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "38.02",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 38.02 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "19.17%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 19.17% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "95.4%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 95.4% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-82.7%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -82.7% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-105.47%",
+              "ideal": "> 0%",
+              "text": "Operating margin -105.47% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Bhappu Ross R.",
+          "title": "Pres, CEO",
+          "date": "2026-07-07",
+          "delta_own": "+41%",
+          "ek_usd": 13.08,
+          "value": "+$967,920",
+          "value_usd": 967920.0
+        }
+      ],
+      "last_buy_date": "2026-07-07",
+      "last_filing_date": "2026-07-09 19:00:41",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "EWSB",
       "company": "Ewsb Bancorp, Inc. /Md/",
@@ -4436,6 +4832,22 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "UUUU",
+      "date": "2026-07-11 11:35",
+      "price_at_alert": 13.58,
+      "price_now": 13.58,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
+      "ticker": "WRAP",
+      "date": "2026-07-11 11:35",
+      "price_at_alert": 2.46,
+      "price_now": 2.46,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "EWSB",
