@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11 13:02 CEST",
+  "generated_at": "2026-07-11 13:19 CEST",
   "count": 10,
   "eur_rate": 0.87489,
   "records": [
@@ -16,7 +16,7 @@
       "pe": null,
       "forward_pe": null,
       "insider_own": null,
-      "total_value_usd": 676410.0,
+      "total_value_usd": 1352820.0,
       "price_usd": null,
       "price_eur": null,
       "ek_usd": 10.0,
@@ -32,6 +32,15 @@
         {
           "name": "Schmalz Charles D",
           "title": "Pres, CEO",
+          "date": "2026-06-29",
+          "delta_own": "+207%",
+          "ek_usd": 10.0,
+          "value": "+$676,410",
+          "value_usd": 676410.0
+        },
+        {
+          "name": "Schmalz Charles D",
+          "title": "Pres, CEO",
           "date": "2025-06-29",
           "delta_own": "+207%",
           "ek_usd": 10.0,
@@ -39,8 +48,8 @@
           "value_usd": 676410.0
         }
       ],
-      "last_buy_date": "2025-06-29",
-      "last_filing_date": "2026-07-08 17:50:54",
+      "last_buy_date": "2026-06-29",
+      "last_filing_date": "2026-07-09 16:14:11",
       "congress_status": "ok",
       "congress_bought": false,
       "congress_count": 0,
@@ -4426,5 +4435,14 @@
       }
     ]
   },
-  "alerts": []
+  "alerts": [
+    {
+      "type": "insider",
+      "ticker": "EWSB",
+      "date": "2026-07-11 11:18",
+      "price_at_alert": null,
+      "price_now": null,
+      "change_pct": null
+    }
+  ]
 }
