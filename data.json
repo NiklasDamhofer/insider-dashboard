@@ -1,8 +1,225 @@
 {
-  "generated_at": "2026-07-21 23:50 CEST",
-  "count": 7,
+  "generated_at": "2026-07-22 00:08 CEST",
+  "count": 8,
   "eur_rate": 0.87489,
   "records": [
+    {
+      "ticker": "CAG",
+      "company": "Conagra Brands Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "market_cap": "7.11B",
+      "avg_volume": "17.78M",
+      "beta": "-0.05",
+      "recom": "3.47",
+      "earnings": "Jul 15 BMO",
+      "pe": "-",
+      "forward_pe": "9.89",
+      "insider_own": "0.72%",
+      "total_value_usd": 510633.0,
+      "price_usd": 14.85,
+      "price_eur": 12.99,
+      "ek_usd": 14.59,
+      "ek_eur": 12.76,
+      "vs_entry_pct": 1.8,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "12.5%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 12.5% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "3.61%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 3.61% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "1.18",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 1.18 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.9",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.9 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.63",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.63 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.12",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.12 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-26.92%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -26.92% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "61.61",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 61.61 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "11.73%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 11.73% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "-7.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target -7.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-16.99%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -16.99% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "11.49%",
+              "ideal": "> 0%",
+              "text": "Operating margin 11.49% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Brase John P",
+          "title": "Pres, CEO",
+          "date": "2026-07-17",
+          "delta_own": "New",
+          "ek_usd": 14.59,
+          "value": "+$510,633",
+          "value_usd": 510633.0
+        }
+      ],
+      "last_buy_date": "2026-07-17",
+      "last_filing_date": "2026-07-21 18:01:43",
+      "congress_status": "ok",
+      "congress_bought": true,
+      "congress_count": 3,
+      "congress_matches": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-05-15",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-04-14",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-02-10",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
     {
       "ticker": "GRML",
       "company": "Greenland Mines Ltd",
