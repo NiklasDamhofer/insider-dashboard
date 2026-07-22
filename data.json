@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 22:24 CEST",
+  "generated_at": "2026-07-22 22:47 CEST",
   "count": 8,
   "eur_rate": 0.87489,
   "records": [
@@ -2834,16 +2834,16 @@
         "company": "NVIDIA Corp",
         "sector": "Technology",
         "industry": "Semiconductors",
-        "market_cap": "5131.34B",
+        "market_cap": "5131.85B",
         "avg_volume": "156.21M",
         "beta": "2.22",
         "recom": "1.23",
         "earnings": "May 20 AMC",
-        "pe": "32.47",
+        "pe": "32.48",
         "forward_pe": "16.63",
         "insider_own": "3.85%",
-        "price_usd": 212.04,
-        "price_eur": 185.51,
+        "price_usd": 212.06,
+        "price_eur": 185.53,
         "entry_est_usd": 205.1,
         "entry_est_eur": 179.44,
         "vs_entry_pct": 3.4,
@@ -2858,9 +2858,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "1.62%",
+                "value": "1.63%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M 1.62% (>5% up or down? No)"
+                "text": "Price move 1M 1.63% (>5% up or down? No)"
               }
             ]
           },
@@ -2921,9 +2921,9 @@
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "26.27",
+                "value": "26.28",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 26.27 (< 3, opt. < 1.5)"
+                "text": "Price / Book 26.28 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
@@ -2942,16 +2942,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-10.36%",
+                "value": "-10.35%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -10.36% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -10.35% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "56.17",
+                "value": "56.18",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 56.17 (< 45, ideal < 40)"
+                "text": "RSI (14) 56.18 (< 45, ideal < 40)"
               }
             ]
           },
@@ -4770,19 +4770,19 @@
         "company": "Intel Corp",
         "sector": "Technology",
         "industry": "Semiconductors",
-        "market_cap": "515.52B",
+        "market_cap": "515.77B",
         "avg_volume": "134.40M",
         "beta": "2.22",
         "recom": "2.53",
         "earnings": "Jul 23 AMC",
         "pe": "-",
-        "forward_pe": "62.71",
+        "forward_pe": "62.74",
         "insider_own": "14.71%",
-        "price_usd": 102.57,
-        "price_eur": 89.74,
+        "price_usd": 102.62,
+        "price_eur": 89.78,
         "entry_est_usd": 114.68,
         "entry_est_eur": 100.33,
-        "vs_entry_pct": -10.6,
+        "vs_entry_pct": -10.5,
         "score": 3,
         "total": 6,
         "checks": [
@@ -4794,9 +4794,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-27.22%",
+                "value": "-27.19%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M -27.22% (>5% up or down? Yes)"
+                "text": "Price move 1M -27.19% (>5% up or down? Yes)"
               }
             ]
           },
@@ -4878,16 +4878,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-27.95%",
+                "value": "-27.91%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -27.95% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -27.91% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "43.42",
+                "value": "43.45",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 43.42 (< 45, ideal < 40)"
+                "text": "RSI (14) 43.45 (< 45, ideal < 40)"
               }
             ]
           },
@@ -4913,9 +4913,9 @@
               {
                 "status": "fail",
                 "label": "Upside to target",
-                "value": "10.3%",
+                "value": "10.2%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 10.3% (>= 15%, ideal 20%)"
+                "text": "Upside to target 10.2% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -4950,7 +4950,7 @@
             "amount": "$1,000,001 - $5,000,000",
             "option": true,
             "entry_est": 114.68,
-            "since_pct": -10.6
+            "since_pct": -10.5
           }
         ],
         "buy_count": 1,
