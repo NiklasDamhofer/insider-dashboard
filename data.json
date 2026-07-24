@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 22:59 CEST",
+  "generated_at": "2026-07-24 23:16 CEST",
   "count": 7,
   "eur_rate": 0.87489,
   "records": [
@@ -211,7 +211,7 @@
       "beta": "0.15",
       "recom": "-",
       "earnings": "-",
-      "pe": "19.11",
+      "pe": "19.30",
       "forward_pe": "-",
       "insider_own": "59.39%",
       "total_value_usd": 149089.0,
@@ -268,8 +268,8 @@
               "status": "warn",
               "label": "Health rating",
               "value": "\ud83d\udfe1 yellow",
-              "ideal": "ROE 7.35%, Margin 13.21%, LT Debt/Eq 0.07",
-              "text": "Health rating \ud83d\udfe1 yellow (ROE 7.35%, Margin 13.21%, LT Debt/Eq 0.07)"
+              "ideal": "ROE 7.35%, Margin 12.99%, LT Debt/Eq 0.07",
+              "text": "Health rating \ud83d\udfe1 yellow (ROE 7.35%, Margin 12.99%, LT Debt/Eq 0.07)"
             }
           ]
         },
@@ -281,9 +281,9 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "2.57",
+              "value": "2.56",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 2.57 (< 4, opt. < 2)"
+              "text": "Price / Sales 2.56 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
@@ -295,9 +295,9 @@
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "-35.3%",
-              "ideal": "margin of safety, intrinsic ~$9.19",
-              "text": "Intrinsic value (DCF) -35.3% (margin of safety, intrinsic ~$9.19)"
+              "value": "-37.3%",
+              "ideal": "margin of safety, intrinsic ~$9.05",
+              "text": "Intrinsic value (DCF) -37.3% (margin of safety, intrinsic ~$9.05)"
             }
           ]
         },
@@ -358,16 +358,16 @@
             {
               "status": "pass",
               "label": "Net margin",
-              "value": "13.21%",
+              "value": "12.99%",
               "ideal": "> 0% (profitable)",
-              "text": "Net margin 13.21% (> 0% (profitable))"
+              "text": "Net margin 12.99% (> 0% (profitable))"
             },
             {
               "status": "pass",
               "label": "Operating margin",
-              "value": "16.68%",
+              "value": "16.43%",
               "ideal": "> 0%",
-              "text": "Operating margin 16.68% (> 0%)"
+              "text": "Operating margin 16.43% (> 0%)"
             }
           ]
         }
