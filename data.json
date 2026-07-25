@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25 10:36 CEST",
+  "generated_at": "2026-07-25 10:53 CEST",
   "count": 7,
   "eur_rate": 0.87489,
   "records": [
@@ -3966,7 +3966,7 @@
         "beta": "1.04",
         "recom": "2.15",
         "earnings": "Jul 24 BMO",
-        "pe": "20.34",
+        "pe": "19.79",
         "forward_pe": "16.22",
         "insider_own": "0.13%",
         "price_usd": 326.17,
@@ -4021,8 +4021,8 @@
                 "status": "warn",
                 "label": "Health rating",
                 "value": "\ud83d\udfe1 yellow",
-                "ideal": "ROE 34.19%, Margin 13.45%, LT Debt/Eq 1.73",
-                "text": "Health rating \ud83d\udfe1 yellow (ROE 34.19%, Margin 13.45%, LT Debt/Eq 1.73)"
+                "ideal": "ROE 34.14%, Margin 13.45%, LT Debt/Eq 1.66",
+                "text": "Health rating \ud83d\udfe1 yellow (ROE 34.14%, Margin 13.45%, LT Debt/Eq 1.66)"
               }
             ]
           },
@@ -4034,23 +4034,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "2.7",
+                "value": "2.65",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 2.7 (< 4, opt. < 2)"
+                "text": "Price / Sales 2.65 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "6.54",
+                "value": "6.42",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 6.54 (< 3, opt. < 1.5)"
+                "text": "Price / Book 6.42 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "+21%",
-                "ideal": "margin of safety, intrinsic ~$412.81",
-                "text": "Intrinsic value (DCF) +21% (margin of safety, intrinsic ~$412.81)"
+                "value": "+23.1%",
+                "ideal": "margin of safety, intrinsic ~$424.4",
+                "text": "Intrinsic value (DCF) +23.1% (margin of safety, intrinsic ~$424.4)"
               }
             ]
           },
@@ -4118,9 +4118,9 @@
               {
                 "status": "pass",
                 "label": "Operating margin",
-                "value": "20.76%",
+                "value": "20.94%",
                 "ideal": "> 0%",
-                "text": "Operating margin 20.76% (> 0%)"
+                "text": "Operating margin 20.94% (> 0%)"
               }
             ]
           }
