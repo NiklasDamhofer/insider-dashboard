@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27 22:30 CEST",
+  "generated_at": "2026-07-27 22:47 CEST",
   "count": 4,
   "eur_rate": 0.87489,
   "records": [
@@ -1790,19 +1790,19 @@
         "company": "Broadcom Inc",
         "sector": "Technology",
         "industry": "Semiconductors",
-        "market_cap": "1823.82B",
+        "market_cap": "1823.20B",
         "avg_volume": "25.90M",
         "beta": "1.47",
         "recom": "1.32",
         "earnings": "Jun 03 AMC",
-        "pe": "63.82",
-        "forward_pe": "19.66",
+        "pe": "63.80",
+        "forward_pe": "19.65",
         "insider_own": "1.91%",
-        "price_usd": 383.35,
-        "price_eur": 335.39,
+        "price_usd": 383.22,
+        "price_eur": 335.28,
         "entry_est_usd": 385.73,
         "entry_est_eur": 337.47,
-        "vs_entry_pct": -0.6,
+        "vs_entry_pct": -0.7,
         "score": 4,
         "total": 6,
         "checks": [
@@ -1814,9 +1814,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "1.17%",
+                "value": "1.14%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M 1.17% (>5% up or down? No)"
+                "text": "Price move 1M 1.14% (>5% up or down? No)"
               }
             ]
           },
@@ -1870,23 +1870,23 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "24.17",
+                "value": "24.16",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 24.17 (< 4, opt. < 2)"
+                "text": "Price / Sales 24.16 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "20.8",
+                "value": "20.79",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 20.8 (< 3, opt. < 1.5)"
+                "text": "Price / Book 20.79 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-140.7%",
+                "value": "-140.6%",
                 "ideal": "margin of safety, intrinsic ~$159.28",
-                "text": "Intrinsic value (DCF) -140.7% (margin of safety, intrinsic ~$159.28)"
+                "text": "Intrinsic value (DCF) -140.6% (margin of safety, intrinsic ~$159.28)"
               }
             ]
           },
@@ -1898,16 +1898,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-22.56%",
+                "value": "-22.58%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -22.56% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -22.58% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "48.41",
+                "value": "48.36",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 48.41 (< 45, ideal < 40)"
+                "text": "RSI (14) 48.36 (< 45, ideal < 40)"
               }
             ]
           },
@@ -1970,7 +1970,7 @@
             "amount": "$15,001 - $50,000",
             "option": false,
             "entry_est": 385.73,
-            "since_pct": -0.6
+            "since_pct": -0.7
           }
         ],
         "buy_count": 1,
