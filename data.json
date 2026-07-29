@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29 09:31 CEST",
+  "generated_at": "2026-07-29 09:48 CEST",
   "count": 5,
   "eur_rate": 0.87804,
   "records": [
@@ -295,9 +295,9 @@
             {
               "status": "fail",
               "label": "Price / Book",
-              "value": "5.42",
+              "value": "5.27",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 5.42 (< 3, opt. < 1.5)"
+              "text": "Price / Book 5.27 (< 3, opt. < 1.5)"
             },
             {
               "status": "info",
@@ -372,9 +372,9 @@
             {
               "status": "pass",
               "label": "Operating margin",
-              "value": "13.83%",
+              "value": "13.8%",
               "ideal": "> 0%",
-              "text": "Operating margin 13.83% (> 0%)"
+              "text": "Operating margin 13.8% (> 0%)"
             }
           ]
         }
@@ -1415,7 +1415,7 @@
         "beta": "1.05",
         "recom": "1.28",
         "earnings": "Jul 28 BMO",
-        "pe": "26.85",
+        "pe": "25.84",
         "forward_pe": "20.78",
         "insider_own": "0.26%",
         "price_usd": 424.36,
@@ -1470,8 +1470,8 @@
                 "status": "pass",
                 "label": "Health rating",
                 "value": "\ud83d\udfe2 green",
-                "ideal": "ROE 14.8%, Margin 30.37%, LT Debt/Eq 0.36",
-                "text": "Health rating \ud83d\udfe2 green (ROE 14.8%, Margin 30.37%, LT Debt/Eq 0.36)"
+                "ideal": "ROE 15.14%, Margin 30.53%, LT Debt/Eq 0.41",
+                "text": "Health rating \ud83d\udfe2 green (ROE 15.14%, Margin 30.53%, LT Debt/Eq 0.41)"
               }
             ]
           },
@@ -1483,23 +1483,23 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "7.99",
+                "value": "7.79",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 7.99 (< 4, opt. < 2)"
+                "text": "Price / Sales 7.79 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "4.03",
+                "value": "3.96",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 4.03 (< 3, opt. < 1.5)"
+                "text": "Price / Book 3.96 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-16.4%",
-                "ideal": "margin of safety, intrinsic ~$364.5",
-                "text": "Intrinsic value (DCF) -16.4% (margin of safety, intrinsic ~$364.5)"
+                "value": "-12.1%",
+                "ideal": "margin of safety, intrinsic ~$378.56",
+                "text": "Intrinsic value (DCF) -12.1% (margin of safety, intrinsic ~$378.56)"
               }
             ]
           },
@@ -1560,16 +1560,16 @@
               {
                 "status": "pass",
                 "label": "Net margin",
-                "value": "30.37%",
+                "value": "30.53%",
                 "ideal": "> 0% (profitable)",
-                "text": "Net margin 30.37% (> 0% (profitable))"
+                "text": "Net margin 30.53% (> 0% (profitable))"
               },
               {
                 "status": "pass",
                 "label": "Operating margin",
-                "value": "43.05%",
+                "value": "43.71%",
                 "ideal": "> 0%",
-                "text": "Operating margin 43.05% (> 0%)"
+                "text": "Operating margin 43.71% (> 0%)"
               }
             ]
           }
