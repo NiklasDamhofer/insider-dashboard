@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31 09:01 CEST",
+  "generated_at": "2026-07-31 09:18 CEST",
   "count": 6,
   "eur_rate": 0.87804,
   "records": [
@@ -1231,7 +1231,7 @@
         "beta": "0.69",
         "recom": "1.30",
         "earnings": "Jul 30 BMO",
-        "pe": "33.41",
+        "pe": "31.76",
         "forward_pe": "25.16",
         "insider_own": "8.42%",
         "price_usd": 577.35,
@@ -1239,7 +1239,7 @@
         "entry_est_usd": 509.64,
         "entry_est_eur": 447.48,
         "vs_entry_pct": 13.3,
-        "score": 3,
+        "score": 2,
         "total": 6,
         "checks": [
           {
@@ -1264,9 +1264,9 @@
               {
                 "status": "pass",
                 "label": "Sales growth Q/Q",
-                "value": "16.2%",
+                "value": "13.79%",
                 "ideal": "> 0%, ideal 10-15%",
-                "text": "Sales growth Q/Q 16.2% (> 0%, ideal 10-15%)"
+                "text": "Sales growth Q/Q 13.79% (> 0%, ideal 10-15%)"
               },
               {
                 "status": "pass",
@@ -1280,14 +1280,14 @@
           {
             "n": 3,
             "title": "Financial health (bank)",
-            "status": "pass",
+            "status": "warn",
             "parts": [
               {
-                "status": "pass",
+                "status": "warn",
                 "label": "Health rating",
-                "value": "\ud83d\udfe2 green",
-                "ideal": "ROE 232.56%, Margin 45.78%, LT Debt/Eq 2.56",
-                "text": "Health rating \ud83d\udfe2 green (ROE 232.56%, Margin 45.78%, LT Debt/Eq 2.56)"
+                "value": "\ud83d\udfe1 yellow",
+                "ideal": "ROE 241.49%, Margin 46.27%, LT Debt/Eq 3.95",
+                "text": "Health rating \ud83d\udfe1 yellow (ROE 241.49%, Margin 46.27%, LT Debt/Eq 3.95)"
               }
             ]
           },
@@ -1299,23 +1299,23 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "15",
+                "value": "14.52",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 15 (< 4, opt. < 2)"
+                "text": "Price / Sales 14.52 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "76.22",
+                "value": "90.34",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 76.22 (< 3, opt. < 1.5)"
+                "text": "Price / Book 90.34 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-26.1%",
-                "ideal": "margin of safety, intrinsic ~$457.97",
-                "text": "Intrinsic value (DCF) -26.1% (margin of safety, intrinsic ~$457.97)"
+                "value": "-19.8%",
+                "ideal": "margin of safety, intrinsic ~$481.83",
+                "text": "Intrinsic value (DCF) -19.8% (margin of safety, intrinsic ~$481.83)"
               }
             ]
           },
@@ -1376,16 +1376,16 @@
               {
                 "status": "pass",
                 "label": "Net margin",
-                "value": "45.78%",
+                "value": "46.27%",
                 "ideal": "> 0% (profitable)",
-                "text": "Net margin 45.78% (> 0% (profitable))"
+                "text": "Net margin 46.27% (> 0% (profitable))"
               },
               {
                 "status": "pass",
                 "label": "Operating margin",
-                "value": "59.46%",
+                "value": "59.19%",
                 "ideal": "> 0%",
-                "text": "Operating margin 59.46% (> 0%)"
+                "text": "Operating margin 59.19% (> 0%)"
               }
             ]
           }
@@ -2384,7 +2384,7 @@
         "beta": "1.11",
         "recom": "1.23",
         "earnings": "Jul 29 AMC",
-        "pe": "25.14",
+        "pe": "25.13",
         "forward_pe": "19.40",
         "insider_own": "1.54%",
         "price_usd": 451.1,
@@ -2438,9 +2438,9 @@
               {
                 "status": "pass",
                 "label": "Debt / Equity",
-                "value": "0.29",
+                "value": "0.14",
                 "ideal": "< 1.5 (max 2.0)",
-                "text": "Debt / Equity 0.29 (< 1.5 (max 2.0))"
+                "text": "Debt / Equity 0.14 (< 1.5 (max 2.0))"
               },
               {
                 "status": "pass",
@@ -4147,7 +4147,7 @@
         "beta": "1.04",
         "recom": "1.98",
         "earnings": "Jul 30 AMC",
-        "pe": "40.34",
+        "pe": "38.24",
         "forward_pe": "34.56",
         "insider_own": "0.12%",
         "price_usd": 333.43,
@@ -4155,7 +4155,7 @@
         "entry_est_usd": 304.99,
         "entry_est_eur": 267.79,
         "vs_entry_pct": 9.3,
-        "score": 3,
+        "score": 2,
         "total": 6,
         "checks": [
           {
@@ -4180,9 +4180,9 @@
               {
                 "status": "pass",
                 "label": "Sales growth Q/Q",
-                "value": "16.6%",
+                "value": "16.36%",
                 "ideal": "> 0%, ideal 10-15%",
-                "text": "Sales growth Q/Q 16.6% (> 0%, ideal 10-15%)"
+                "text": "Sales growth Q/Q 16.36% (> 0%, ideal 10-15%)"
               },
               {
                 "status": "pass",
@@ -4196,21 +4196,21 @@
           {
             "n": 3,
             "title": "Financial health",
-            "status": "pass",
+            "status": "fail",
             "parts": [
               {
                 "status": "pass",
                 "label": "Debt / Equity",
-                "value": "0.8",
+                "value": "0.78",
                 "ideal": "< 1.5 (max 2.0)",
-                "text": "Debt / Equity 0.8 (< 1.5 (max 2.0))"
+                "text": "Debt / Equity 0.78 (< 1.5 (max 2.0))"
               },
               {
-                "status": "pass",
+                "status": "fail",
                 "label": "Current / Quick ratio",
-                "value": "1.07",
+                "value": "1",
                 "ideal": "> 1.0",
-                "text": "Current / Quick ratio 1.07 (> 1.0)"
+                "text": "Current / Quick ratio 1 (> 1.0)"
               }
             ]
           },
@@ -4222,23 +4222,23 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "10.85",
+                "value": "10.49",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 10.85 (< 4, opt. < 2)"
+                "text": "Price / Sales 10.49 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "45.93",
+                "value": "45.3",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 45.93 (< 3, opt. < 1.5)"
+                "text": "Price / Book 45.3 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-66.4%",
-                "ideal": "margin of safety, intrinsic ~$200.42",
-                "text": "Intrinsic value (DCF) -66.4% (margin of safety, intrinsic ~$200.42)"
+                "value": "-57.8%",
+                "ideal": "margin of safety, intrinsic ~$211.33",
+                "text": "Intrinsic value (DCF) -57.8% (margin of safety, intrinsic ~$211.33)"
               }
             ]
           },
@@ -4299,16 +4299,16 @@
               {
                 "status": "pass",
                 "label": "Net margin",
-                "value": "27.15%",
+                "value": "27.62%",
                 "ideal": "> 0% (profitable)",
-                "text": "Net margin 27.15% (> 0% (profitable))"
+                "text": "Net margin 27.62% (> 0% (profitable))"
               },
               {
                 "status": "pass",
                 "label": "Operating margin",
-                "value": "32.64%",
+                "value": "33.17%",
                 "ideal": "> 0%",
-                "text": "Operating margin 32.64% (> 0%)"
+                "text": "Operating margin 33.17% (> 0%)"
               }
             ]
           }
