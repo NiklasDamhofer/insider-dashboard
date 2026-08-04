@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 02:07 CEST",
+  "generated_at": "2026-08-04 02:24 CEST",
   "count": 7,
   "eur_rate": 0.8707,
   "records": [
@@ -2590,7 +2590,7 @@
         "entry_est_usd": 416.67,
         "entry_est_eur": 362.79,
         "vs_entry_pct": 17.0,
-        "score": 3,
+        "score": 4,
         "total": 6,
         "checks": [
           {
@@ -2715,14 +2715,14 @@
           {
             "n": 7,
             "title": "Analyst target upside",
-            "status": "fail",
+            "status": "pass",
             "parts": [
               {
-                "status": "fail",
+                "status": "pass",
                 "label": "Upside to target",
-                "value": "14.9%",
+                "value": "15%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 14.9% (>= 15%, ideal 20%)"
+                "text": "Upside to target 15% (>= 15%, ideal 20%)"
               }
             ]
           },
