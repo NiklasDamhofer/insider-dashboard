@@ -1,8 +1,231 @@
 {
-  "generated_at": "2026-08-05 22:40 CEST",
-  "count": 10,
+  "generated_at": "2026-08-05 22:56 CEST",
+  "count": 11,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "TSCO",
+      "company": "Tractor Supply Co /De/",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "market_cap": "17.52B",
+      "avg_volume": "12.55M",
+      "beta": "0.46",
+      "recom": "2.12",
+      "earnings": "Jul 23 BMO",
+      "pe": "17.44",
+      "forward_pe": "16.25",
+      "insider_own": "0.28%",
+      "total_value_usd": 501524.0,
+      "price_usd": 33.41,
+      "price_eur": 29.09,
+      "ek_usd": 32.15,
+      "ek_eur": 27.99,
+      "vs_entry_pct": 3.9,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "9.79%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 9.79% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "2.29%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 2.29% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "pass",
+              "label": "Sales growth 5Y",
+              "value": "7.89%",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y 7.89% (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Debt / Equity",
+              "value": "2.49",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 2.49 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.33",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.33 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "1.11",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 1.11 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "6.98",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 6.98 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "-7.5%",
+              "ideal": "margin of safety, intrinsic ~$31.07",
+              "text": "Intrinsic value (DCF) -7.5% (margin of safety, intrinsic ~$31.07)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-46.88%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -46.88% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "64.09",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 64.09 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "5.74%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 5.74% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "5.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 5.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "6.42%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 6.42% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "8.91%",
+              "ideal": "> 0%",
+              "text": "Operating margin 8.91% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Lawton III Harry A",
+          "title": "Pres, CEO",
+          "date": "2026-08-04",
+          "delta_own": "+3%",
+          "ek_usd": 32.15,
+          "value": "+$501,524",
+          "value_usd": 501524.0
+        }
+      ],
+      "last_buy_date": "2026-08-04",
+      "last_filing_date": "2026-08-05 16:40:16",
+      "congress_status": "ok",
+      "congress_bought": true,
+      "congress_count": 4,
+      "congress_matches": [
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-03-31",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-03-16",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-03-04",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "politician": "April McClain Delaney",
+          "date": "2026-02-10",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
     {
       "ticker": "TLSA",
       "company": "Tiziana Life Sciences Ltd",
@@ -4355,6 +4578,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "TSCO",
+      "date": "2026-08-05 20:55",
+      "price_at_alert": 33.41,
+      "price_now": 33.41,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "BSX",
