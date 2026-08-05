@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-05 22:22 CEST",
-  "count": 9,
+  "generated_at": "2026-08-05 22:40 CEST",
+  "count": 10,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "TLSA",
+      "company": "Tiziana Life Sciences Ltd",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": "127.03M",
+      "avg_volume": "291.89K",
+      "beta": "0.51",
+      "recom": "1.00",
+      "earnings": "Jun 18",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "47.38%",
+      "total_value_usd": 667000.0,
+      "price_usd": 0.99,
+      "price_eur": 0.86,
+      "ek_usd": 1.0,
+      "ek_eur": 0.87,
+      "vs_entry_pct": -1.0,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-21.43%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -21.43% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Debt / Equity",
+              "value": "9.2",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 9.2 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.76",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.76 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Price / Sales",
+              "value": "n/a",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales n/a (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "2302.33",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 2302.33 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-60.87%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -60.87% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "43.71",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 43.71 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "1.85%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 1.85% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "805.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 805.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Net margin",
+              "value": "n/a",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin n/a (> 0% (profitable))"
+            },
+            {
+              "status": "na",
+              "label": "Operating margin",
+              "value": "n/a",
+              "ideal": "> 0%",
+              "text": "Operating margin n/a (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Elrifi Ivor",
+          "title": "CEO",
+          "date": "2026-08-03",
+          "delta_own": "+18%",
+          "ek_usd": 1.0,
+          "value": "+$667,000",
+          "value_usd": 667000.0
+        }
+      ],
+      "last_buy_date": "2026-08-03",
+      "last_filing_date": "2026-08-05 16:30:21",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "BSX",
       "company": "Boston Scientific Corp",
@@ -3195,7 +3393,7 @@
         "company": "NVIDIA Corp",
         "sector": "Technology",
         "industry": "Semiconductors",
-        "market_cap": "5304.64B",
+        "market_cap": "5305.12B",
         "avg_volume": "152.55M",
         "beta": "2.21",
         "recom": "1.23",
@@ -3203,8 +3401,8 @@
         "pe": "33.57",
         "forward_pe": "17.16",
         "insider_own": "3.84%",
-        "price_usd": 219.2,
-        "price_eur": 190.86,
+        "price_usd": 219.22,
+        "price_eur": 190.87,
         "entry_est_usd": 205.1,
         "entry_est_eur": 178.58,
         "vs_entry_pct": 6.9,
@@ -3219,9 +3417,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "11.31%",
+                "value": "11.32%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M 11.31% (>5% up or down? Yes)"
+                "text": "Price move 1M 11.32% (>5% up or down? Yes)"
               }
             ]
           },
@@ -3303,16 +3501,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-7.33%",
+                "value": "-7.32%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -7.33% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -7.32% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "61.59",
+                "value": "61.6",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 61.59 (< 45, ideal < 40)"
+                "text": "RSI (14) 61.6 (< 45, ideal < 40)"
               }
             ]
           },
@@ -4157,6 +4355,22 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "BSX",
+      "date": "2026-08-05 20:38",
+      "price_at_alert": 47.74,
+      "price_now": 47.74,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
+      "ticker": "TLSA",
+      "date": "2026-08-05 20:38",
+      "price_at_alert": 0.99,
+      "price_now": 0.99,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "CSGP",
