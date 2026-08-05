@@ -1,8 +1,199 @@
 {
-  "generated_at": "2026-08-05 22:56 CEST",
-  "count": 11,
+  "generated_at": "2026-08-05 23:14 CEST",
+  "count": 12,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "GBFH",
+      "company": "Gbank Financial Holdings Inc.",
+      "sector": "Financial",
+      "industry": "Banks - Regional",
+      "market_cap": "295.05M",
+      "avg_volume": "79.10K",
+      "beta": "-0.01",
+      "recom": "1.33",
+      "earnings": "Jul 29 AMC",
+      "pe": "15.97",
+      "forward_pe": "7.77",
+      "insider_own": "34.51%",
+      "total_value_usd": 699025.0,
+      "price_usd": 20.39,
+      "price_eur": 17.75,
+      "ek_usd": 21.67,
+      "ek_eur": 18.87,
+      "vs_entry_pct": -5.9,
+      "score": 6,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-35.11%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -35.11% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "22.9%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 22.9% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Health rating",
+              "value": "\ud83d\udfe2 green",
+              "ideal": "ROE 11.39%, Margin 15.44%, LT Debt/Eq 0.21",
+              "text": "Health rating \ud83d\udfe2 green (ROE 11.39%, Margin 15.44%, LT Debt/Eq 0.21)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "2.46",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 2.46 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.71",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.71 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "-12.7%",
+              "ideal": "margin of safety, intrinsic ~$18.1",
+              "text": "Intrinsic value (DCF) -12.7% (margin of safety, intrinsic ~$18.1)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-51.72%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -51.72% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "23.35",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 23.35 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "7.44%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 7.44% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "56.9%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 56.9% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "15.44%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 15.44% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "19.76%",
+              "ideal": "> 0%",
+              "text": "Operating margin 19.76% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Newgard Jeffrey K",
+          "title": "Pres, CEO (GBank)",
+          "date": "2026-08-03",
+          "delta_own": "+161%",
+          "ek_usd": 21.67,
+          "value": "+$699,025",
+          "value_usd": 699025.0
+        }
+      ],
+      "last_buy_date": "2026-08-03",
+      "last_filing_date": "2026-08-05 17:11:29",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "TSCO",
       "company": "Tractor Supply Co /De/",
