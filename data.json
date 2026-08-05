@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-05 23:14 CEST",
-  "count": 12,
+  "generated_at": "2026-08-05 23:31 CEST",
+  "count": 13,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "HLI",
+      "company": "Houlihan Lokey, Inc.",
+      "sector": "Financial",
+      "industry": "Capital Markets",
+      "market_cap": "8.96B",
+      "avg_volume": "853.42K",
+      "beta": "0.96",
+      "recom": "2.09",
+      "earnings": "Jul 29 AMC",
+      "pe": "21.53",
+      "forward_pe": "14.62",
+      "insider_own": "22.63%",
+      "total_value_usd": 500570.0,
+      "price_usd": 128.19,
+      "price_eur": 111.62,
+      "ek_usd": 124.52,
+      "ek_eur": 108.42,
+      "vs_entry_pct": 2.9,
+      "score": 4,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-7.86%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -7.86% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-15.7%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -15.7% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "pass",
+              "label": "Sales growth 5Y",
+              "value": "11.43%",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y 11.43% (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Health rating",
+              "value": "\ud83d\udfe2 green",
+              "ideal": "ROE 18.33%, Margin 16.1%, LT Debt/Eq 0.22",
+              "text": "Health rating \ud83d\udfe2 green (ROE 18.33%, Margin 16.1%, LT Debt/Eq 0.22)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "3.55",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 3.55 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "3.97",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 3.97 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "-5.3%",
+              "ideal": "margin of safety, intrinsic ~$121.69",
+              "text": "Intrinsic value (DCF) -5.3% (margin of safety, intrinsic ~$121.69)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-39.47%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -39.47% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "38.72",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 38.72 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "3.29%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 3.29% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "19.4%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 19.4% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "16.1%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 16.1% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "20.42%",
+              "ideal": "> 0%",
+              "text": "Operating margin 20.42% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Alley J Lindsey",
+          "title": "CFO",
+          "date": "2026-08-03",
+          "delta_own": "New",
+          "ek_usd": 124.52,
+          "value": "+$500,570",
+          "value_usd": 500570.0
+        }
+      ],
+      "last_buy_date": "2026-08-03",
+      "last_filing_date": "2026-08-05 17:15:05",
+      "congress_status": "ok",
+      "congress_bought": true,
+      "congress_count": 1,
+      "congress_matches": [
+        {
+          "politician": "Gilbert Cisneros",
+          "date": "2026-03-03",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
     {
       "ticker": "GBFH",
       "company": "Gbank Financial Holdings Inc.",
@@ -4769,6 +4967,22 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "GBFH",
+      "date": "2026-08-05 21:29",
+      "price_at_alert": 20.39,
+      "price_now": 20.39,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
+      "ticker": "HLI",
+      "date": "2026-08-05 21:29",
+      "price_at_alert": 128.19,
+      "price_now": 128.19,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "TSCO",
