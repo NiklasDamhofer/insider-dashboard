@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-06 23:35 CEST",
-  "count": 13,
+  "generated_at": "2026-08-06 23:53 CEST",
+  "count": 14,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "SAGT",
+      "company": "Sagtec Global Ltd",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": "14.31M",
+      "avg_volume": "1.74M",
+      "beta": "-3.70",
+      "recom": "-",
+      "earnings": "Jul 23 BMO",
+      "pe": "5.42",
+      "forward_pe": "-",
+      "insider_own": "73.18%",
+      "total_value_usd": 231000.0,
+      "price_usd": 0.72,
+      "price_eur": 0.63,
+      "ek_usd": 0.77,
+      "ek_eur": 0.67,
+      "vs_entry_pct": -6.5,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-21.82%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -21.82% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-3.18%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -3.18% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.06",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.06 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "2.83",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 2.83 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.79",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.79 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.57",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.57 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "+60.9%",
+              "ideal": "margin of safety, intrinsic ~$1.84",
+              "text": "Intrinsic value (DCF) +60.9% (margin of safety, intrinsic ~$1.84)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-78.76%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -78.76% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "38.26",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 38.26 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "3.61%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 3.61% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Upside to target",
+              "value": "n/a",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target n/a (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "8.95%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 8.95% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "11.03%",
+              "ideal": "> 0%",
+              "text": "Operating margin 11.03% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Ng Chen Lok",
+          "title": "CEO, 10%",
+          "date": "2026-07-31",
+          "delta_own": "+4%",
+          "ek_usd": 0.77,
+          "value": "+$231,000",
+          "value_usd": 231000.0
+        }
+      ],
+      "last_buy_date": "2026-07-31",
+      "last_filing_date": "2026-08-06 17:30:46",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "TLSA",
       "company": "Tiziana Life Sciences Ltd",
@@ -3622,6 +3820,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "SAGT",
+      "date": "2026-08-06 21:50",
+      "price_at_alert": 0.72,
+      "price_now": 0.72,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "TLSA",
