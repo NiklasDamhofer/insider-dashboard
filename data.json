@@ -1,8 +1,199 @@
 {
-  "generated_at": "2026-08-08 01:29 CEST",
-  "count": 14,
+  "generated_at": "2026-08-08 01:45 CEST",
+  "count": 15,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "CCB",
+      "company": "Coastal Financial Corp",
+      "sector": "Financial",
+      "industry": "Banks - Regional",
+      "market_cap": "691.38M",
+      "avg_volume": "203.13K",
+      "beta": "0.77",
+      "recom": "1.25",
+      "earnings": "Jul 30 BMO",
+      "pe": "-",
+      "forward_pe": "7.67",
+      "insider_own": "15.39%",
+      "total_value_usd": 444500.0,
+      "price_usd": 45.34,
+      "price_eur": 39.48,
+      "ek_usd": 44.45,
+      "ek_eur": 38.7,
+      "vs_entry_pct": 2.0,
+      "score": 3,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-42.26%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -42.26% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "37.34%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 37.34% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Health rating",
+              "value": "\ud83d\udd34 red",
+              "ideal": "ROE -0.83%, Margin -0.53%, LT Debt/Eq 0.11",
+              "text": "Health rating \ud83d\udd34 red (ROE -0.83%, Margin -0.53%, LT Debt/Eq 0.11)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.95",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.95 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.49",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.49 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-62.23%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -62.23% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "24.45",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 24.45 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "8.76%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 8.76% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "9.2%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 9.2% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-0.53%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -0.53% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-0.76%",
+              "ideal": "> 0%",
+              "text": "Operating margin -0.76% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Sprink Eric M",
+          "title": "CEO",
+          "date": "2026-08-06",
+          "delta_own": "+6%",
+          "ek_usd": 44.45,
+          "value": "+$444,500",
+          "value_usd": 444500.0
+        }
+      ],
+      "last_buy_date": "2026-08-06",
+      "last_filing_date": "2026-08-07 19:35:35",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "REBN",
       "company": "Reborn Coffee, Inc.",
@@ -742,9 +933,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "22.16%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 22.16% (> 10% especially interesting \ud83d\udd25)"
+              "value": "n/a",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float n/a (> 10% especially interesting)"
             }
           ]
         },
@@ -2388,9 +2579,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "31.21%",
+              "value": "32.52%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 31.21% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 32.52% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -2985,9 +3176,9 @@
               {
                 "status": "info",
                 "label": "Short float",
-                "value": "1.11%",
+                "value": "1.12%",
                 "ideal": "> 10% especially interesting",
-                "text": "Short float 1.11% (> 10% especially interesting)"
+                "text": "Short float 1.12% (> 10% especially interesting)"
               }
             ]
           },
@@ -3820,6 +4011,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "CCB",
+      "date": "2026-08-07 23:44",
+      "price_at_alert": 45.34,
+      "price_now": 45.34,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "REBN",
