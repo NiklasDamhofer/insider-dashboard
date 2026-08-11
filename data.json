@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11 11:34 CEST",
+  "generated_at": "2026-08-11 11:51 CEST",
   "count": 18,
   "eur_rate": 0.8707,
   "records": [
@@ -2404,20 +2404,20 @@
       "company": "Boston Scientific Corp",
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": "73.69B",
+      "market_cap": "73.61B",
       "avg_volume": "20.91M",
       "beta": "0.58",
       "recom": "1.45",
       "earnings": "Jul 29 BMO",
-      "pe": "20.62",
-      "forward_pe": "14.84",
+      "pe": "20.60",
+      "forward_pe": "14.82",
       "insider_own": "0.50%",
       "total_value_usd": 9001408.0,
-      "price_usd": 50.85,
-      "price_eur": 44.28,
+      "price_usd": 50.79,
+      "price_eur": 44.22,
       "ek_usd": 48.33,
       "ek_eur": 42.08,
-      "vs_entry_pct": 5.2,
+      "vs_entry_pct": 5.1,
       "score": 5,
       "total": 6,
       "financial": false,
@@ -2430,9 +2430,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "13.89%",
+              "value": "13.75%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 13.89% (>5% up or down? Yes)"
+              "text": "Price move 1M 13.75% (>5% up or down? Yes)"
             }
           ]
         },
@@ -2500,9 +2500,9 @@
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "-6.9%",
+              "value": "-6.8%",
               "ideal": "margin of safety, intrinsic ~$47.57",
-              "text": "Intrinsic value (DCF) -6.9% (margin of safety, intrinsic ~$47.57)"
+              "text": "Intrinsic value (DCF) -6.8% (margin of safety, intrinsic ~$47.57)"
             }
           ]
         },
@@ -2514,16 +2514,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-53.56%",
+              "value": "-53.62%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -53.56% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -53.62% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "69.53",
+              "value": "69.36",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 69.53 (< 45, ideal < 40)"
+              "text": "RSI (14) 69.36 (< 45, ideal < 40)"
             }
           ]
         },
@@ -2549,9 +2549,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "20.8%",
+              "value": "20.9%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 20.8% (>= 15%, ideal 20%)"
+              "text": "Upside to target 20.9% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -3745,8 +3745,8 @@
       "ticker": "BSX",
       "date": "2026-08-05 20:38",
       "price_at_alert": 47.74,
-      "price_now": 50.85,
-      "change_pct": 6.5
+      "price_now": 50.79,
+      "change_pct": 6.4
     },
     {
       "type": "insider",
@@ -3801,8 +3801,8 @@
       "ticker": "STFS",
       "date": "2026-07-28 15:39",
       "price_at_alert": 3.7,
-      "price_now": 4.04,
-      "change_pct": 9.2
+      "price_now": 4.07,
+      "change_pct": 10.0
     },
     {
       "type": "insider",
@@ -3857,16 +3857,16 @@
       "ticker": "TDIC",
       "date": "2026-07-13 10:09",
       "price_at_alert": 3.54,
-      "price_now": 2.65,
-      "change_pct": -25.1
+      "price_now": 2.68,
+      "change_pct": -24.3
     },
     {
       "type": "insider",
       "ticker": "UUUU",
       "date": "2026-07-11 11:35",
       "price_at_alert": 13.58,
-      "price_now": 14.13,
-      "change_pct": 4.1
+      "price_now": 14.15,
+      "change_pct": 4.2
     },
     {
       "type": "insider",
