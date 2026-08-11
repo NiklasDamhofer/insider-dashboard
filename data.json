@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-11 23:33 CEST",
-  "count": 23,
+  "generated_at": "2026-08-11 23:51 CEST",
+  "count": 24,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "DINO",
+      "company": "Hf Sinclair Corp",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "market_cap": "15.21B",
+      "avg_volume": "2.56M",
+      "beta": "0.66",
+      "recom": "2.58",
+      "earnings": "Jul 28 BMO",
+      "pe": "8.16",
+      "forward_pe": "9.15",
+      "insider_own": "6.89%",
+      "total_value_usd": 1279500.0,
+      "price_usd": 85.55,
+      "price_eur": 74.49,
+      "ek_usd": 85.3,
+      "ek_eur": 74.27,
+      "vs_entry_pct": 0.3,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "4.71%",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M 4.71% (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "53.15%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 53.15% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.32",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.32 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.97",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.97 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.49",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.49 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.48",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.48 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "+63.4%",
+              "ideal": "margin of safety, intrinsic ~$233.56",
+              "text": "Intrinsic value (DCF) +63.4% (margin of safety, intrinsic ~$233.56)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Distance from 52W high",
+              "value": "-9.2%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -9.2% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "53.5",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 53.5 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "5.34%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 5.34% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "7.2%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 7.2% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "6.08%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 6.08% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "8.58%",
+              "ideal": "> 0%",
+              "text": "Operating margin 8.58% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Myers Franklin",
+          "title": "CEO",
+          "date": "2026-08-11",
+          "delta_own": "+8%",
+          "ek_usd": 85.3,
+          "value": "+$1,279,500",
+          "value_usd": 1279500.0
+        }
+      ],
+      "last_buy_date": "2026-08-11",
+      "last_filing_date": "2026-08-11 17:45:34",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "SMRT",
       "company": "Smartrent, Inc.",
@@ -139,9 +337,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "4.23%",
+              "value": "4.41%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 4.23% (> 10% especially interesting)"
+              "text": "Short float 4.41% (> 10% especially interesting)"
             }
           ]
         },
@@ -337,9 +535,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "16.64%",
+              "value": "17.73%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 16.64% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 17.73% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -542,9 +740,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "0.03%",
+              "value": "0.02%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 0.03% (> 10% especially interesting)"
+              "text": "Short float 0.02% (> 10% especially interesting)"
             }
           ]
         },
@@ -740,9 +938,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "5.7%",
+              "value": "5.4%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 5.7% (> 10% especially interesting)"
+              "text": "Short float 5.4% (> 10% especially interesting)"
             }
           ]
         },
@@ -931,9 +1129,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "8.54%",
+              "value": "9.22%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 8.54% (> 10% especially interesting)"
+              "text": "Short float 9.22% (> 10% especially interesting)"
             }
           ]
         },
@@ -1129,9 +1327,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "9.86%",
+              "value": "8.72%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 9.86% (> 10% especially interesting)"
+              "text": "Short float 8.72% (> 10% especially interesting)"
             }
           ]
         },
@@ -1327,9 +1525,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "7.32%",
+              "value": "5.89%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 7.32% (> 10% especially interesting)"
+              "text": "Short float 5.89% (> 10% especially interesting)"
             }
           ]
         },
@@ -1525,9 +1723,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "8.6%",
+              "value": "6.32%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 8.6% (> 10% especially interesting)"
+              "text": "Short float 6.32% (> 10% especially interesting)"
             }
           ]
         },
@@ -1723,9 +1921,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "14.11%",
+              "value": "12.91%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 14.11% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 12.91% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -1914,9 +2112,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "8.76%",
+              "value": "8.53%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 8.76% (> 10% especially interesting)"
+              "text": "Short float 8.53% (> 10% especially interesting)"
             }
           ]
         },
@@ -2112,9 +2310,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "1.36%",
+              "value": "1.88%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 1.36% (> 10% especially interesting)"
+              "text": "Short float 1.88% (> 10% especially interesting)"
             }
           ]
         },
@@ -2310,9 +2508,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "3.07%",
+              "value": "2.76%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 3.07% (> 10% especially interesting)"
+              "text": "Short float 2.76% (> 10% especially interesting)"
             }
           ]
         },
@@ -2508,9 +2706,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "1.85%",
+              "value": "2.52%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 1.85% (> 10% especially interesting)"
+              "text": "Short float 2.52% (> 10% especially interesting)"
             }
           ]
         },
@@ -2715,9 +2913,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "17.35%",
+              "value": "17.08%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 17.35% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 17.08% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -2906,9 +3104,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "3.29%",
+              "value": "4.05%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 3.29% (> 10% especially interesting)"
+              "text": "Short float 4.05% (> 10% especially interesting)"
             }
           ]
         },
@@ -3104,9 +3302,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "7.44%",
+              "value": "7.36%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 7.44% (> 10% especially interesting)"
+              "text": "Short float 7.36% (> 10% especially interesting)"
             }
           ]
         },
@@ -3302,9 +3500,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "5.78%",
+              "value": "5.58%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 5.78% (> 10% especially interesting)"
+              "text": "Short float 5.58% (> 10% especially interesting)"
             }
           ]
         },
@@ -3525,9 +3723,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "1.96%",
+              "value": "1.54%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 1.96% (> 10% especially interesting)"
+              "text": "Short float 1.54% (> 10% especially interesting)"
             }
           ]
         },
@@ -3965,9 +4163,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "6.8%",
+              "value": "7.04%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 6.8% (> 10% especially interesting)"
+              "text": "Short float 7.04% (> 10% especially interesting)"
             }
           ]
         },
@@ -4163,9 +4361,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "2.68%",
+              "value": "2.58%",
               "ideal": "> 10% especially interesting",
-              "text": "Short float 2.68% (> 10% especially interesting)"
+              "text": "Short float 2.58% (> 10% especially interesting)"
             }
           ]
         },
@@ -4361,9 +4559,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "32.52%",
+              "value": "23.73%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 32.52% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 23.73% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -4559,9 +4757,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "15.53%",
+              "value": "14.81%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 15.53% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 14.81% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -4634,6 +4832,14 @@
     "records": []
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "DINO",
+      "date": "2026-08-11 21:48",
+      "price_at_alert": 85.55,
+      "price_now": 85.55,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "SMRT",
