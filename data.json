@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-13 00:03 CEST",
-  "count": 28,
+  "generated_at": "2026-08-13 00:21 CEST",
+  "count": 29,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "ACDC",
+      "company": "Profrac Holding Corp.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "market_cap": "936.11M",
+      "avg_volume": "1.60M",
+      "beta": "1.52",
+      "recom": "3.75",
+      "earnings": "Aug 06 BMO",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "83.30%",
+      "total_value_usd": 401851.0,
+      "price_usd": 5.14,
+      "price_eur": 4.48,
+      "ek_usd": 5.02,
+      "ek_eur": 4.37,
+      "vs_entry_pct": 2.4,
+      "score": 1,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-3.75%",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M -3.75% (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-0.76%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -0.76% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "warn",
+              "label": "Debt / Equity",
+              "value": "1.98",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 1.98 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.84",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.84 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.52",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.52 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.73",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.73 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-37.47%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -37.47% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "55.88",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 55.88 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "14.17%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 14.17% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "10.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 10.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-23.06%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -23.06% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-10.72%",
+              "ideal": "> 0%",
+              "text": "Operating margin -10.72% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Wilks Matthew",
+          "title": "CEO",
+          "date": "2026-08-10",
+          "delta_own": "+4%",
+          "ek_usd": 5.02,
+          "value": "+$401,851",
+          "value_usd": 401851.0
+        }
+      ],
+      "last_buy_date": "2026-08-10",
+      "last_filing_date": "2026-08-12 18:00:06",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "BBBY",
       "company": "Bed Bath & Beyond, Inc.",
@@ -2347,9 +2545,9 @@
             {
               "status": "fail",
               "label": "Upside to target",
-              "value": "9.2%",
+              "value": "9.4%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 9.2% (>= 15%, ideal 20%)"
+              "text": "Upside to target 9.4% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -6606,6 +6804,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "ACDC",
+      "date": "2026-08-12 22:18",
+      "price_at_alert": 5.14,
+      "price_now": 5.14,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "BBBY",
