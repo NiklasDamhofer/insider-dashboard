@@ -1,8 +1,51 @@
 {
-  "generated_at": "2026-08-13 00:56 CEST",
-  "count": 29,
+  "generated_at": "2026-08-13 01:14 CEST",
+  "count": 30,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "PNAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "sector": null,
+      "industry": null,
+      "market_cap": null,
+      "avg_volume": null,
+      "beta": null,
+      "recom": null,
+      "earnings": null,
+      "pe": null,
+      "forward_pe": null,
+      "insider_own": null,
+      "total_value_usd": 14750000.0,
+      "price_usd": null,
+      "price_eur": null,
+      "ek_usd": 10.0,
+      "ek_eur": 8.71,
+      "vs_entry_pct": null,
+      "score": 0,
+      "total": 6,
+      "financial": false,
+      "checks": [],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Hudson Steven Kenneth",
+          "title": "CEO, 10%",
+          "date": "2026-08-10",
+          "delta_own": ">999%",
+          "ek_usd": 10.0,
+          "value": "+$14,750,000",
+          "value_usd": 14750000.0
+        }
+      ],
+      "last_buy_date": "2026-08-10",
+      "last_filing_date": "2026-08-12 19:02:45",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "ACDC",
       "company": "Profrac Holding Corp.",
@@ -213,7 +256,7 @@
       "earnings": "Aug 04 AMC",
       "pe": "-",
       "forward_pe": "-",
-      "insider_own": "11.64%",
+      "insider_own": "11.70%",
       "total_value_usd": 301898.0,
       "price_usd": 4.23,
       "price_eur": 3.68,
@@ -3993,7 +4036,7 @@
       "earnings": "Jul 29 AMC",
       "pe": "20.73",
       "forward_pe": "14.07",
-      "insider_own": "22.63%",
+      "insider_own": "22.64%",
       "total_value_usd": 500570.0,
       "price_usd": 123.42,
       "price_eur": 107.46,
@@ -6804,6 +6847,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "PNAQ",
+      "date": "2026-08-12 23:12",
+      "price_at_alert": null,
+      "price_now": null,
+      "change_pct": null
+    },
     {
       "type": "insider",
       "ticker": "ACDC",
