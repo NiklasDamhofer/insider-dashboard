@@ -1,8 +1,215 @@
 {
-  "generated_at": "2026-08-12 22:51 CEST",
+  "generated_at": "2026-08-12 23:09 CEST",
   "count": 28,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "BBBY",
+      "company": "Bed Bath & Beyond, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "market_cap": "403.25M",
+      "avg_volume": "2.65M",
+      "beta": "2.85",
+      "recom": "2.14",
+      "earnings": "Aug 04 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "11.64%",
+      "total_value_usd": 301898.0,
+      "price_usd": 4.23,
+      "price_eur": 3.68,
+      "ek_usd": 4.3,
+      "ek_eur": 3.74,
+      "vs_entry_pct": -1.6,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-17.86%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -17.86% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "27.96%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 27.96% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.71",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.71 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.76",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.76 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.35",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.35 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.61",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.61 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-66.56%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -66.56% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "35.57",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 35.57 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "17.08%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 17.08% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "139.2%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 139.2% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-7.13%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -7.13% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-7.34%",
+              "ideal": "> 0%",
+              "text": "Operating margin -7.34% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Lemonis Marcus",
+          "title": "Exec COB, CEO",
+          "date": "2026-08-12",
+          "delta_own": "+3%",
+          "ek_usd": 4.3,
+          "value": "+$99,304",
+          "value_usd": 99304.0
+        },
+        {
+          "name": "Lemonis Marcus",
+          "title": "Exec COB, CEO",
+          "date": "2026-08-05",
+          "delta_own": "+6%",
+          "ek_usd": 4.67,
+          "value": "+$202,594",
+          "value_usd": 202594.0
+        }
+      ],
+      "last_buy_date": "2026-08-12",
+      "last_filing_date": "2026-08-12 16:58:22",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "FUN",
       "company": "Six Flags Entertainment Corporation/New",
@@ -3577,204 +3784,6 @@
       "congress_matches": []
     },
     {
-      "ticker": "BBBY",
-      "company": "Bed Bath & Beyond, Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "market_cap": "403.25M",
-      "avg_volume": "2.65M",
-      "beta": "2.85",
-      "recom": "2.14",
-      "earnings": "Aug 04 AMC",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "11.64%",
-      "total_value_usd": 202594.0,
-      "price_usd": 4.23,
-      "price_eur": 3.68,
-      "ek_usd": 4.67,
-      "ek_eur": 4.07,
-      "vs_entry_pct": -9.4,
-      "score": 4,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-17.86%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -17.86% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "27.96%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 27.96% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.71",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.71 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "fail",
-              "label": "Current / Quick ratio",
-              "value": "0.76",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 0.76 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "0.35",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.35 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "1.61",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 1.61 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-66.56%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -66.56% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "35.57",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 35.57 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "17.08%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 17.08% (> 10% especially interesting \ud83d\udd25)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "139.2%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 139.2% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-7.13%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -7.13% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-7.34%",
-              "ideal": "> 0%",
-              "text": "Operating margin -7.34% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Lemonis Marcus",
-          "title": "Exec COB, CEO",
-          "date": "2026-08-05",
-          "delta_own": "+6%",
-          "ek_usd": 4.67,
-          "value": "+$202,594",
-          "value_usd": 202594.0
-        }
-      ],
-      "last_buy_date": "2026-08-05",
-      "last_filing_date": "2026-08-06 08:13:36",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
-    },
-    {
       "ticker": "HLI",
       "company": "Houlihan Lokey, Inc.",
       "sector": "Financial",
@@ -6597,6 +6606,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "BBBY",
+      "date": "2026-08-12 21:07",
+      "price_at_alert": 4.23,
+      "price_now": 4.23,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "FUN",
