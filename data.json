@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-12 22:34 CEST",
-  "count": 27,
+  "generated_at": "2026-08-12 22:51 CEST",
+  "count": 28,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "FUN",
+      "company": "Six Flags Entertainment Corporation/New",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "market_cap": "1.68B",
+      "avg_volume": "2.33M",
+      "beta": "0.37",
+      "recom": "1.94",
+      "earnings": "Aug 06 BMO",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "2.97%",
+      "total_value_usd": 248265.0,
+      "price_usd": 16.44,
+      "price_eur": 14.31,
+      "ek_usd": 15.8,
+      "ek_eur": 13.76,
+      "vs_entry_pct": 4.1,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-12.6%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -12.6% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-7.04%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -7.04% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Debt / Equity",
+              "value": "44.95",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 44.95 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.42",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.42 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.55",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.55 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "14.66",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 14.66 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-39.93%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -39.93% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "40.8",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 40.8 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "19.44%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 19.44% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "32.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 32.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-57.25%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -57.25% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "10.76%",
+              "ideal": "> 0%",
+              "text": "Operating margin 10.76% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Reilly John T",
+          "title": "Pres, CEO",
+          "date": "2026-08-12",
+          "delta_own": "+6%",
+          "ek_usd": 15.8,
+          "value": "+$248,265",
+          "value_usd": 248265.0
+        }
+      ],
+      "last_buy_date": "2026-08-12",
+      "last_filing_date": "2026-08-12 16:43:51",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "PRMB",
       "company": "Primo Brands Corp",
@@ -6399,6 +6597,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "FUN",
+      "date": "2026-08-12 20:49",
+      "price_at_alert": 16.44,
+      "price_now": 16.44,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "PRMB",
