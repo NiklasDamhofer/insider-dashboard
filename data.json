@@ -1,8 +1,225 @@
 {
-  "generated_at": "2026-08-14 22:35 CEST",
-  "count": 37,
+  "generated_at": "2026-08-14 22:54 CEST",
+  "count": 38,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "INTC",
+      "company": "Intel Corp",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": "517.01B",
+      "avg_volume": "122.66M",
+      "beta": "2.26",
+      "recom": "2.42",
+      "earnings": "Jul 23 AMC",
+      "pe": "-",
+      "forward_pe": "50.19",
+      "insider_own": "14.72%",
+      "total_value_usd": 9999985.0,
+      "price_usd": 102.5,
+      "price_eur": 89.25,
+      "ek_usd": 95.0,
+      "ek_eur": 82.72,
+      "vs_entry_pct": 7.9,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "5.69%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 5.69% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "25.42%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 25.42% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.58",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.58 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.6",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.6 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "9.07",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 9.07 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "5.9",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 5.9 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-27.99%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -27.99% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "51.25",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 51.25 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "2.91%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 2.91% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "18.3%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 18.3% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-19.79%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -19.79% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "8.03%",
+              "ideal": "> 0%",
+              "text": "Operating margin 8.03% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Tan Lip Bu",
+          "title": "CEO",
+          "date": "2026-08-11",
+          "delta_own": "+9%",
+          "ek_usd": 95.0,
+          "value": "+$9,999,985",
+          "value_usd": 9999985.0
+        }
+      ],
+      "last_buy_date": "2026-08-11",
+      "last_filing_date": "2026-08-14 16:27:15",
+      "congress_status": "ok",
+      "congress_bought": true,
+      "congress_count": 3,
+      "congress_matches": [
+        {
+          "politician": "Nancy Pelosi",
+          "date": "2026-05-29",
+          "chamber": "House",
+          "amount": "$1,000,001 - $5,000,000"
+        },
+        {
+          "politician": "Rohit Khanna",
+          "date": "2026-04-24",
+          "chamber": "House",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "politician": "Alan Armstrong",
+          "date": "2026-03-27",
+          "chamber": "Senate",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
     {
       "ticker": "ANGX",
       "company": "Angel Studios, Inc.",
@@ -9784,6 +10001,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "INTC",
+      "date": "2026-08-14 20:50",
+      "price_at_alert": 102.5,
+      "price_now": 102.5,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "ANGX",
