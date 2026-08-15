@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15 01:45 CEST",
+  "generated_at": "2026-08-15 02:05 CEST",
   "count": 38,
   "eur_rate": 0.8707,
   "records": [
@@ -3252,16 +3252,9 @@
       "last_buy_date": "2026-08-12",
       "last_filing_date": "2026-08-12 16:04:39",
       "congress_status": "ok",
-      "congress_bought": true,
-      "congress_count": 1,
-      "congress_matches": [
-        {
-          "politician": "Gilbert Cisneros",
-          "date": "2026-02-10",
-          "chamber": "House",
-          "amount": "$1,001 - $15,000"
-        }
-      ]
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
     },
     {
       "ticker": "DINO",
@@ -6621,7 +6614,7 @@
       "last_filing_date": "2026-08-05 16:40:16",
       "congress_status": "ok",
       "congress_bought": true,
-      "congress_count": 4,
+      "congress_count": 3,
       "congress_matches": [
         {
           "politician": "April McClain Delaney",
@@ -6638,12 +6631,6 @@
         {
           "politician": "April McClain Delaney",
           "date": "2026-03-04",
-          "chamber": "House",
-          "amount": "$1,001 - $15,000"
-        },
-        {
-          "politician": "April McClain Delaney",
-          "date": "2026-02-10",
           "chamber": "House",
           "amount": "$1,001 - $15,000"
         }
@@ -6844,7 +6831,7 @@
       "last_filing_date": "2026-08-05 16:15:51",
       "congress_status": "ok",
       "congress_bought": true,
-      "congress_count": 6,
+      "congress_count": 5,
       "congress_matches": [
         {
           "politician": "Gilbert Cisneros",
@@ -6874,12 +6861,6 @@
           "politician": "Alan Armstrong",
           "date": "2026-03-27",
           "chamber": "Senate",
-          "amount": "$1,001 - $15,000"
-        },
-        {
-          "politician": "Gilbert Cisneros",
-          "date": "2026-02-10",
-          "chamber": "House",
           "amount": "$1,001 - $15,000"
         }
       ]
