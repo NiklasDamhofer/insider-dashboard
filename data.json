@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17 05:46 CEST",
-  "count": 38,
+  "generated_at": "2026-08-17 06:05 CEST",
+  "count": 37,
   "eur_rate": 0.8707,
   "records": [
     {
@@ -7267,204 +7267,6 @@
       "congress_bought": false,
       "congress_count": 0,
       "congress_matches": []
-    },
-    {
-      "ticker": "PRQR",
-      "company": "Proqr Therapeutics N.V.",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": "265.13M",
-      "avg_volume": "996.61K",
-      "beta": "0.04",
-      "recom": "1.00",
-      "earnings": "Aug 13 BMO",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "28.85%",
-      "total_value_usd": 353960.0,
-      "price_usd": 1.92,
-      "price_eur": 1.67,
-      "ek_usd": 1.77,
-      "ek_eur": 1.54,
-      "vs_entry_pct": 8.5,
-      "score": 3,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "14.97%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 14.97% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "135.4%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 135.4% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.17",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.17 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "3.49",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 3.49 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Price / Sales",
-              "value": "12.4",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 12.4 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "2.98",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 2.98 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-38.06%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -38.06% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "fail",
-              "label": "RSI (14)",
-              "value": "57.35",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 57.35 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "2.26%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 2.26% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "369.8%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 369.8% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-229.34%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -229.34% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-234.12%",
-              "ideal": "> 0%",
-              "text": "Operating margin -234.12% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "De Boer Daniel Anton",
-          "title": "CEO",
-          "date": "2026-07-31",
-          "delta_own": "+67%",
-          "ek_usd": 1.77,
-          "value": "+$353,960",
-          "value_usd": 353960.0
-        }
-      ],
-      "last_buy_date": "2026-07-31",
-      "last_filing_date": "2026-08-03 16:01:11",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     }
   ],
   "watchlist": {
@@ -10483,8 +10285,8 @@
       "ticker": "WRAP",
       "date": "2026-07-11 11:35",
       "price_at_alert": 2.46,
-      "price_now": 1.88,
-      "change_pct": -23.6
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "insider",
