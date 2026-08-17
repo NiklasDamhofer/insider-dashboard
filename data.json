@@ -1,8 +1,218 @@
 {
-  "generated_at": "2026-08-17 23:39 CEST",
-  "count": 44,
+  "generated_at": "2026-08-17 23:58 CEST",
+  "count": 45,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "CDNL",
+      "company": "Cardinal Infrastructure Group Inc.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "market_cap": "1.87B",
+      "avg_volume": "743.77K",
+      "beta": "-",
+      "recom": "1.75",
+      "earnings": "Aug 11 BMO",
+      "pe": "32.20",
+      "forward_pe": "17.51",
+      "insider_own": "8.70%",
+      "total_value_usd": 3457138.0,
+      "price_usd": 39.23,
+      "price_eur": 34.16,
+      "ek_usd": 36.53,
+      "ek_eur": 31.81,
+      "vs_entry_pct": 7.4,
+      "score": 5,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-44.92%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -44.92% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "113.87%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 113.87% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.93",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.93 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "3.59",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 3.59 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "2.82",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 2.82 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "3.24",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 3.24 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "-127.4%",
+              "ideal": "margin of safety, intrinsic ~$17.25",
+              "text": "Intrinsic value (DCF) -127.4% (margin of safety, intrinsic ~$17.25)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-59.3%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -59.3% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "29.98",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 29.98 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "13.51%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 13.51% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "55.5%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 55.5% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "2.74%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 2.74% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "8.24%",
+              "ideal": "> 0%",
+              "text": "Operating margin 8.24% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": true,
+      "cluster_names": [
+        "Rowe Michael Bruce Jr. (CFO)",
+        "Spivey Jeremy Simmons (CEO)"
+      ],
+      "insiders": [
+        {
+          "name": "Rowe Michael Bruce Jr.",
+          "title": "CFO",
+          "date": "2026-08-14",
+          "delta_own": "New",
+          "ek_usd": 36.53,
+          "value": "+$255,710",
+          "value_usd": 255710.0
+        },
+        {
+          "name": "Spivey Jeremy Simmons",
+          "title": "CEO",
+          "date": "2026-08-14",
+          "delta_own": "New",
+          "ek_usd": 38.41,
+          "value": "+$3,201,428",
+          "value_usd": 3201428.0
+        }
+      ],
+      "last_buy_date": "2026-08-14",
+      "last_filing_date": "2026-08-17 17:39:43",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "ANGX",
       "company": "Angel Studios, Inc.",
@@ -11179,6 +11389,22 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "CDNL",
+      "date": "2026-08-17 21:54",
+      "price_at_alert": 39.23,
+      "price_now": 39.23,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
+      "ticker": "CDNL",
+      "date": "2026-08-17 21:54",
+      "price_at_alert": 39.23,
+      "price_now": 39.23,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "ANGX",
