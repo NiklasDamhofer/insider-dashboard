@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-17 22:40 CEST",
-  "count": 43,
+  "generated_at": "2026-08-17 23:00 CEST",
+  "count": 44,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "KURA",
+      "company": "Kura Oncology, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": "1.00B",
+      "avg_volume": "1.77M",
+      "beta": "0.43",
+      "recom": "1.20",
+      "earnings": "Aug 12 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "3.13%",
+      "total_value_usd": 1112000.0,
+      "price_usd": 11.28,
+      "price_eur": 9.82,
+      "ek_usd": 11.12,
+      "ek_eur": 9.68,
+      "vs_entry_pct": 1.4,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "3.87%",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M 3.87% (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "36.54%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 36.54% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.5",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.5 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "4.73",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 4.73 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "12.99",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 12.99 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "20.72",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 20.72 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Distance from 52W high",
+              "value": "-9.69%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -9.69% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "65.57",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 65.57 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "15.27%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 15.27% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "183.7%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 183.7% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-384.3%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -384.3% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-411.9%",
+              "ideal": "> 0%",
+              "text": "Operating margin -411.9% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Wilson Troy Edward",
+          "title": "Pres, CEO",
+          "date": "2026-08-17",
+          "delta_own": "+10%",
+          "ek_usd": 11.12,
+          "value": "+$1,112,000",
+          "value_usd": 1112000.0
+        }
+      ],
+      "last_buy_date": "2026-08-17",
+      "last_filing_date": "2026-08-17 16:45:03",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "CE",
       "company": "Celanese Corp",
@@ -10972,6 +11170,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "KURA",
+      "date": "2026-08-17 20:56",
+      "price_at_alert": 11.28,
+      "price_now": 11.28,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "CE",
