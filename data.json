@@ -1,8 +1,215 @@
 {
-  "generated_at": "2026-08-17 23:00 CEST",
+  "generated_at": "2026-08-17 23:19 CEST",
   "count": 44,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "ANGX",
+      "company": "Angel Studios, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "market_cap": "879.63M",
+      "avg_volume": "1.29M",
+      "beta": "-0.17",
+      "recom": "1.00",
+      "earnings": "Aug 04 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "53.52%",
+      "total_value_usd": 250012.0,
+      "price_usd": 4.71,
+      "price_eur": 4.1,
+      "ek_usd": 4.28,
+      "ek_eur": 3.73,
+      "vs_entry_pct": 10.0,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "14.6%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 14.6% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Debt / Equity",
+              "value": "n/a",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.65",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.65 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "2.13",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 2.13 (< 4, opt. < 2)"
+            },
+            {
+              "status": "na",
+              "label": "Price / Book",
+              "value": "n/a",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book n/a (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-91.44%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -91.44% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "63.22",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 63.22 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "5.68%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 5.68% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "76.9%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 76.9% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-37.45%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -37.45% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-30.1%",
+              "ideal": "> 0%",
+              "text": "Operating margin -30.1% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Harmon Neal",
+          "title": "CEO",
+          "date": "2026-08-14",
+          "delta_own": "+53%",
+          "ek_usd": 4.28,
+          "value": "+$125,005",
+          "value_usd": 125005.0
+        },
+        {
+          "name": "Harmon Neal",
+          "title": "CEO",
+          "date": "2026-08-13",
+          "delta_own": "+110%",
+          "ek_usd": 4.31,
+          "value": "+$125,007",
+          "value_usd": 125007.0
+        }
+      ],
+      "last_buy_date": "2026-08-14",
+      "last_filing_date": "2026-08-17 17:10:12",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "KURA",
       "company": "Kura Oncology, Inc.",
@@ -1605,204 +1812,6 @@
           "amount": "$1,001 - $15,000"
         }
       ]
-    },
-    {
-      "ticker": "ANGX",
-      "company": "Angel Studios, Inc.",
-      "sector": "Communication Services",
-      "industry": "Entertainment",
-      "market_cap": "879.63M",
-      "avg_volume": "1.29M",
-      "beta": "-0.17",
-      "recom": "1.00",
-      "earnings": "Aug 04 AMC",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "53.52%",
-      "total_value_usd": 125007.0,
-      "price_usd": 4.71,
-      "price_eur": 4.1,
-      "ek_usd": 4.31,
-      "ek_eur": 3.75,
-      "vs_entry_pct": 9.3,
-      "score": 2,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "14.6%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 14.6% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "na",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Sales growth Q/Q",
-              "value": "n/a",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Debt / Equity",
-              "value": "n/a",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "fail",
-              "label": "Current / Quick ratio",
-              "value": "0.65",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 0.65 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "2.13",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 2.13 (< 4, opt. < 2)"
-            },
-            {
-              "status": "na",
-              "label": "Price / Book",
-              "value": "n/a",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book n/a (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-91.44%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -91.44% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "fail",
-              "label": "RSI (14)",
-              "value": "63.22",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 63.22 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "5.68%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 5.68% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "76.9%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 76.9% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-37.45%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -37.45% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-30.1%",
-              "ideal": "> 0%",
-              "text": "Operating margin -30.1% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Harmon Neal",
-          "title": "CEO",
-          "date": "2026-08-13",
-          "delta_own": "+110%",
-          "ek_usd": 4.31,
-          "value": "+$125,007",
-          "value_usd": 125007.0
-        }
-      ],
-      "last_buy_date": "2026-08-13",
-      "last_filing_date": "2026-08-14 16:18:20",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     },
     {
       "ticker": "KEEL",
@@ -11170,6 +11179,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "ANGX",
+      "date": "2026-08-17 21:15",
+      "price_at_alert": 4.71,
+      "price_now": 4.71,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "KURA",
