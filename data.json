@@ -1,8 +1,218 @@
 {
-  "generated_at": "2026-08-18 01:16 CEST",
-  "count": 45,
+  "generated_at": "2026-08-18 01:35 CEST",
+  "count": 46,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "APLM",
+      "company": "Apollomics Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": "51.72M",
+      "avg_volume": "25.41K",
+      "beta": "1.53",
+      "recom": "1.00",
+      "earnings": "Apr 27 BMO",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "48.79%",
+      "total_value_usd": 7950009.0,
+      "price_usd": 23.55,
+      "price_eur": 20.5,
+      "ek_usd": 15.0,
+      "ek_eur": 13.06,
+      "vs_entry_pct": 57.0,
+      "score": 1,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "27.16%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 27.16% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Debt / Equity",
+              "value": "n/a",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.96",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.96 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "6.08",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 6.08 (< 4, opt. < 2)"
+            },
+            {
+              "status": "na",
+              "label": "Price / Book",
+              "value": "n/a",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book n/a (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-44.09%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -44.09% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "68.32",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 68.32 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "0.6%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 0.6% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "112.3%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 112.3% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-128.69%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -128.69% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-304.27%",
+              "ideal": "> 0%",
+              "text": "Operating margin -304.27% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": true,
+      "cluster_names": [
+        "Chen Hung-Wen (CEO)",
+        "Lin Peter Kuan-How (CFO)"
+      ],
+      "insiders": [
+        {
+          "name": "Lin Peter Kuan-How",
+          "title": "CFO",
+          "date": "2026-08-14",
+          "delta_own": "+120%",
+          "ek_usd": 15.0,
+          "value": "+$400,005",
+          "value_usd": 400005.0
+        },
+        {
+          "name": "Chen Hung-Wen",
+          "title": "CEO",
+          "date": "2026-08-14",
+          "delta_own": "+59%",
+          "ek_usd": 14.07,
+          "value": "+$7,550,004",
+          "value_usd": 7550004.0
+        }
+      ],
+      "last_buy_date": "2026-08-14",
+      "last_filing_date": "2026-08-17 19:23:10",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "CDNL",
       "company": "Cardinal Infrastructure Group Inc.",
@@ -11389,6 +11599,22 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "APLM",
+      "date": "2026-08-17 23:31",
+      "price_at_alert": 23.55,
+      "price_now": 23.55,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
+      "ticker": "APLM",
+      "date": "2026-08-17 23:31",
+      "price_at_alert": 23.55,
+      "price_now": 23.55,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "CDNL",
