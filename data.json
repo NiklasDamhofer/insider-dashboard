@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18 09:03 CEST",
+  "generated_at": "2026-08-18 09:23 CEST",
   "count": 45,
   "eur_rate": 0.8707,
   "records": [
@@ -1837,7 +1837,7 @@
       "ek_usd": 4.75,
       "ek_eur": 4.14,
       "vs_entry_pct": -8.2,
-      "score": 3,
+      "score": 4,
       "total": 6,
       "financial": false,
       "checks": [
@@ -1900,7 +1900,7 @@
         {
           "n": 4,
           "title": "Valuation",
-          "status": "fail",
+          "status": "pass",
           "parts": [
             {
               "status": "pass",
@@ -1910,11 +1910,11 @@
               "text": "Price / Sales 2.36 (< 4, opt. < 2)"
             },
             {
-              "status": "fail",
+              "status": "na",
               "label": "Price / Book",
-              "value": "16.18",
+              "value": "n/a",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 16.18 (< 3, opt. < 1.5)"
+              "text": "Price / Book n/a (< 3, opt. < 1.5)"
             },
             {
               "status": "na",
