@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18 05:49 CEST",
-  "count": 46,
+  "generated_at": "2026-08-18 06:09 CEST",
+  "count": 45,
   "eur_rate": 0.8707,
   "records": [
     {
@@ -8884,204 +8884,6 @@
           "amount": "$1,001 - $15,000"
         }
       ]
-    },
-    {
-      "ticker": "CMCO",
-      "company": "Columbus McKinnon Corp",
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": "550.73M",
-      "avg_volume": "686.78K",
-      "beta": "1.36",
-      "recom": "1.50",
-      "earnings": "Jul 30 BMO",
-      "pe": "-",
-      "forward_pe": "7.22",
-      "insider_own": "2.85%",
-      "total_value_usd": 147525.0,
-      "price_usd": 19.08,
-      "price_eur": 16.61,
-      "ek_usd": 19.67,
-      "ek_eur": 17.13,
-      "vs_entry_pct": -3.0,
-      "score": 3,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "32.87%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 32.87% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "125.27%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 125.27% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "pass",
-              "label": "Sales growth 5Y",
-              "value": "12.93%",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y 12.93% (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "warn",
-          "parts": [
-            {
-              "status": "warn",
-              "label": "Debt / Equity",
-              "value": "1.81",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 1.81 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "2",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 2 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "0.37",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.37 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "0.98",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 0.98 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-21.8%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -21.8% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "fail",
-              "label": "RSI (14)",
-              "value": "56.88",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 56.88 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "7.04%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 7.04% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "36.3%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 36.3% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-18.1%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -18.1% (> 0% (profitable))"
-            },
-            {
-              "status": "pass",
-              "label": "Operating margin",
-              "value": "1.44%",
-              "ideal": "> 0%",
-              "text": "Operating margin 1.44% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Linker John R",
-          "title": "EVP, Finance, CFO",
-          "date": "2026-07-31",
-          "delta_own": "New",
-          "ek_usd": 19.67,
-          "value": "+$147,525",
-          "value_usd": 147525.0
-        }
-      ],
-      "last_buy_date": "2026-07-31",
-      "last_filing_date": "2026-08-04 09:24:15",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     }
   ],
   "watchlist": {
@@ -12196,8 +11998,8 @@
       "ticker": "WRAP",
       "date": "2026-07-11 11:35",
       "price_at_alert": 2.46,
-      "price_now": 1.62,
-      "change_pct": -34.1
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "insider",
