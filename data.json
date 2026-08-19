@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-19 23:27 CEST",
-  "count": 42,
+  "generated_at": "2026-08-19 23:46 CEST",
+  "count": 43,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "REFI",
+      "company": "Chicago Atlantic Real Estate Finance, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "market_cap": "271.33M",
+      "avg_volume": "164.62K",
+      "beta": "0.32",
+      "recom": "2.00",
+      "earnings": "Aug 11 BMO",
+      "pe": "7.76",
+      "forward_pe": "5.27",
+      "insider_own": "13.26%",
+      "total_value_usd": 468225.0,
+      "price_usd": 10.59,
+      "price_eur": 9.22,
+      "ek_usd": 10.41,
+      "ek_eur": 9.06,
+      "vs_entry_pct": 1.7,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "2.02%",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M 2.02% (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-7.77%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -7.77% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.47",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.47 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "1",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "4.4",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 4.4 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.75",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.75 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "+54.8%",
+              "ideal": "margin of safety, intrinsic ~$23.44",
+              "text": "Intrinsic value (DCF) +54.8% (margin of safety, intrinsic ~$23.44)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-27.32%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -27.32% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "57.7",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 57.7 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "5.16%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 5.16% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "42.8%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 42.8% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "47.65%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 47.65% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "60.34%",
+              "ideal": "> 0%",
+              "text": "Operating margin 60.34% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Cappell Anthony",
+          "title": "Co-CEO",
+          "date": "2026-08-17",
+          "delta_own": "+11%",
+          "ek_usd": 10.41,
+          "value": "+$468,225",
+          "value_usd": 468225.0
+        }
+      ],
+      "last_buy_date": "2026-08-17",
+      "last_filing_date": "2026-08-19 17:22:57",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "DMLP",
       "company": "Dorchester Minerals, L.P.",
@@ -10761,6 +10959,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "REFI",
+      "date": "2026-08-19 21:42",
+      "price_at_alert": 10.59,
+      "price_now": 10.59,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "DMLP",
