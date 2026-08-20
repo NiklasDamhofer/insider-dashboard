@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-20 03:00 CEST",
-  "count": 43,
+  "generated_at": "2026-08-20 03:19 CEST",
+  "count": 44,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "LBGJ",
+      "company": "Li Bang International Corp Inc.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "market_cap": "1.70M",
+      "avg_volume": "546.72K",
+      "beta": "3.04",
+      "recom": "-",
+      "earnings": "-",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "4.95%",
+      "total_value_usd": 248700.0,
+      "price_usd": 3.15,
+      "price_eur": 2.74,
+      "ek_usd": 3.4,
+      "ek_eur": 2.96,
+      "vs_entry_pct": -7.4,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-73.71%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -73.71% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "33.23%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 33.23% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.32",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.32 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.15",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.15 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.13",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.13 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-99.99%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -99.99% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "31.59",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 31.59 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "0.89%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 0.89% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Upside to target",
+              "value": "n/a",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target n/a (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-3.71%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -3.71% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-7.44%",
+              "ideal": "> 0%",
+              "text": "Operating margin -7.44% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Huang Feng",
+          "title": "CEO",
+          "date": "2026-08-17",
+          "delta_own": ">999%",
+          "ek_usd": 3.4,
+          "value": "+$248,700",
+          "value_usd": 248700.0
+        }
+      ],
+      "last_buy_date": "2026-08-17",
+      "last_filing_date": "2026-08-19 20:59:31",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "REFI",
       "company": "Chicago Atlantic Real Estate Finance, Inc.",
@@ -10959,6 +11157,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "LBGJ",
+      "date": "2026-08-20 01:15",
+      "price_at_alert": 3.15,
+      "price_now": 3.15,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "REFI",
