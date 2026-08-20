@@ -1,8 +1,215 @@
 {
-  "generated_at": "2026-08-21 01:33 CEST",
+  "generated_at": "2026-08-21 01:52 CEST",
   "count": 42,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "RAIN",
+      "company": "Rain Enhancement Technologies Holdco, Inc.",
+      "sector": "Industrials",
+      "industry": "Pollution & Treatment Controls",
+      "market_cap": "10.30M",
+      "avg_volume": "539.41K",
+      "beta": "-0.28",
+      "recom": "-",
+      "earnings": "-",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "81.48%",
+      "total_value_usd": 205174.0,
+      "price_usd": 0.88,
+      "price_eur": 0.77,
+      "ek_usd": 0.95,
+      "ek_eur": 0.83,
+      "vs_entry_pct": -7.4,
+      "score": 1,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-50.28%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -50.28% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Debt / Equity",
+              "value": "n/a",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.03",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.03 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "1030.16",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 1030.16 (< 4, opt. < 2)"
+            },
+            {
+              "status": "na",
+              "label": "Price / Book",
+              "value": "n/a",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book n/a (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-89.67%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -89.67% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "32.83",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 32.83 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "0.84%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 0.84% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Upside to target",
+              "value": "n/a",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target n/a (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-112029%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -112029% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-96339%",
+              "ideal": "> 0%",
+              "text": "Operating margin -96339% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Seidl Randy",
+          "title": "CEO",
+          "date": "2026-08-19",
+          "delta_own": "+17%",
+          "ek_usd": 0.95,
+          "value": "+$104,225",
+          "value_usd": 104225.0
+        },
+        {
+          "name": "Seidl Randy",
+          "title": "CEO",
+          "date": "2026-05-20",
+          "delta_own": "+7%",
+          "ek_usd": 2.37,
+          "value": "+$100,949",
+          "value_usd": 100949.0
+        }
+      ],
+      "last_buy_date": "2026-08-19",
+      "last_filing_date": "2026-08-20 19:38:04",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "IAUX",
       "company": "I-80 Gold Corp.",
@@ -4816,204 +5023,6 @@
       ],
       "last_buy_date": "2026-08-11",
       "last_filing_date": "2026-08-12 21:03:58",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
-    },
-    {
-      "ticker": "RAIN",
-      "company": "Rain Enhancement Technologies Holdco, Inc.",
-      "sector": "Industrials",
-      "industry": "Pollution & Treatment Controls",
-      "market_cap": "10.30M",
-      "avg_volume": "539.41K",
-      "beta": "-0.28",
-      "recom": "-",
-      "earnings": "-",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "81.48%",
-      "total_value_usd": 100949.0,
-      "price_usd": 0.88,
-      "price_eur": 0.77,
-      "ek_usd": 2.37,
-      "ek_eur": 2.06,
-      "vs_entry_pct": -62.9,
-      "score": 1,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-50.28%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -50.28% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "na",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Sales growth Q/Q",
-              "value": "n/a",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Debt / Equity",
-              "value": "n/a",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "fail",
-              "label": "Current / Quick ratio",
-              "value": "0.03",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 0.03 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Price / Sales",
-              "value": "1030.16",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 1030.16 (< 4, opt. < 2)"
-            },
-            {
-              "status": "na",
-              "label": "Price / Book",
-              "value": "n/a",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book n/a (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-89.67%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -89.67% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "32.83",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 32.83 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "0.84%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 0.84% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "na",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Upside to target",
-              "value": "n/a",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target n/a (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-112029%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -112029% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-96339%",
-              "ideal": "> 0%",
-              "text": "Operating margin -96339% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Seidl Randy",
-          "title": "CEO",
-          "date": "2026-05-20",
-          "delta_own": "+7%",
-          "ek_usd": 2.37,
-          "value": "+$100,949",
-          "value_usd": 100949.0
-        }
-      ],
-      "last_buy_date": "2026-05-20",
-      "last_filing_date": "2026-08-12 19:47:03",
       "congress_status": "ok",
       "congress_bought": false,
       "congress_count": 0,
@@ -10752,6 +10761,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "RAIN",
+      "date": "2026-08-20 23:48",
+      "price_at_alert": 0.88,
+      "price_now": 0.88,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "IAUX",
