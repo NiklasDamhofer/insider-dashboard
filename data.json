@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-21 00:35 CEST",
-  "count": 41,
+  "generated_at": "2026-08-21 00:54 CEST",
+  "count": 42,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "IAUX",
+      "company": "I-80 Gold Corp.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "market_cap": "1.52B",
+      "avg_volume": "10.03M",
+      "beta": "1.13",
+      "recom": "1.00",
+      "earnings": "Aug 10 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "9.14%",
+      "total_value_usd": 1620000.0,
+      "price_usd": 1.76,
+      "price_eur": 1.53,
+      "ek_usd": 1.62,
+      "ek_eur": 1.41,
+      "vs_entry_pct": 8.6,
+      "score": 1,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "23.94%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 23.94% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-12.53%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -12.53% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "warn",
+          "parts": [
+            {
+              "status": "warn",
+              "label": "Debt / Equity",
+              "value": "1.73",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 1.73 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "8.63",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 8.63 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "11.72",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 11.72 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "5.91",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 5.91 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-21.43%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -21.43% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "64.35",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 64.35 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "10.66%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 10.66% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "76.7%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 76.7% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-198.82%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -198.82% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-91.93%",
+              "ideal": "> 0%",
+              "text": "Operating margin -91.93% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Young Richard Scott",
+          "title": "Pres, CEO",
+          "date": "2026-08-18",
+          "delta_own": "+19%",
+          "ek_usd": 1.62,
+          "value": "+$1,620,000",
+          "value_usd": 1620000.0
+        }
+      ],
+      "last_buy_date": "2026-08-18",
+      "last_filing_date": "2026-08-20 18:30:51",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "LBGJ",
       "company": "Li Bang International Corp Inc.",
@@ -2028,7 +2226,7 @@
       "earnings": "Aug 11 BMO",
       "pe": "20.04",
       "forward_pe": "14.34",
-      "insider_own": "31.58%",
+      "insider_own": "31.62%",
       "total_value_usd": 1993791.0,
       "price_usd": 29.9,
       "price_eur": 26.03,
@@ -3433,7 +3631,7 @@
       "earnings": "Aug 05 AMC",
       "pe": "9.95",
       "forward_pe": "-",
-      "insider_own": "9.70%",
+      "insider_own": "9.71%",
       "total_value_usd": 533990.0,
       "price_usd": 37.03,
       "price_eur": 32.24,
@@ -4876,7 +5074,7 @@
       "earnings": "Aug 06 BMO",
       "pe": "-",
       "forward_pe": "-",
-      "insider_own": "86.15%",
+      "insider_own": "85.56%",
       "total_value_usd": 401851.0,
       "price_usd": 4.44,
       "price_eur": 3.87,
@@ -5470,7 +5668,7 @@
       "earnings": "Aug 05 BMO",
       "pe": "84.49",
       "forward_pe": "15.49",
-      "insider_own": "27.79%",
+      "insider_own": "29.69%",
       "total_value_usd": 1998973.0,
       "price_usd": 23.1,
       "price_eur": 20.11,
@@ -5668,7 +5866,7 @@
       "earnings": "Aug 04 BMO",
       "pe": "36.80",
       "forward_pe": "9.61",
-      "insider_own": "0.12%",
+      "insider_own": "0.09%",
       "total_value_usd": 1000920.0,
       "price_usd": 27.79,
       "price_eur": 24.2,
@@ -6876,7 +7074,7 @@
       "earnings": "Aug 07 BMO",
       "pe": "16.90",
       "forward_pe": "18.10",
-      "insider_own": "11.77%",
+      "insider_own": "11.78%",
       "total_value_usd": 199630.0,
       "price_usd": 3.8,
       "price_eur": 3.31,
@@ -8254,7 +8452,7 @@
         "recom": "1.62",
         "earnings": "Sep 09 BMO",
         "pe": "-",
-        "forward_pe": "46.53",
+        "forward_pe": "46.55",
         "insider_own": "87.46%",
         "price_usd": 18.51,
         "price_eur": 16.12,
@@ -10554,6 +10752,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "IAUX",
+      "date": "2026-08-20 22:50",
+      "price_at_alert": 1.76,
+      "price_now": 1.76,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "LBGJ",
