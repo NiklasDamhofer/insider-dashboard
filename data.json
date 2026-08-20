@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20 22:39 CEST",
+  "generated_at": "2026-08-20 22:58 CEST",
   "count": 41,
   "eur_rate": 0.8707,
   "records": [
@@ -3827,7 +3827,7 @@
       "market_cap": "24.70B",
       "avg_volume": "3.36M",
       "beta": "0.05",
-      "recom": "1.96",
+      "recom": "2.00",
       "earnings": "Aug 06 AMC",
       "pe": "20.49",
       "forward_pe": "14.94",
@@ -9033,7 +9033,7 @@
         "entry_est_usd": 360.57,
         "entry_est_eur": 313.95,
         "vs_entry_pct": 1.4,
-        "score": 3,
+        "score": 4,
         "total": 6,
         "checks": [
           {
@@ -9151,14 +9151,14 @@
           {
             "n": 7,
             "title": "Analyst target upside",
-            "status": "fail",
+            "status": "pass",
             "parts": [
               {
-                "status": "fail",
+                "status": "pass",
                 "label": "Upside to target",
-                "value": "14.9%",
+                "value": "15%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 14.9% (>= 15%, ideal 20%)"
+                "text": "Upside to target 15% (>= 15%, ideal 20%)"
               }
             ]
           },
