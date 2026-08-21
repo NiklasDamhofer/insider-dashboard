@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-21 22:56 CEST",
-  "count": 41,
+  "generated_at": "2026-08-21 23:17 CEST",
+  "count": 42,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "ALK",
+      "company": "Alaska Air Group, Inc.",
+      "sector": "Industrials",
+      "industry": "Airlines",
+      "market_cap": "4.51B",
+      "avg_volume": "3.10M",
+      "beta": "1.29",
+      "recom": "1.39",
+      "earnings": "Jul 21 AMC",
+      "pe": "-",
+      "forward_pe": "6.88",
+      "insider_own": "0.82%",
+      "total_value_usd": 1001510.0,
+      "price_usd": 40.41,
+      "price_eur": 35.18,
+      "ek_usd": 40.06,
+      "ek_eur": 34.88,
+      "vs_entry_pct": 0.9,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-9.7%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -9.7% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "9.75%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 9.75% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Debt / Equity",
+              "value": "2.08",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 2.08 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.55",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.55 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.31",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.31 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.23",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.23 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-38.66%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -38.66% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "32.47",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 32.47 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "9.7%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 9.7% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "54.9%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 54.9% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-1.19%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -1.19% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-0.32%",
+              "ideal": "> 0%",
+              "text": "Operating margin -0.32% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Minicucci Benito",
+          "title": "CEO, Pres",
+          "date": "2026-08-20",
+          "delta_own": "+11%",
+          "ek_usd": 40.06,
+          "value": "+$1,001,510",
+          "value_usd": 1001510.0
+        }
+      ],
+      "last_buy_date": "2026-08-20",
+      "last_filing_date": "2026-08-21 16:59:34",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "KEEL",
       "company": "Keel Infrastructure Corp.",
@@ -10588,6 +10786,14 @@
     ]
   },
   "alerts": [
+    {
+      "type": "insider",
+      "ticker": "ALK",
+      "date": "2026-08-21 21:11",
+      "price_at_alert": 40.41,
+      "price_now": 40.41,
+      "change_pct": 0.0
+    },
     {
       "type": "insider",
       "ticker": "KEEL",
