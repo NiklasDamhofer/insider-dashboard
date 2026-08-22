@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22 05:24 CEST",
+  "generated_at": "2026-08-22 05:44 CEST",
   "count": 42,
   "eur_rate": 0.8707,
   "records": [
@@ -420,7 +420,7 @@
       "earnings": "-",
       "pe": "-",
       "forward_pe": "-",
-      "insider_own": "81.48%",
+      "insider_own": "69.91%",
       "total_value_usd": 309399.0,
       "price_usd": 0.85,
       "price_eur": 0.74,
@@ -1626,7 +1626,7 @@
       "earnings": "Apr 27 BMO",
       "pe": "-",
       "forward_pe": "-",
-      "insider_own": "48.79%",
+      "insider_own": "75.58%",
       "total_value_usd": 7950009.0,
       "price_usd": 24.33,
       "price_eur": 21.18,
@@ -2046,7 +2046,7 @@
       "earnings": "Aug 04 AMC",
       "pe": "-",
       "forward_pe": "-",
-      "insider_own": "53.52%",
+      "insider_own": "53.88%",
       "total_value_usd": 250012.0,
       "price_usd": 4.31,
       "price_eur": 3.75,
@@ -2649,7 +2649,7 @@
       "earnings": "Aug 10 AMC",
       "pe": "147.61",
       "forward_pe": "14.26",
-      "insider_own": "3.91%",
+      "insider_own": "4.24%",
       "total_value_usd": 800090.0,
       "price_usd": 124.76,
       "price_eur": 108.63,
@@ -7086,7 +7086,7 @@
       "beta": "1.47",
       "recom": "1.43",
       "earnings": "Aug 04 BMO",
-      "pe": "28.54",
+      "pe": "45.80",
       "forward_pe": "7.40",
       "insider_own": "1.52%",
       "total_value_usd": 2502684.0,
@@ -7095,7 +7095,7 @@
       "ek_usd": 48.89,
       "ek_eur": 42.57,
       "vs_entry_pct": -1.2,
-      "score": 6,
+      "score": 5,
       "total": 6,
       "financial": false,
       "checks": [
@@ -7116,14 +7116,14 @@
         {
           "n": 2,
           "title": "Fundamental growth",
-          "status": "pass",
+          "status": "fail",
           "parts": [
             {
-              "status": "pass",
+              "status": "fail",
               "label": "Sales growth Q/Q",
-              "value": "5.41%",
+              "value": "-37.14%",
               "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 5.41% (> 0%, ideal 10-15%)"
+              "text": "Sales growth Q/Q -37.14% (> 0%, ideal 10-15%)"
             },
             {
               "status": "pass",
@@ -7142,16 +7142,16 @@
             {
               "status": "pass",
               "label": "Debt / Equity",
-              "value": "1.07",
+              "value": "0.65",
               "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 1.07 (< 1.5 (max 2.0))"
+              "text": "Debt / Equity 0.65 (< 1.5 (max 2.0))"
             },
             {
               "status": "pass",
               "label": "Current / Quick ratio",
-              "value": "2.11",
+              "value": "2.02",
               "ideal": "> 1.0",
-              "text": "Current / Quick ratio 2.11 (> 1.0)"
+              "text": "Current / Quick ratio 2.02 (> 1.0)"
             }
           ]
         },
@@ -7163,23 +7163,23 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "0.49",
+              "value": "0.54",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.49 (< 4, opt. < 2)"
+              "text": "Price / Sales 0.54 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
               "label": "Price / Book",
-              "value": "1.11",
+              "value": "1.15",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 1.11 (< 3, opt. < 1.5)"
+              "text": "Price / Book 1.15 (< 3, opt. < 1.5)"
             },
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "-70.4%",
-              "ideal": "margin of safety, intrinsic ~$28.34",
-              "text": "Intrinsic value (DCF) -70.4% (margin of safety, intrinsic ~$28.34)"
+              "value": "-174.2%",
+              "ideal": "margin of safety, intrinsic ~$17.61",
+              "text": "Intrinsic value (DCF) -174.2% (margin of safety, intrinsic ~$17.61)"
             }
           ]
         },
@@ -7240,16 +7240,16 @@
             {
               "status": "pass",
               "label": "Net margin",
-              "value": "1.77%",
+              "value": "1.17%",
               "ideal": "> 0% (profitable)",
-              "text": "Net margin 1.77% (> 0% (profitable))"
+              "text": "Net margin 1.17% (> 0% (profitable))"
             },
             {
               "status": "pass",
               "label": "Operating margin",
-              "value": "9.49%",
+              "value": "9.65%",
               "ideal": "> 0%",
-              "text": "Operating margin 9.49% (> 0%)"
+              "text": "Operating margin 9.65% (> 0%)"
             }
           ]
         }
