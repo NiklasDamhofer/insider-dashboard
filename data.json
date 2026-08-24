@@ -1,8 +1,215 @@
 {
-  "generated_at": "2026-08-24 23:22 CEST",
+  "generated_at": "2026-08-24 23:42 CEST",
   "count": 41,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "KURA",
+      "company": "Kura Oncology, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": "1.10B",
+      "avg_volume": "1.77M",
+      "beta": "0.42",
+      "recom": "1.20",
+      "earnings": "Aug 12 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "2.87%",
+      "total_value_usd": 2351000.0,
+      "price_usd": 12.4,
+      "price_eur": 10.8,
+      "ek_usd": 12.39,
+      "ek_eur": 10.79,
+      "vs_entry_pct": 0.1,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "19.35%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 19.35% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "36.54%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 36.54% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.5",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.5 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "4.73",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 4.73 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Price / Sales",
+              "value": "14.29",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 14.29 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "22.78",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 22.78 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Distance from 52W high",
+              "value": "-3.88%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -3.88% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "67.4",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 67.4 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "15.23%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 15.23% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "158.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 158.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-384.3%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -384.3% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-411.9%",
+              "ideal": "> 0%",
+              "text": "Operating margin -411.9% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Wilson Troy Edward",
+          "title": "Pres, CEO",
+          "date": "2026-08-24",
+          "delta_own": "+9%",
+          "ek_usd": 12.39,
+          "value": "+$1,239,000",
+          "value_usd": 1239000.0
+        },
+        {
+          "name": "Wilson Troy Edward",
+          "title": "Pres, CEO",
+          "date": "2026-08-17",
+          "delta_own": "+10%",
+          "ek_usd": 11.12,
+          "value": "+$1,112,000",
+          "value_usd": 1112000.0
+        }
+      ],
+      "last_buy_date": "2026-08-24",
+      "last_filing_date": "2026-08-24 17:30:03",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "VERI",
       "company": "Veritone, Inc.",
@@ -2830,204 +3037,6 @@
       ],
       "last_buy_date": "2026-08-14",
       "last_filing_date": "2026-08-17 17:10:12",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
-    },
-    {
-      "ticker": "KURA",
-      "company": "Kura Oncology, Inc.",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": "1.10B",
-      "avg_volume": "1.77M",
-      "beta": "0.42",
-      "recom": "1.20",
-      "earnings": "Aug 12 AMC",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "2.87%",
-      "total_value_usd": 1112000.0,
-      "price_usd": 12.4,
-      "price_eur": 10.8,
-      "ek_usd": 11.12,
-      "ek_eur": 9.68,
-      "vs_entry_pct": 11.5,
-      "score": 3,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "19.35%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 19.35% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "36.54%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 36.54% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.5",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.5 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "4.73",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 4.73 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Price / Sales",
-              "value": "14.29",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 14.29 (< 4, opt. < 2)"
-            },
-            {
-              "status": "fail",
-              "label": "Price / Book",
-              "value": "22.78",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 22.78 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Distance from 52W high",
-              "value": "-3.88%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -3.88% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "fail",
-              "label": "RSI (14)",
-              "value": "67.4",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 67.4 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "15.23%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 15.23% (> 10% especially interesting \ud83d\udd25)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "158.1%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 158.1% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-384.3%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -384.3% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-411.9%",
-              "ideal": "> 0%",
-              "text": "Operating margin -411.9% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Wilson Troy Edward",
-          "title": "Pres, CEO",
-          "date": "2026-08-17",
-          "delta_own": "+10%",
-          "ek_usd": 11.12,
-          "value": "+$1,112,000",
-          "value_usd": 1112000.0
-        }
-      ],
-      "last_buy_date": "2026-08-17",
-      "last_filing_date": "2026-08-17 16:45:03",
       "congress_status": "ok",
       "congress_bought": false,
       "congress_count": 0,
@@ -12120,6 +12129,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "KURA",
+      "date": "2026-08-24 21:37",
+      "price_at_alert": 12.4,
+      "price_now": 12.4,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "VERI",
       "date": "2026-08-24 20:37",
       "price_at_alert": 0.86,
@@ -12907,14 +12924,6 @@
       "ticker": "WFC",
       "date": "2026-08-22 10:26",
       "price_at_alert": 83.84,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "COST",
-      "date": "2026-08-22 10:26",
-      "price_at_alert": 947.74,
       "price_now": null,
       "change_pct": null
     }
