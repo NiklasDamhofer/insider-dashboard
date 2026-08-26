@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-26 23:52 CEST",
-  "count": 35,
+  "generated_at": "2026-08-27 00:14 CEST",
+  "count": 36,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "OPLN",
+      "company": "Openlane, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto & Truck Dealerships",
+      "market_cap": "4.25B",
+      "avg_volume": "1.21M",
+      "beta": "1.26",
+      "recom": "1.67",
+      "earnings": "Aug 04 BMO",
+      "pe": "-",
+      "forward_pe": "20.02",
+      "insider_own": "9.08%",
+      "total_value_usd": 499999.0,
+      "price_usd": 34.65,
+      "price_eur": 30.17,
+      "ek_usd": 33.72,
+      "ek_eur": 29.36,
+      "vs_entry_pct": 2.8,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-14.11%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -14.11% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "15.13%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 15.13% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "warn",
+          "parts": [
+            {
+              "status": "warn",
+              "label": "Debt / Equity",
+              "value": "1.57",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 1.57 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.17",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.17 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "2.05",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 2.05 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "2.71",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 2.71 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-19.23%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -19.23% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "39.38",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 39.38 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "1.98%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 1.98% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "33.4%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 33.4% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-4.11%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -4.11% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "16.96%",
+              "ideal": "> 0%",
+              "text": "Operating margin 16.96% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Kelly Peter J",
+          "title": "CEO",
+          "date": "2026-08-24",
+          "delta_own": "New",
+          "ek_usd": 33.72,
+          "value": "+$499,999",
+          "value_usd": 499999.0
+        }
+      ],
+      "last_buy_date": "2026-08-24",
+      "last_filing_date": "2026-08-26 17:52:16",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "LDI",
       "company": "Loandepot, Inc.",
@@ -11321,6 +11519,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "OPLN",
+      "date": "2026-08-26 22:09",
+      "price_at_alert": 34.65,
+      "price_now": 34.65,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "LDI",
       "date": "2026-08-26 20:49",
       "price_at_alert": 0.88,
@@ -12108,14 +12314,6 @@
       "ticker": "ISRG",
       "date": "2026-08-24 20:03",
       "price_at_alert": 373.57,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "PGR",
-      "date": "2026-08-24 20:03",
-      "price_at_alert": 223.93,
       "price_now": null,
       "change_pct": null
     }
