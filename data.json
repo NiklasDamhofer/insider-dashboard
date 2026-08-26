@@ -1,8 +1,199 @@
 {
-  "generated_at": "2026-08-26 22:34 CEST",
-  "count": 34,
+  "generated_at": "2026-08-26 22:53 CEST",
+  "count": 35,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "LDI",
+      "company": "Loandepot, Inc.",
+      "sector": "Financial",
+      "industry": "Mortgage Finance",
+      "market_cap": "298.32M",
+      "avg_volume": "2.15M",
+      "beta": "3.11",
+      "recom": "3.75",
+      "earnings": "Aug 04 AMC",
+      "pe": "-",
+      "forward_pe": "17.64",
+      "insider_own": "52.47%",
+      "total_value_usd": 430861.0,
+      "price_usd": 0.88,
+      "price_eur": 0.77,
+      "ek_usd": 0.91,
+      "ek_eur": 0.79,
+      "vs_entry_pct": -3.3,
+      "score": 4,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-14.35%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -14.35% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "14.36%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 14.36% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Health rating",
+              "value": "\ud83d\udd34 red",
+              "ideal": "ROE -29.33%, Margin -5.49%, LT Debt/Eq 11.16",
+              "text": "Health rating \ud83d\udd34 red (ROE -29.33%, Margin -5.49%, LT Debt/Eq 11.16)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.24",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.24 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.02",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.02 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-82.57%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -82.57% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "41.03",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 41.03 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "16.38%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 16.38% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "27.3%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 27.3% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-5.49%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -5.49% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "17.45%",
+              "ideal": "> 0%",
+              "text": "Operating margin 17.45% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Hsieh Anthony Li",
+          "title": "Exec Chair, CEO, Pres, 10%",
+          "date": "2026-08-24",
+          "delta_own": "+217%",
+          "ek_usd": 0.91,
+          "value": "+$430,861",
+          "value_usd": 430861.0
+        }
+      ],
+      "last_buy_date": "2026-08-24",
+      "last_filing_date": "2026-08-26 16:30:20",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "JUSH",
       "company": "Jushi Holdings Inc.",
@@ -11130,6 +11321,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "LDI",
+      "date": "2026-08-26 20:49",
+      "price_at_alert": 0.88,
+      "price_now": 0.88,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "JUSH",
       "date": "2026-08-26 20:10",
       "price_at_alert": null,
@@ -11917,14 +12116,6 @@
       "ticker": "PGR",
       "date": "2026-08-24 20:03",
       "price_at_alert": 223.93,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "CNP",
-      "date": "2026-08-24 20:02",
-      "price_at_alert": 39.12,
       "price_now": null,
       "change_pct": null
     }
