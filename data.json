@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-08-26 02:45 CEST",
-  "count": 37,
+  "generated_at": "2026-08-26 03:04 CEST",
+  "count": 38,
   "eur_rate": 0.8707,
   "records": [
+    {
+      "ticker": "TTMI",
+      "company": "Ttm Technologies Inc",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": "11.83B",
+      "avg_volume": "2.98M",
+      "beta": "2.15",
+      "recom": "1.17",
+      "earnings": "Aug 05 AMC",
+      "pe": "50.69",
+      "forward_pe": "16.24",
+      "insider_own": "2.30%",
+      "total_value_usd": 1117700.0,
+      "price_usd": 112.3,
+      "price_eur": 97.78,
+      "ek_usd": 111.77,
+      "ek_eur": 97.32,
+      "vs_entry_pct": 0.5,
+      "score": 5,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-9.22%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -9.22% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "37.42%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 37.42% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "pass",
+              "label": "Sales growth 5Y",
+              "value": "6.66%",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y 6.66% (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.57",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.57 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.78",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.78 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "3.5",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 3.5 (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "6.12",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 6.12 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "-90.9%",
+              "ideal": "margin of safety, intrinsic ~$58.84",
+              "text": "Intrinsic value (DCF) -90.9% (margin of safety, intrinsic ~$58.84)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-49.83%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -49.83% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "37.88",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 37.88 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "2.83%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 2.83% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "83.8%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 83.8% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "7.01%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 7.01% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "9.96%",
+              "ideal": "> 0%",
+              "text": "Operating margin 9.96% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Roks Edwin",
+          "title": "Pres, CEO",
+          "date": "2026-08-25",
+          "delta_own": "+18%",
+          "ek_usd": 111.77,
+          "value": "+$1,117,700",
+          "value_usd": 1117700.0
+        }
+      ],
+      "last_buy_date": "2026-08-25",
+      "last_filing_date": "2026-08-25 20:42:01",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "TISI",
       "company": "Team Inc",
@@ -11741,6 +11939,14 @@
   },
   "alerts": [
     {
+      "type": "insider",
+      "ticker": "TTMI",
+      "date": "2026-08-26 01:00",
+      "price_at_alert": 112.3,
+      "price_now": 112.3,
+      "change_pct": 0.0
+    },
+    {
       "type": "politician",
       "ticker": "INTC",
       "date": "2026-08-25 20:03",
@@ -12531,14 +12737,6 @@
       "price_at_alert": 263.26,
       "price_now": 264.04,
       "change_pct": 0.3
-    },
-    {
-      "type": "politician",
-      "ticker": "AME",
-      "date": "2026-08-24 20:02",
-      "price_at_alert": 242.4,
-      "price_now": 241.77,
-      "change_pct": -0.3
     }
   ]
 }
