@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28 05:45 CEST",
-  "count": 32,
+  "generated_at": "2026-08-28 06:04 CEST",
+  "count": 30,
   "eur_rate": 0.85697,
   "records": [
     {
@@ -2644,7 +2644,7 @@
       "pe": "-",
       "forward_pe": "-",
       "insider_own": "0.44%",
-      "total_value_usd": 325594.0,
+      "total_value_usd": 129497.0,
       "price_usd": 3.51,
       "price_eur": 3.01,
       "ek_usd": 3.33,
@@ -2820,15 +2820,6 @@
           "ek_usd": 3.33,
           "value": "+$129,497",
           "value_usd": 129497.0
-        },
-        {
-          "name": "Gagnon Benjamin",
-          "title": "CEO",
-          "date": "2026-08-13",
-          "delta_own": "+5%",
-          "ek_usd": 3.33,
-          "value": "+$196,097",
-          "value_usd": 196097.0
         }
       ],
       "last_buy_date": "2026-08-21",
@@ -4468,7 +4459,7 @@
       "pe": "-",
       "forward_pe": "-",
       "insider_own": "53.88%",
-      "total_value_usd": 250012.0,
+      "total_value_usd": 125005.0,
       "price_usd": 4.48,
       "price_eur": 3.84,
       "ek_usd": 4.28,
@@ -4644,15 +4635,6 @@
           "ek_usd": 4.28,
           "value": "+$125,005",
           "value_usd": 125005.0
-        },
-        {
-          "name": "Harmon Neal",
-          "title": "CEO",
-          "date": "2026-08-13",
-          "delta_own": "+110%",
-          "ek_usd": 4.31,
-          "value": "+$125,007",
-          "value_usd": 125007.0
         }
       ],
       "last_buy_date": "2026-08-14",
@@ -5845,433 +5827,6 @@
       ],
       "last_buy_date": "2026-08-14",
       "last_filing_date": "2026-08-17 06:01:30",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
-    },
-    {
-      "ticker": "INTC",
-      "company": "Intel Corp",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": "483.89B",
-      "avg_volume": "118.25M",
-      "beta": "2.23",
-      "recom": "2.43",
-      "earnings": "Jul 23 AMC",
-      "pe": "-",
-      "forward_pe": "44.51",
-      "insider_own": "14.73%",
-      "total_value_usd": 9999985.0,
-      "price_usd": 92.09,
-      "price_eur": 78.92,
-      "ek_usd": 95.0,
-      "ek_eur": 81.41,
-      "vs_entry_pct": -3.1,
-      "score": 4,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "12.47%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 12.47% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "25.42%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 25.42% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.58",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.58 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "1.6",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 1.6 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Price / Sales",
-              "value": "8.48",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 8.48 (< 4, opt. < 2)"
-            },
-            {
-              "status": "fail",
-              "label": "Price / Book",
-              "value": "5.3",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 5.3 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-35.31%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -35.31% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "44.28",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 44.28 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "3.03%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 3.03% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "31.7%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 31.7% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-19.79%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -19.79% (> 0% (profitable))"
-            },
-            {
-              "status": "pass",
-              "label": "Operating margin",
-              "value": "8.03%",
-              "ideal": "> 0%",
-              "text": "Operating margin 8.03% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Tan Lip Bu",
-          "title": "CEO",
-          "date": "2026-08-11",
-          "delta_own": "+9%",
-          "ek_usd": 95.0,
-          "value": "+$9,999,985",
-          "value_usd": 9999985.0
-        }
-      ],
-      "last_buy_date": "2026-08-11",
-      "last_filing_date": "2026-08-14 16:27:15",
-      "congress_status": "ok",
-      "congress_bought": true,
-      "congress_count": 5,
-      "congress_matches": [
-        {
-          "politician": "Nancy Pelosi",
-          "date": "2026-07-24",
-          "chamber": "House",
-          "amount": "$250,001 - $500,000"
-        },
-        {
-          "politician": "Nancy Pelosi",
-          "date": "2026-07-24",
-          "chamber": "House",
-          "amount": "$500,001 - $1,000,000"
-        },
-        {
-          "politician": "Nancy Pelosi",
-          "date": "2026-05-29",
-          "chamber": "House",
-          "amount": "$1,000,001 - $5,000,000"
-        },
-        {
-          "politician": "Rohit Khanna",
-          "date": "2026-04-24",
-          "chamber": "House",
-          "amount": "$1,001 - $15,000"
-        },
-        {
-          "politician": "Alan Armstrong",
-          "date": "2026-03-27",
-          "chamber": "Senate",
-          "amount": "$1,001 - $15,000"
-        }
-      ]
-    },
-    {
-      "ticker": "ABCL",
-      "company": "Abcellera Biologics Inc.",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": "4.02B",
-      "avg_volume": "7.98M",
-      "beta": "1.33",
-      "recom": "1.00",
-      "earnings": "Aug 05 AMC",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "23.07%",
-      "total_value_usd": 383904.0,
-      "price_usd": 12.4,
-      "price_eur": 10.63,
-      "ek_usd": 10.32,
-      "ek_eur": 8.84,
-      "vs_entry_pct": 20.2,
-      "score": 2,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "130.06%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 130.06% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Sales growth Q/Q",
-              "value": "-76.29%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q -76.29% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.15",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.15 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "12.77",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 12.77 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Price / Sales",
-              "value": "60.73",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 60.73 (< 4, opt. < 2)"
-            },
-            {
-              "status": "fail",
-              "label": "Price / Book",
-              "value": "4.24",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 4.24 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Distance from 52W high",
-              "value": "-0.8%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -0.8% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "fail",
-              "label": "RSI (14)",
-              "value": "72.01",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 72.01 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "16.58%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 16.58% (> 10% especially interesting \ud83d\udd25)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "38.1%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 38.1% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-248.83%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -248.83% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-340.25%",
-              "ideal": "> 0%",
-              "text": "Operating margin -340.25% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Booth Andrew",
-          "title": "CFO",
-          "date": "2026-08-14",
-          "delta_own": "+6%",
-          "ek_usd": 10.32,
-          "value": "+$383,904",
-          "value_usd": 383904.0
-        }
-      ],
-      "last_buy_date": "2026-08-14",
-      "last_filing_date": "2026-08-14 12:04:25",
       "congress_status": "ok",
       "congress_bought": false,
       "congress_count": 0,
@@ -9577,7 +9132,7 @@
         "market_cap": "206.43B",
         "avg_volume": "14.82M",
         "beta": "1.16",
-        "recom": "1.70",
+        "recom": "1.72",
         "earnings": "Aug 26 AMC",
         "pe": "22.97",
         "forward_pe": "15.81",
@@ -9717,9 +9272,9 @@
               {
                 "status": "fail",
                 "label": "Upside to target",
-                "value": "3.2%",
+                "value": "3.5%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 3.2% (>= 15%, ideal 20%)"
+                "text": "Upside to target 3.5% (>= 15%, ideal 20%)"
               }
             ]
           },
