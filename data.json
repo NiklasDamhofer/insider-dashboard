@@ -1,8 +1,199 @@
 {
-  "generated_at": "2026-08-31 22:42 CEST",
-  "count": 23,
+  "generated_at": "2026-08-31 23:01 CEST",
+  "count": 24,
   "eur_rate": 0.85697,
   "records": [
+    {
+      "ticker": "BLNE",
+      "company": "Beeline Holdings, Inc.",
+      "sector": "Financial",
+      "industry": "Mortgage Finance",
+      "market_cap": "32.76M",
+      "avg_volume": "398.49K",
+      "beta": "1.32",
+      "recom": "1.00",
+      "earnings": "Aug 13 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "22.22%",
+      "total_value_usd": 261881.0,
+      "price_usd": 1.0,
+      "price_eur": 0.86,
+      "ek_usd": 0.98,
+      "ek_eur": 0.84,
+      "vs_entry_pct": 2.0,
+      "score": 3,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "13.53%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 13.53% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "52.88%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 52.88% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Health rating",
+              "value": "\ud83d\udd34 red",
+              "ideal": "ROE -40.4%, Margin -220.62%, LT Debt/Eq 0",
+              "text": "Health rating \ud83d\udd34 red (ROE -40.4%, Margin -220.62%, LT Debt/Eq 0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "3.27",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 3.27 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.65",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.65 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-78.49%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -78.49% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "46.61",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 46.61 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "6.67%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 6.67% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "350%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 350% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-220.62%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -220.62% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-205.02%",
+              "ideal": "> 0%",
+              "text": "Operating margin -205.02% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Liuzza Nicholas Reyland Jr",
+          "title": "CEO, 10%",
+          "date": "2026-08-25",
+          "delta_own": "+6%",
+          "ek_usd": 0.98,
+          "value": "+$261,881",
+          "value_usd": 261881.0
+        }
+      ],
+      "last_buy_date": "2026-08-25",
+      "last_filing_date": "2026-08-31 16:46:52",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "PETZ",
       "company": "Tdh Holdings, Inc.",
@@ -8869,6 +9060,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "BLNE",
+      "date": "2026-08-31 20:57",
+      "price_at_alert": 1.0,
+      "price_now": 1.0,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "PETZ",
       "date": "2026-08-31 20:19",
       "price_at_alert": 1.15,
@@ -9656,14 +9855,6 @@
       "ticker": "LII",
       "date": "2026-08-24 20:05",
       "price_at_alert": 399.12,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "KR",
-      "date": "2026-08-24 20:04",
-      "price_at_alert": 59.07,
       "price_now": null,
       "change_pct": null
     }
