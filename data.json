@@ -1,8 +1,217 @@
 {
-  "generated_at": "2026-09-02 22:44 CEST",
+  "generated_at": "2026-09-02 23:06 CEST",
   "count": 23,
   "eur_rate": 0.86281,
   "records": [
+    {
+      "ticker": "LDI",
+      "company": "Loandepot, Inc.",
+      "sector": "Financial",
+      "industry": "Mortgage Finance",
+      "market_cap": "305.15M",
+      "avg_volume": "2.39M",
+      "beta": "3.11",
+      "recom": "3.75",
+      "earnings": "Aug 04 AMC",
+      "pe": "-",
+      "forward_pe": "18.05",
+      "insider_own": "52.81%",
+      "total_value_usd": 912709.0,
+      "price_usd": 0.9,
+      "price_eur": 0.78,
+      "ek_usd": 0.94,
+      "ek_eur": 0.81,
+      "vs_entry_pct": -4.3,
+      "score": 4,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-14.06%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -14.06% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "14.36%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 14.36% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Health rating",
+              "value": "\ud83d\udd34 red",
+              "ideal": "ROE -29.33%, Margin -5.49%, LT Debt/Eq 11.16",
+              "text": "Health rating \ud83d\udd34 red (ROE -29.33%, Margin -5.49%, LT Debt/Eq 11.16)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.24",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.24 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.04",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.04 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-82.18%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -82.18% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "44.69",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 44.69 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "16.51%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 16.51% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "24.4%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 24.4% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-5.49%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -5.49% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "17.45%",
+              "ideal": "> 0%",
+              "text": "Operating margin 17.45% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Hsieh Anthony Li",
+          "title": "Exec Chair, CEO, Pres, 10%",
+          "date": "2026-08-31",
+          "delta_own": "+20%",
+          "ek_usd": 0.94,
+          "value": "+$192,578",
+          "value_usd": 192578.0
+        },
+        {
+          "name": "Hsieh Anthony Li",
+          "title": "Exec Chair, CEO, Pres, 10%",
+          "date": "2026-08-26",
+          "delta_own": "+47%",
+          "ek_usd": 0.9,
+          "value": "+$289,270",
+          "value_usd": 289270.0
+        },
+        {
+          "name": "Hsieh Anthony Li",
+          "title": "Exec Chair, CEO, Pres, 10%",
+          "date": "2026-08-24",
+          "delta_own": "+217%",
+          "ek_usd": 0.91,
+          "value": "+$430,861",
+          "value_usd": 430861.0
+        }
+      ],
+      "last_buy_date": "2026-08-31",
+      "last_filing_date": "2026-09-02 16:40:09",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "OPAL",
       "company": "Opal Fuels Inc.",
@@ -1217,206 +1426,6 @@
       ],
       "last_buy_date": "2026-08-26",
       "last_filing_date": "2026-08-28 07:54:00",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
-    },
-    {
-      "ticker": "LDI",
-      "company": "Loandepot, Inc.",
-      "sector": "Financial",
-      "industry": "Mortgage Finance",
-      "market_cap": "305.15M",
-      "avg_volume": "2.39M",
-      "beta": "3.11",
-      "recom": "3.75",
-      "earnings": "Aug 04 AMC",
-      "pe": "-",
-      "forward_pe": "18.05",
-      "insider_own": "52.81%",
-      "total_value_usd": 720131.0,
-      "price_usd": 0.9,
-      "price_eur": 0.78,
-      "ek_usd": 0.9,
-      "ek_eur": 0.78,
-      "vs_entry_pct": 0.0,
-      "score": 4,
-      "total": 6,
-      "financial": true,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-14.06%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -14.06% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "14.36%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 14.36% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health (bank)",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Health rating",
-              "value": "\ud83d\udd34 red",
-              "ideal": "ROE -29.33%, Margin -5.49%, LT Debt/Eq 11.16",
-              "text": "Health rating \ud83d\udd34 red (ROE -29.33%, Margin -5.49%, LT Debt/Eq 11.16)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "0.24",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.24 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "1.04",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 1.04 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-82.18%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -82.18% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "44.69",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 44.69 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "16.51%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 16.51% (> 10% especially interesting \ud83d\udd25)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "24.4%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 24.4% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-5.49%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -5.49% (> 0% (profitable))"
-            },
-            {
-              "status": "pass",
-              "label": "Operating margin",
-              "value": "17.45%",
-              "ideal": "> 0%",
-              "text": "Operating margin 17.45% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Hsieh Anthony Li",
-          "title": "Exec Chair, CEO, Pres, 10%",
-          "date": "2026-08-26",
-          "delta_own": "+47%",
-          "ek_usd": 0.9,
-          "value": "+$289,270",
-          "value_usd": 289270.0
-        },
-        {
-          "name": "Hsieh Anthony Li",
-          "title": "Exec Chair, CEO, Pres, 10%",
-          "date": "2026-08-24",
-          "delta_own": "+217%",
-          "ek_usd": 0.91,
-          "value": "+$430,861",
-          "value_usd": 430861.0
-        }
-      ],
-      "last_buy_date": "2026-08-26",
-      "last_filing_date": "2026-08-27 18:40:34",
       "congress_status": "ok",
       "congress_bought": false,
       "congress_count": 0,
@@ -8855,6 +8864,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "LDI",
+      "date": "2026-09-02 21:00",
+      "price_at_alert": 0.9,
+      "price_now": 0.9,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "OPAL",
       "date": "2026-09-02 20:39",
       "price_at_alert": 1.99,
@@ -9642,14 +9659,6 @@
       "ticker": "F",
       "date": "2026-08-24 20:06",
       "price_at_alert": 13.92,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "QCOM",
-      "date": "2026-08-24 20:06",
-      "price_at_alert": 158.53,
       "price_now": null,
       "change_pct": null
     }
