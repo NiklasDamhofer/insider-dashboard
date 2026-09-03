@@ -1,8 +1,199 @@
 {
-  "generated_at": "2026-09-03 23:04 CEST",
-  "count": 22,
+  "generated_at": "2026-09-03 23:23 CEST",
+  "count": 23,
   "eur_rate": 0.86281,
   "records": [
+    {
+      "ticker": "AVBC",
+      "company": "Avidia Bancorp, Inc.",
+      "sector": "Financial",
+      "industry": "Banks - Regional",
+      "market_cap": "440.34M",
+      "avg_volume": "147.19K",
+      "beta": "-0.47",
+      "recom": "1.00",
+      "earnings": "Jul 23 AMC",
+      "pe": "23.26",
+      "forward_pe": "14.90",
+      "insider_own": "11.46%",
+      "total_value_usd": 99855.0,
+      "price_usd": 22.05,
+      "price_eur": 19.02,
+      "ek_usd": 22.19,
+      "ek_eur": 19.15,
+      "vs_entry_pct": -0.6,
+      "score": 3,
+      "total": 6,
+      "financial": true,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "1.43%",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M 1.43% (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "5.48%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 5.48% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health (bank)",
+          "status": "warn",
+          "parts": [
+            {
+              "status": "warn",
+              "label": "Health rating",
+              "value": "\ud83d\udfe1 yellow",
+              "ideal": "ROE 6.06%, Margin 11.51%, LT Debt/Eq 0.08",
+              "text": "Health rating \ud83d\udfe1 yellow (ROE 6.06%, Margin 11.51%, LT Debt/Eq 0.08)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "2.88",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 2.88 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.14",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.14 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "-64.2%",
+              "ideal": "margin of safety, intrinsic ~$13.43",
+              "text": "Intrinsic value (DCF) -64.2% (margin of safety, intrinsic ~$13.43)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Distance from 52W high",
+              "value": "-3.71%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -3.71% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "54.27",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 54.27 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "2.34%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 2.34% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "13.4%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 13.4% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "11.51%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 11.51% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "15.34%",
+              "ideal": "> 0%",
+              "text": "Operating margin 15.34% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Nelson Jonathan Michael",
+          "title": "CFO, Treasurer",
+          "date": "2026-09-03",
+          "delta_own": "+12%",
+          "ek_usd": 22.19,
+          "value": "+$99,855",
+          "value_usd": 99855.0
+        }
+      ],
+      "last_buy_date": "2026-09-03",
+      "last_filing_date": "2026-09-03 17:10:24",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "LDI",
       "company": "Loandepot, Inc.",
@@ -8657,6 +8848,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "AVBC",
+      "date": "2026-09-03 21:19",
+      "price_at_alert": 22.05,
+      "price_now": 22.05,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "LDI",
       "date": "2026-09-02 21:00",
       "price_at_alert": 0.9,
@@ -9444,14 +9643,6 @@
       "ticker": "TTWO",
       "date": "2026-08-24 20:06",
       "price_at_alert": 233.5,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "F",
-      "date": "2026-08-24 20:06",
-      "price_at_alert": 13.92,
       "price_now": null,
       "change_pct": null
     }
