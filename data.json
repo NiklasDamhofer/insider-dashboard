@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-05 02:57 CEST",
-  "count": 20,
+  "generated_at": "2026-09-05 03:16 CEST",
+  "count": 21,
   "eur_rate": 0.86281,
   "records": [
+    {
+      "ticker": "ENOV",
+      "company": "Enovis Corp",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": "1.07B",
+      "avg_volume": "1.20M",
+      "beta": "1.13",
+      "recom": "1.23",
+      "earnings": "Aug 06 BMO",
+      "pe": "-",
+      "forward_pe": "5.03",
+      "insider_own": "2.44%",
+      "total_value_usd": 249620.0,
+      "price_usd": 18.56,
+      "price_eur": 16.01,
+      "ek_usd": 19.15,
+      "ek_eur": 16.52,
+      "vs_entry_pct": -3.1,
+      "score": 5,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-29.46%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -29.46% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "3.23%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 3.23% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.93",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.93 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.98",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.98 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.47",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.47 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.72",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.72 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-45.86%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -45.86% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "25.54",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 25.54 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "15.49%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 15.49% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "106.5%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 106.5% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-47.9%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -47.9% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "3.41%",
+              "ideal": "> 0%",
+              "text": "Operating margin 3.41% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "McDonald Damien",
+          "title": "CEO",
+          "date": "2026-09-04",
+          "delta_own": "+6%",
+          "ek_usd": 19.15,
+          "value": "+$249,620",
+          "value_usd": 249620.0
+        }
+      ],
+      "last_buy_date": "2026-09-04",
+      "last_filing_date": "2026-09-04 21:00:03",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "AVBC",
       "company": "Avidia Bancorp, Inc.",
@@ -8254,6 +8452,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "ENOV",
+      "date": "2026-09-05 01:12",
+      "price_at_alert": 18.56,
+      "price_now": 18.56,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "AVBC",
       "date": "2026-09-03 21:19",
       "price_at_alert": 22.05,
@@ -9041,14 +9247,6 @@
       "ticker": "IDXX",
       "date": "2026-08-24 20:06",
       "price_at_alert": 559.51,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "TTWO",
-      "date": "2026-08-24 20:06",
-      "price_at_alert": 233.5,
       "price_now": null,
       "change_pct": null
     }
