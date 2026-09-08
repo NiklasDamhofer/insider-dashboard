@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-08 22:36 CEST",
-  "count": 17,
+  "generated_at": "2026-09-08 22:54 CEST",
+  "count": 18,
   "eur_rate": 0.86281,
   "records": [
+    {
+      "ticker": "CMTG",
+      "company": "Claros Mortgage Trust, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "market_cap": "217.27M",
+      "avg_volume": "719.42K",
+      "beta": "1.16",
+      "recom": "3.80",
+      "earnings": "Jul 29 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "25.49%",
+      "total_value_usd": 351241.0,
+      "price_usd": 1.54,
+      "price_eur": 1.33,
+      "ek_usd": 1.59,
+      "ek_eur": 1.37,
+      "vs_entry_pct": -3.1,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-20.62%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -20.62% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-99.41%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -99.41% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Debt / Equity",
+              "value": "2.07",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 2.07 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "2.01",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 2.01 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "1.22",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 1.22 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.17",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.17 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-61.4%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -61.4% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "36.06",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 36.06 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "4.01%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 4.01% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "44.2%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 44.2% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-302.09%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -302.09% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-278.25%",
+              "ideal": "> 0%",
+              "text": "Operating margin -278.25% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Mack Richard",
+          "title": "CEO, COB",
+          "date": "2026-09-03",
+          "delta_own": "+8%",
+          "ek_usd": 1.59,
+          "value": "+$351,241",
+          "value_usd": 351241.0
+        }
+      ],
+      "last_buy_date": "2026-09-03",
+      "last_filing_date": "2026-09-08 16:44:59",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "SCOR",
       "company": "Comscore, Inc.",
@@ -7289,6 +7487,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "CMTG",
+      "date": "2026-09-08 20:51",
+      "price_at_alert": 1.54,
+      "price_now": 1.54,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "INBX",
       "date": "2026-09-08 20:14",
       "price_at_alert": 114.34,
@@ -8076,14 +8282,6 @@
       "ticker": "SMTC",
       "date": "2026-08-24 20:08",
       "price_at_alert": 120.91,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "ENTG",
-      "date": "2026-08-24 20:08",
-      "price_at_alert": 138.25,
       "price_now": null,
       "change_pct": null
     }
