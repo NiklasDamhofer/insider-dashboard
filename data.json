@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 04:15 CEST",
+  "generated_at": "2026-09-08 04:35 CEST",
   "count": 17,
   "eur_rate": 0.86281,
   "records": [
@@ -3219,6 +3219,1163 @@
     "records": [
       {
         "is_watchlist": true,
+        "ticker": "WFC",
+        "company": "Wells Fargo & Co",
+        "sector": "Financial",
+        "industry": "Banks - Diversified",
+        "market_cap": "272.07B",
+        "avg_volume": "14.71M",
+        "beta": "0.94",
+        "recom": "1.90",
+        "earnings": "Jul 14 BMO",
+        "pe": "13.07",
+        "forward_pe": "11.28",
+        "insider_own": "0.22%",
+        "price_usd": 89.97,
+        "price_eur": 77.63,
+        "entry_est_usd": 84.97,
+        "entry_est_eur": 73.31,
+        "vs_entry_pct": 5.9,
+        "score": 4,
+        "total": 6,
+        "checks": [
+          {
+            "n": 1,
+            "title": "Momentum (1 month)",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Price move 1M",
+                "value": "2.72%",
+                "ideal": ">5% up or down? No",
+                "text": "Price move 1M 2.72% (>5% up or down? No)"
+              }
+            ]
+          },
+          {
+            "n": 2,
+            "title": "Fundamental growth",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Sales growth Q/Q",
+                "value": "8.15%",
+                "ideal": "> 0%, ideal 10-15%",
+                "text": "Sales growth Q/Q 8.15% (> 0%, ideal 10-15%)"
+              },
+              {
+                "status": "pass",
+                "label": "Sales growth 5Y",
+                "value": "8.6%",
+                "ideal": "> 5%",
+                "text": "Sales growth 5Y 8.6% (> 5%)"
+              }
+            ]
+          },
+          {
+            "n": 3,
+            "title": "Financial health (bank)",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Health rating",
+                "value": "\ud83d\udfe2 green",
+                "ideal": "ROE 12.52%, Margin 16.83%, LT Debt/Eq 0.96",
+                "text": "Health rating \ud83d\udfe2 green (ROE 12.52%, Margin 16.83%, LT Debt/Eq 0.96)"
+              }
+            ]
+          },
+          {
+            "n": 4,
+            "title": "Valuation",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Price / Sales",
+                "value": "2.12",
+                "ideal": "< 4, opt. < 2",
+                "text": "Price / Sales 2.12 (< 4, opt. < 2)"
+              },
+              {
+                "status": "pass",
+                "label": "Price / Book",
+                "value": "1.65",
+                "ideal": "< 3, opt. < 1.5",
+                "text": "Price / Book 1.65 (< 3, opt. < 1.5)"
+              },
+              {
+                "status": "info",
+                "label": "Intrinsic value (DCF)",
+                "value": "+47.7%",
+                "ideal": "margin of safety, intrinsic ~$172.06",
+                "text": "Intrinsic value (DCF) +47.7% (margin of safety, intrinsic ~$172.06)"
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "title": "Technical dip & timing",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "fail",
+                "label": "Distance from 52W high",
+                "value": "-7.97%",
+                "ideal": "<= -10%, ideal -15%",
+                "text": "Distance from 52W high -7.97% (<= -10%, ideal -15%)"
+              },
+              {
+                "status": "fail",
+                "label": "RSI (14)",
+                "value": "63.77",
+                "ideal": "< 45, ideal < 40",
+                "text": "RSI (14) 63.77 (< 45, ideal < 40)"
+              }
+            ]
+          },
+          {
+            "n": 6,
+            "title": "Short float",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Short float",
+                "value": "0.93%",
+                "ideal": "> 10% especially interesting",
+                "text": "Short float 0.93% (> 10% especially interesting)"
+              }
+            ]
+          },
+          {
+            "n": 7,
+            "title": "Analyst target upside",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "fail",
+                "label": "Upside to target",
+                "value": "11.4%",
+                "ideal": ">= 15%, ideal 20%",
+                "text": "Upside to target 11.4% (>= 15%, ideal 20%)"
+              }
+            ]
+          },
+          {
+            "n": 8,
+            "title": "Profitability",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Net margin",
+                "value": "16.83%",
+                "ideal": "> 0% (profitable)",
+                "text": "Net margin 16.83% (> 0% (profitable))"
+              },
+              {
+                "status": "pass",
+                "label": "Operating margin",
+                "value": "21.92%",
+                "ideal": "> 0%",
+                "text": "Operating margin 21.92% (> 0%)"
+              }
+            ]
+          }
+        ],
+        "entries": [
+          {
+            "politician": "Ro Khanna",
+            "ticker": "WFC",
+            "date": "2026-08-27",
+            "filed": "2026-09-04",
+            "amount": "$50,001 - $100,000",
+            "option": false,
+            "entry_est": 84.97,
+            "since_pct": 5.9
+          },
+          {
+            "politician": "Ro Khanna",
+            "ticker": "WFC",
+            "date": "2026-08-18",
+            "filed": "2026-09-04",
+            "amount": "$1,001 - $15,000",
+            "option": false,
+            "entry_est": 87.4,
+            "since_pct": 2.9
+          },
+          {
+            "politician": "Ro Khanna",
+            "ticker": "WFC",
+            "date": "2026-08-18",
+            "filed": "2026-09-04",
+            "amount": "$1,001 - $15,000",
+            "option": false,
+            "entry_est": 87.4,
+            "since_pct": 2.9
+          }
+        ],
+        "buy_count": 3,
+        "last_buy_date": "2026-08-27",
+        "last_filing_date": "2026-09-04"
+      },
+      {
+        "is_watchlist": true,
+        "ticker": "JPM",
+        "company": "JPMorgan Chase & Co",
+        "sector": "Financial",
+        "industry": "Banks - Diversified",
+        "market_cap": "953.33B",
+        "avg_volume": "8.26M",
+        "beta": "1.01",
+        "recom": "2.03",
+        "earnings": "Jul 14 BMO",
+        "pe": "15.36",
+        "forward_pe": "14.27",
+        "insider_own": "0.47%",
+        "price_usd": 358.64,
+        "price_eur": 309.44,
+        "entry_est_usd": 354.22,
+        "entry_est_eur": 305.62,
+        "vs_entry_pct": 1.2,
+        "score": 4,
+        "total": 6,
+        "checks": [
+          {
+            "n": 1,
+            "title": "Momentum (1 month)",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Price move 1M",
+                "value": "0.66%",
+                "ideal": ">5% up or down? No",
+                "text": "Price move 1M 0.66% (>5% up or down? No)"
+              }
+            ]
+          },
+          {
+            "n": 2,
+            "title": "Fundamental growth",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Sales growth Q/Q",
+                "value": "18.21%",
+                "ideal": "> 0%, ideal 10-15%",
+                "text": "Sales growth Q/Q 18.21% (> 0%, ideal 10-15%)"
+              },
+              {
+                "status": "pass",
+                "label": "Sales growth 5Y",
+                "value": "17.27%",
+                "ideal": "> 5%",
+                "text": "Sales growth 5Y 17.27% (> 5%)"
+              }
+            ]
+          },
+          {
+            "n": 3,
+            "title": "Financial health (bank)",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Health rating",
+                "value": "\ud83d\udfe2 green",
+                "ideal": "ROE 17.71%, Margin 21.39%, LT Debt/Eq 1.33",
+                "text": "Health rating \ud83d\udfe2 green (ROE 17.71%, Margin 21.39%, LT Debt/Eq 1.33)"
+              }
+            ]
+          },
+          {
+            "n": 4,
+            "title": "Valuation",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Price / Sales",
+                "value": "3.2",
+                "ideal": "< 4, opt. < 2",
+                "text": "Price / Sales 3.2 (< 4, opt. < 2)"
+              },
+              {
+                "status": "pass",
+                "label": "Price / Book",
+                "value": "2.7",
+                "ideal": "< 3, opt. < 1.5",
+                "text": "Price / Book 2.7 (< 3, opt. < 1.5)"
+              },
+              {
+                "status": "info",
+                "label": "Intrinsic value (DCF)",
+                "value": "+31.2%",
+                "ideal": "margin of safety, intrinsic ~$521.22",
+                "text": "Intrinsic value (DCF) +31.2% (margin of safety, intrinsic ~$521.22)"
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "title": "Technical dip & timing",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "fail",
+                "label": "Distance from 52W high",
+                "value": "-2.14%",
+                "ideal": "<= -10%, ideal -15%",
+                "text": "Distance from 52W high -2.14% (<= -10%, ideal -15%)"
+              },
+              {
+                "status": "fail",
+                "label": "RSI (14)",
+                "value": "54.96",
+                "ideal": "< 45, ideal < 40",
+                "text": "RSI (14) 54.96 (< 45, ideal < 40)"
+              }
+            ]
+          },
+          {
+            "n": 6,
+            "title": "Short float",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Short float",
+                "value": "0.96%",
+                "ideal": "> 10% especially interesting",
+                "text": "Short float 0.96% (> 10% especially interesting)"
+              }
+            ]
+          },
+          {
+            "n": 7,
+            "title": "Analyst target upside",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "fail",
+                "label": "Upside to target",
+                "value": "4.9%",
+                "ideal": ">= 15%, ideal 20%",
+                "text": "Upside to target 4.9% (>= 15%, ideal 20%)"
+              }
+            ]
+          },
+          {
+            "n": 8,
+            "title": "Profitability",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Net margin",
+                "value": "21.39%",
+                "ideal": "> 0% (profitable)",
+                "text": "Net margin 21.39% (> 0% (profitable))"
+              },
+              {
+                "status": "pass",
+                "label": "Operating margin",
+                "value": "28.36%",
+                "ideal": "> 0%",
+                "text": "Operating margin 28.36% (> 0%)"
+              }
+            ]
+          }
+        ],
+        "entries": [
+          {
+            "politician": "Ro Khanna",
+            "ticker": "JPM",
+            "date": "2026-08-27",
+            "filed": "2026-09-04",
+            "amount": "$100,001 - $250,000",
+            "option": false,
+            "entry_est": 354.22,
+            "since_pct": 1.2
+          }
+        ],
+        "buy_count": 1,
+        "last_buy_date": "2026-08-27",
+        "last_filing_date": "2026-09-04"
+      },
+      {
+        "is_watchlist": true,
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp",
+        "sector": "Consumer Defensive",
+        "industry": "Discount Stores",
+        "market_cap": "406.11B",
+        "avg_volume": "2.19M",
+        "beta": "0.87",
+        "recom": "2.02",
+        "earnings": "Sep 24 AMC",
+        "pe": "46.06",
+        "forward_pe": "40.40",
+        "insider_own": "0.12%",
+        "price_usd": 915.74,
+        "price_eur": 790.11,
+        "entry_est_usd": 971.4,
+        "entry_est_eur": 838.13,
+        "vs_entry_pct": -5.7,
+        "score": 5,
+        "total": 6,
+        "checks": [
+          {
+            "n": 1,
+            "title": "Momentum (1 month)",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Price move 1M",
+                "value": "-3.52%",
+                "ideal": ">5% up or down? No",
+                "text": "Price move 1M -3.52% (>5% up or down? No)"
+              }
+            ]
+          },
+          {
+            "n": 2,
+            "title": "Fundamental growth",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Sales growth Q/Q",
+                "value": "11.58%",
+                "ideal": "> 0%, ideal 10-15%",
+                "text": "Sales growth Q/Q 11.58% (> 0%, ideal 10-15%)"
+              },
+              {
+                "status": "pass",
+                "label": "Sales growth 5Y",
+                "value": "10.54%",
+                "ideal": "> 5%",
+                "text": "Sales growth 5Y 10.54% (> 5%)"
+              }
+            ]
+          },
+          {
+            "n": 3,
+            "title": "Financial health",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Debt / Equity",
+                "value": "0.25",
+                "ideal": "< 1.5 (max 2.0)",
+                "text": "Debt / Equity 0.25 (< 1.5 (max 2.0))"
+              },
+              {
+                "status": "pass",
+                "label": "Current / Quick ratio",
+                "value": "1.07",
+                "ideal": "> 1.0",
+                "text": "Current / Quick ratio 1.07 (> 1.0)"
+              }
+            ]
+          },
+          {
+            "n": 4,
+            "title": "Valuation",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Price / Sales",
+                "value": "1.38",
+                "ideal": "< 4, opt. < 2",
+                "text": "Price / Sales 1.38 (< 4, opt. < 2)"
+              },
+              {
+                "status": "fail",
+                "label": "Price / Book",
+                "value": "12.12",
+                "ideal": "< 3, opt. < 1.5",
+                "text": "Price / Book 12.12 (< 3, opt. < 1.5)"
+              },
+              {
+                "status": "info",
+                "label": "Intrinsic value (DCF)",
+                "value": "-103.7%",
+                "ideal": "margin of safety, intrinsic ~$449.62",
+                "text": "Intrinsic value (DCF) -103.7% (margin of safety, intrinsic ~$449.62)"
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "title": "Technical dip & timing",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Distance from 52W high",
+                "value": "-16.49%",
+                "ideal": "<= -10%, ideal -15%",
+                "text": "Distance from 52W high -16.49% (<= -10%, ideal -15%)"
+              },
+              {
+                "status": "pass",
+                "label": "RSI (14)",
+                "value": "38.07",
+                "ideal": "< 45, ideal < 40",
+                "text": "RSI (14) 38.07 (< 45, ideal < 40)"
+              }
+            ]
+          },
+          {
+            "n": 6,
+            "title": "Short float",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Short float",
+                "value": "1.66%",
+                "ideal": "> 10% especially interesting",
+                "text": "Short float 1.66% (> 10% especially interesting)"
+              }
+            ]
+          },
+          {
+            "n": 7,
+            "title": "Analyst target upside",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Upside to target",
+                "value": "18.5%",
+                "ideal": ">= 15%, ideal 20%",
+                "text": "Upside to target 18.5% (>= 15%, ideal 20%)"
+              }
+            ]
+          },
+          {
+            "n": 8,
+            "title": "Profitability",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Net margin",
+                "value": "3.01%",
+                "ideal": "> 0% (profitable)",
+                "text": "Net margin 3.01% (> 0% (profitable))"
+              },
+              {
+                "status": "pass",
+                "label": "Operating margin",
+                "value": "3.82%",
+                "ideal": "> 0%",
+                "text": "Operating margin 3.82% (> 0%)"
+              }
+            ]
+          }
+        ],
+        "entries": [
+          {
+            "politician": "Ro Khanna",
+            "ticker": "COST",
+            "date": "2026-08-24",
+            "filed": "2026-09-04",
+            "amount": "$1,001 - $15,000",
+            "option": false,
+            "entry_est": 971.4,
+            "since_pct": -5.7
+          }
+        ],
+        "buy_count": 1,
+        "last_buy_date": "2026-08-24",
+        "last_filing_date": "2026-09-04"
+      },
+      {
+        "is_watchlist": true,
+        "ticker": "ORCL",
+        "company": "Oracle Corp",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": "457.36B",
+        "avg_volume": "31.39M",
+        "beta": "1.76",
+        "recom": "1.60",
+        "earnings": "Sep 10 AMC",
+        "pe": "27.26",
+        "forward_pe": "14.44",
+        "insider_own": "40.48%",
+        "price_usd": 158.78,
+        "price_eur": 137.0,
+        "entry_est_usd": 142.45,
+        "entry_est_eur": 122.91,
+        "vs_entry_pct": 11.5,
+        "score": 3,
+        "total": 6,
+        "checks": [
+          {
+            "n": 1,
+            "title": "Momentum (1 month)",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Price move 1M",
+                "value": "10.67%",
+                "ideal": ">5% up or down? Yes",
+                "text": "Price move 1M 10.67% (>5% up or down? Yes)"
+              }
+            ]
+          },
+          {
+            "n": 2,
+            "title": "Fundamental growth",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Sales growth Q/Q",
+                "value": "20.63%",
+                "ideal": "> 0%, ideal 10-15%",
+                "text": "Sales growth Q/Q 20.63% (> 0%, ideal 10-15%)"
+              },
+              {
+                "status": "pass",
+                "label": "Sales growth 5Y",
+                "value": "10.72%",
+                "ideal": "> 5%",
+                "text": "Sales growth 5Y 10.72% (> 5%)"
+              }
+            ]
+          },
+          {
+            "n": 3,
+            "title": "Financial health",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "fail",
+                "label": "Debt / Equity",
+                "value": "3.94",
+                "ideal": "< 1.5 (max 2.0)",
+                "text": "Debt / Equity 3.94 (< 1.5 (max 2.0))"
+              },
+              {
+                "status": "pass",
+                "label": "Current / Quick ratio",
+                "value": "1.12",
+                "ideal": "> 1.0",
+                "text": "Current / Quick ratio 1.12 (> 1.0)"
+              }
+            ]
+          },
+          {
+            "n": 4,
+            "title": "Valuation",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "fail",
+                "label": "Price / Sales",
+                "value": "6.79",
+                "ideal": "< 4, opt. < 2",
+                "text": "Price / Sales 6.79 (< 4, opt. < 2)"
+              },
+              {
+                "status": "fail",
+                "label": "Price / Book",
+                "value": "12.18",
+                "ideal": "< 3, opt. < 1.5",
+                "text": "Price / Book 12.18 (< 3, opt. < 1.5)"
+              },
+              {
+                "status": "info",
+                "label": "Intrinsic value (DCF)",
+                "value": "-2.9%",
+                "ideal": "margin of safety, intrinsic ~$154.25",
+                "text": "Intrinsic value (DCF) -2.9% (margin of safety, intrinsic ~$154.25)"
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "title": "Technical dip & timing",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Distance from 52W high",
+                "value": "-54.07%",
+                "ideal": "<= -10%, ideal -15%",
+                "text": "Distance from 52W high -54.07% (<= -10%, ideal -15%)"
+              },
+              {
+                "status": "fail",
+                "label": "RSI (14)",
+                "value": "60.94",
+                "ideal": "< 45, ideal < 40",
+                "text": "RSI (14) 60.94 (< 45, ideal < 40)"
+              }
+            ]
+          },
+          {
+            "n": 6,
+            "title": "Short float",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Short float",
+                "value": "2.79%",
+                "ideal": "> 10% especially interesting",
+                "text": "Short float 2.79% (> 10% especially interesting)"
+              }
+            ]
+          },
+          {
+            "n": 7,
+            "title": "Analyst target upside",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Upside to target",
+                "value": "55.7%",
+                "ideal": ">= 15%, ideal 20%",
+                "text": "Upside to target 55.7% (>= 15%, ideal 20%)"
+              }
+            ]
+          },
+          {
+            "n": 8,
+            "title": "Profitability",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Net margin",
+                "value": "25.21%",
+                "ideal": "> 0% (profitable)",
+                "text": "Net margin 25.21% (> 0% (profitable))"
+              },
+              {
+                "status": "pass",
+                "label": "Operating margin",
+                "value": "33.32%",
+                "ideal": "> 0%",
+                "text": "Operating margin 33.32% (> 0%)"
+              }
+            ]
+          }
+        ],
+        "entries": [
+          {
+            "politician": "Ro Khanna",
+            "ticker": "ORCL",
+            "date": "2026-08-24",
+            "filed": "2026-09-04",
+            "amount": "$1,001 - $15,000",
+            "option": false,
+            "entry_est": 142.45,
+            "since_pct": 11.5
+          }
+        ],
+        "buy_count": 1,
+        "last_buy_date": "2026-08-24",
+        "last_filing_date": "2026-09-04"
+      },
+      {
+        "is_watchlist": true,
+        "ticker": "WMT",
+        "company": "Walmart Inc",
+        "sector": "Consumer Defensive",
+        "industry": "Discount Stores",
+        "market_cap": "850.02B",
+        "avg_volume": "24.58M",
+        "beta": "0.58",
+        "recom": "1.47",
+        "earnings": "Aug 20 BMO",
+        "pe": "38.82",
+        "forward_pe": "33.18",
+        "insider_own": "44.22%",
+        "price_usd": 107.14,
+        "price_eur": 92.44,
+        "entry_est_usd": 106.49,
+        "entry_est_eur": 91.88,
+        "vs_entry_pct": 0.6,
+        "score": 2,
+        "total": 6,
+        "checks": [
+          {
+            "n": 1,
+            "title": "Momentum (1 month)",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Price move 1M",
+                "value": "-4.4%",
+                "ideal": ">5% up or down? No",
+                "text": "Price move 1M -4.4% (>5% up or down? No)"
+              }
+            ]
+          },
+          {
+            "n": 2,
+            "title": "Fundamental growth",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Sales growth Q/Q",
+                "value": "5.94%",
+                "ideal": "> 0%, ideal 10-15%",
+                "text": "Sales growth Q/Q 5.94% (> 0%, ideal 10-15%)"
+              },
+              {
+                "status": "fail",
+                "label": "Sales growth 5Y",
+                "value": "4.99%",
+                "ideal": "> 5%",
+                "text": "Sales growth 5Y 4.99% (> 5%)"
+              }
+            ]
+          },
+          {
+            "n": 3,
+            "title": "Financial health",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Debt / Equity",
+                "value": "0.75",
+                "ideal": "< 1.5 (max 2.0)",
+                "text": "Debt / Equity 0.75 (< 1.5 (max 2.0))"
+              },
+              {
+                "status": "fail",
+                "label": "Current / Quick ratio",
+                "value": "0.77",
+                "ideal": "> 1.0",
+                "text": "Current / Quick ratio 0.77 (> 1.0)"
+              }
+            ]
+          },
+          {
+            "n": 4,
+            "title": "Valuation",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Price / Sales",
+                "value": "1.16",
+                "ideal": "< 4, opt. < 2",
+                "text": "Price / Sales 1.16 (< 4, opt. < 2)"
+              },
+              {
+                "status": "fail",
+                "label": "Price / Book",
+                "value": "8.66",
+                "ideal": "< 3, opt. < 1.5",
+                "text": "Price / Book 8.66 (< 3, opt. < 1.5)"
+              },
+              {
+                "status": "info",
+                "label": "Intrinsic value (DCF)",
+                "value": "-70.8%",
+                "ideal": "margin of safety, intrinsic ~$62.73",
+                "text": "Intrinsic value (DCF) -70.8% (margin of safety, intrinsic ~$62.73)"
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "title": "Technical dip & timing",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Distance from 52W high",
+                "value": "-20.73%",
+                "ideal": "<= -10%, ideal -15%",
+                "text": "Distance from 52W high -20.73% (<= -10%, ideal -15%)"
+              },
+              {
+                "status": "fail",
+                "label": "RSI (14)",
+                "value": "45.66",
+                "ideal": "< 45, ideal < 40",
+                "text": "RSI (14) 45.66 (< 45, ideal < 40)"
+              }
+            ]
+          },
+          {
+            "n": 6,
+            "title": "Short float",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Short float",
+                "value": "1.43%",
+                "ideal": "> 10% especially interesting",
+                "text": "Short float 1.43% (> 10% especially interesting)"
+              }
+            ]
+          },
+          {
+            "n": 7,
+            "title": "Analyst target upside",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Upside to target",
+                "value": "20.4%",
+                "ideal": ">= 15%, ideal 20%",
+                "text": "Upside to target 20.4% (>= 15%, ideal 20%)"
+              }
+            ]
+          },
+          {
+            "n": 8,
+            "title": "Profitability",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Net margin",
+                "value": "3%",
+                "ideal": "> 0% (profitable)",
+                "text": "Net margin 3% (> 0% (profitable))"
+              },
+              {
+                "status": "pass",
+                "label": "Operating margin",
+                "value": "4.39%",
+                "ideal": "> 0%",
+                "text": "Operating margin 4.39% (> 0%)"
+              }
+            ]
+          }
+        ],
+        "entries": [
+          {
+            "politician": "Ro Khanna",
+            "ticker": "WMT",
+            "date": "2026-08-24",
+            "filed": "2026-09-04",
+            "amount": "$1,001 - $15,000",
+            "option": false,
+            "entry_est": 106.49,
+            "since_pct": 0.6
+          }
+        ],
+        "buy_count": 1,
+        "last_buy_date": "2026-08-24",
+        "last_filing_date": "2026-09-04"
+      },
+      {
+        "is_watchlist": true,
+        "ticker": "AXP",
+        "company": "American Express Co",
+        "sector": "Financial",
+        "industry": "Credit Services",
+        "market_cap": "220.26B",
+        "avg_volume": "2.86M",
+        "beta": "1.08",
+        "recom": "2.18",
+        "earnings": "Jul 24 BMO",
+        "pe": "19.79",
+        "forward_pe": "16.21",
+        "insider_own": "0.13%",
+        "price_usd": 326.16,
+        "price_eur": 281.41,
+        "entry_est_usd": 336.21,
+        "entry_est_eur": 290.09,
+        "vs_entry_pct": -3.0,
+        "score": 4,
+        "total": 6,
+        "checks": [
+          {
+            "n": 1,
+            "title": "Momentum (1 month)",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Price move 1M",
+                "value": "-4.8%",
+                "ideal": ">5% up or down? No",
+                "text": "Price move 1M -4.8% (>5% up or down? No)"
+              }
+            ]
+          },
+          {
+            "n": 2,
+            "title": "Fundamental growth",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Sales growth Q/Q",
+                "value": "8.38%",
+                "ideal": "> 0%, ideal 10-15%",
+                "text": "Sales growth Q/Q 8.38% (> 0%, ideal 10-15%)"
+              },
+              {
+                "status": "pass",
+                "label": "Sales growth 5Y",
+                "value": "16.08%",
+                "ideal": "> 5%",
+                "text": "Sales growth 5Y 16.08% (> 5%)"
+              }
+            ]
+          },
+          {
+            "n": 3,
+            "title": "Financial health (bank)",
+            "status": "warn",
+            "parts": [
+              {
+                "status": "warn",
+                "label": "Health rating",
+                "value": "\ud83d\udfe1 yellow",
+                "ideal": "ROE 34.15%, Margin 13.45%, LT Debt/Eq 1.66",
+                "text": "Health rating \ud83d\udfe1 yellow (ROE 34.15%, Margin 13.45%, LT Debt/Eq 1.66)"
+              }
+            ]
+          },
+          {
+            "n": 4,
+            "title": "Valuation",
+            "status": "fail",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Price / Sales",
+                "value": "2.62",
+                "ideal": "< 4, opt. < 2",
+                "text": "Price / Sales 2.62 (< 4, opt. < 2)"
+              },
+              {
+                "status": "fail",
+                "label": "Price / Book",
+                "value": "6.42",
+                "ideal": "< 3, opt. < 1.5",
+                "text": "Price / Book 6.42 (< 3, opt. < 1.5)"
+              },
+              {
+                "status": "info",
+                "label": "Intrinsic value (DCF)",
+                "value": "+23.2%",
+                "ideal": "margin of safety, intrinsic ~$424.91",
+                "text": "Intrinsic value (DCF) +23.2% (margin of safety, intrinsic ~$424.91)"
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "title": "Technical dip & timing",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Distance from 52W high",
+                "value": "-15.83%",
+                "ideal": "<= -10%, ideal -15%",
+                "text": "Distance from 52W high -15.83% (<= -10%, ideal -15%)"
+              },
+              {
+                "status": "pass",
+                "label": "RSI (14)",
+                "value": "39.3",
+                "ideal": "< 45, ideal < 40",
+                "text": "RSI (14) 39.3 (< 45, ideal < 40)"
+              }
+            ]
+          },
+          {
+            "n": 6,
+            "title": "Short float",
+            "status": "info",
+            "parts": [
+              {
+                "status": "info",
+                "label": "Short float",
+                "value": "1.61%",
+                "ideal": "> 10% especially interesting",
+                "text": "Short float 1.61% (> 10% especially interesting)"
+              }
+            ]
+          },
+          {
+            "n": 7,
+            "title": "Analyst target upside",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Upside to target",
+                "value": "16.1%",
+                "ideal": ">= 15%, ideal 20%",
+                "text": "Upside to target 16.1% (>= 15%, ideal 20%)"
+              }
+            ]
+          },
+          {
+            "n": 8,
+            "title": "Profitability",
+            "status": "pass",
+            "parts": [
+              {
+                "status": "pass",
+                "label": "Net margin",
+                "value": "13.45%",
+                "ideal": "> 0% (profitable)",
+                "text": "Net margin 13.45% (> 0% (profitable))"
+              },
+              {
+                "status": "pass",
+                "label": "Operating margin",
+                "value": "20.94%",
+                "ideal": "> 0%",
+                "text": "Operating margin 20.94% (> 0%)"
+              }
+            ]
+          }
+        ],
+        "entries": [
+          {
+            "politician": "Ro Khanna",
+            "ticker": "AXP",
+            "date": "2026-08-17",
+            "filed": "2026-09-04",
+            "amount": "$1,001 - $15,000",
+            "option": false,
+            "entry_est": 336.21,
+            "since_pct": -3.0
+          }
+        ],
+        "buy_count": 1,
+        "last_buy_date": "2026-08-17",
+        "last_filing_date": "2026-09-04"
+      },
+      {
+        "is_watchlist": true,
         "ticker": "GS",
         "company": "Goldman Sachs Group Inc",
         "sector": "Financial",
@@ -6122,6 +7279,78 @@
   },
   "alerts": [
     {
+      "type": "politician",
+      "ticker": "MA",
+      "date": "2026-09-08 02:32",
+      "price_at_alert": 579.21,
+      "price_now": 579.21,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "AVGO",
+      "date": "2026-09-08 02:32",
+      "price_at_alert": 357.89,
+      "price_now": 357.89,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "ADBE",
+      "date": "2026-09-08 02:32",
+      "price_at_alert": 266.51,
+      "price_now": 266.51,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "PEP",
+      "date": "2026-09-08 02:31",
+      "price_at_alert": 137.63,
+      "price_now": 137.63,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "MSFT",
+      "date": "2026-09-08 02:31",
+      "price_at_alert": 499.7,
+      "price_now": 499.7,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "AXP",
+      "date": "2026-09-08 02:31",
+      "price_at_alert": 326.16,
+      "price_now": 326.16,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "WMT",
+      "date": "2026-09-08 02:31",
+      "price_at_alert": 107.14,
+      "price_now": 107.14,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "COST",
+      "date": "2026-09-08 02:31",
+      "price_at_alert": 915.74,
+      "price_now": 915.74,
+      "change_pct": 0.0
+    },
+    {
+      "type": "politician",
+      "ticker": "JPM",
+      "date": "2026-09-08 02:31",
+      "price_at_alert": 358.64,
+      "price_now": 358.64,
+      "change_pct": 0.0
+    },
+    {
       "type": "insider",
       "ticker": "ENOV",
       "date": "2026-09-05 01:12",
@@ -6358,40 +7587,40 @@
       "ticker": "FG",
       "date": "2026-08-24 20:15",
       "price_at_alert": 23.12,
-      "price_now": 25.04,
-      "change_pct": 8.3
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
       "ticker": "CNMD",
       "date": "2026-08-24 20:15",
       "price_at_alert": 51.47,
-      "price_now": 49.32,
-      "change_pct": -4.2
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
       "ticker": "FLO",
       "date": "2026-08-24 20:15",
       "price_at_alert": 7.28,
-      "price_now": 6.27,
-      "change_pct": -13.9
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
       "ticker": "EPAM",
       "date": "2026-08-24 20:15",
       "price_at_alert": 111.22,
-      "price_now": 117.04,
-      "change_pct": 5.2
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
       "ticker": "ABG",
       "date": "2026-08-24 20:15",
       "price_at_alert": 211.04,
-      "price_now": 217.26,
-      "change_pct": 2.9
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
@@ -6846,78 +8075,6 @@
       "ticker": "UTHR",
       "date": "2026-08-24 20:07",
       "price_at_alert": 512.88,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "CDNS",
-      "date": "2026-08-24 20:07",
-      "price_at_alert": 315.92,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "NXPI",
-      "date": "2026-08-24 20:07",
-      "price_at_alert": 222.44,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "ARES",
-      "date": "2026-08-24 20:07",
-      "price_at_alert": 140.02,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "DOW",
-      "date": "2026-08-24 20:07",
-      "price_at_alert": 31.44,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "PLD",
-      "date": "2026-08-24 20:07",
-      "price_at_alert": 143.4,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "DUK",
-      "date": "2026-08-24 20:07",
-      "price_at_alert": 121.98,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "IBM",
-      "date": "2026-08-24 20:06",
-      "price_at_alert": 231.04,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "SNPS",
-      "date": "2026-08-24 20:06",
-      "price_at_alert": 394.51,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "IDXX",
-      "date": "2026-08-24 20:06",
-      "price_at_alert": 559.51,
       "price_now": null,
       "change_pct": null
     }
