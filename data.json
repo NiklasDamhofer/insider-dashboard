@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-09 23:34 CEST",
-  "count": 15,
+  "generated_at": "2026-09-09 23:52 CEST",
+  "count": 16,
   "eur_rate": 0.86281,
   "records": [
+    {
+      "ticker": "GWAV",
+      "company": "Greenwave Technology Solutions, Inc.",
+      "sector": "Industrials",
+      "industry": "Waste Management",
+      "market_cap": "3.63M",
+      "avg_volume": "103.78K",
+      "beta": "0.18",
+      "recom": "1.00",
+      "earnings": "-",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "3.00%",
+      "total_value_usd": 8000002.0,
+      "price_usd": 4.38,
+      "price_eur": 3.78,
+      "ek_usd": 3.72,
+      "ek_eur": 3.21,
+      "vs_entry_pct": 17.7,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-1.91%",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M -1.91% (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "45.47%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 45.47% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.61",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.61 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.23",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.23 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.06",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.06 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.17",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.17 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-81.75%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -81.75% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "49.92",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 49.92 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "4.8%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 4.8% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "-45.2%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target -45.2% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-27.67%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -27.67% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-25.52%",
+              "ideal": "> 0%",
+              "text": "Operating margin -25.52% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Meeks Danny",
+          "title": "CEO, 10%",
+          "date": "2026-08-27",
+          "delta_own": ">999%",
+          "ek_usd": 3.72,
+          "value": "+$8,000,002",
+          "value_usd": 8000002.0
+        }
+      ],
+      "last_buy_date": "2026-08-27",
+      "last_filing_date": "2026-09-09 17:42:38",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "CMTG",
       "company": "Claros Mortgage Trust, Inc.",
@@ -6875,6 +7073,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "GWAV",
+      "date": "2026-09-09 21:49",
+      "price_at_alert": 4.38,
+      "price_now": 4.38,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "CMTG",
       "date": "2026-09-08 20:51",
       "price_at_alert": 1.54,
@@ -7662,14 +7868,6 @@
       "ticker": "SANM",
       "date": "2026-08-24 20:08",
       "price_at_alert": 185.41,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "SMTC",
-      "date": "2026-08-24 20:08",
-      "price_at_alert": 120.91,
       "price_now": null,
       "change_pct": null
     }
