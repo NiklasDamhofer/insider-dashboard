@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-10 00:29 CEST",
-  "count": 16,
+  "generated_at": "2026-09-10 00:48 CEST",
+  "count": 17,
   "eur_rate": 0.86281,
   "records": [
+    {
+      "ticker": "PRTS",
+      "company": "Carparts.Com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "market_cap": "80.65M",
+      "avg_volume": "31.69K",
+      "beta": "0.66",
+      "recom": "2.00",
+      "earnings": "Aug 06 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "22.58%",
+      "total_value_usd": 749239.0,
+      "price_usd": 10.0,
+      "price_eur": 8.63,
+      "ek_usd": 9.42,
+      "ek_eur": 8.13,
+      "vs_entry_pct": 6.2,
+      "score": 2,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "58.23%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 58.23% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-10.73%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -10.73% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.9",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.9 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.67",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.67 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.16",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.16 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.35",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.35 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Distance from 52W high",
+              "value": "-6.54%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -6.54% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "85.73",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 85.73 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "5.24%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 5.24% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "8.5%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 8.5% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-5.35%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -5.35% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-5.08%",
+              "ideal": "> 0%",
+              "text": "Operating margin -5.08% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Meniane David",
+          "title": "CEO",
+          "date": "2026-09-04",
+          "delta_own": "+36%",
+          "ek_usd": 9.42,
+          "value": "+$749,239",
+          "value_usd": 749239.0
+        }
+      ],
+      "last_buy_date": "2026-09-04",
+      "last_filing_date": "2026-09-09 18:40:33",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "GWAV",
       "company": "Greenwave Technology Solutions, Inc.",
@@ -1925,9 +2123,9 @@
             {
               "status": "info",
               "label": "Short float",
-              "value": "14.18%",
+              "value": "14.22%",
               "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 14.18% (> 10% especially interesting \ud83d\udd25)"
+              "text": "Short float 14.22% (> 10% especially interesting \ud83d\udd25)"
             }
           ]
         },
@@ -6035,9 +6233,9 @@
               {
                 "status": "info",
                 "label": "Short float",
-                "value": "3.01%",
+                "value": "2.99%",
                 "ideal": "> 10% especially interesting",
-                "text": "Short float 3.01% (> 10% especially interesting)"
+                "text": "Short float 2.99% (> 10% especially interesting)"
               }
             ]
           },
@@ -7073,6 +7271,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "PRTS",
+      "date": "2026-09-09 22:44",
+      "price_at_alert": 10.0,
+      "price_now": 10.0,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "GWAV",
       "date": "2026-09-09 21:49",
       "price_at_alert": 4.38,
@@ -7860,14 +8066,6 @@
       "ticker": "VIAV",
       "date": "2026-08-24 20:08",
       "price_at_alert": 36.95,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "SANM",
-      "date": "2026-08-24 20:08",
-      "price_at_alert": 185.41,
       "price_now": null,
       "change_pct": null
     }
