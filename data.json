@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-12 01:20 CEST",
-  "count": 21,
+  "generated_at": "2026-09-12 01:39 CEST",
+  "count": 22,
   "eur_rate": 0.86088,
   "records": [
+    {
+      "ticker": "PVH",
+      "company": "Pvh Corp. /De/",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Manufacturing",
+      "market_cap": "3.26B",
+      "avg_volume": "980.69K",
+      "beta": "1.76",
+      "recom": "2.19",
+      "earnings": "Sep 02 AMC",
+      "pe": "-",
+      "forward_pe": "5.65",
+      "insider_own": "1.79%",
+      "total_value_usd": 1000001.0,
+      "price_usd": 70.64,
+      "price_eur": 60.81,
+      "ek_usd": 70.53,
+      "ek_eur": 60.72,
+      "vs_entry_pct": 0.2,
+      "score": 4,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-13.42%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -13.42% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-3.24%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -3.24% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.87",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.87 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.65",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.65 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.37",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.37 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.68",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.68 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-29.89%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -29.89% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "37.95",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 37.95 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "9.5%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 9.5% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "23.8%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 23.8% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-1.89%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -1.89% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "8.55%",
+              "ideal": "> 0%",
+              "text": "Operating margin 8.55% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Larsson Stefan",
+          "title": "CEO",
+          "date": "2026-09-11",
+          "delta_own": "+4%",
+          "ek_usd": 70.53,
+          "value": "+$1,000,001",
+          "value_usd": 1000001.0
+        }
+      ],
+      "last_buy_date": "2026-09-11",
+      "last_filing_date": "2026-09-11 19:18:42",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "KMT",
       "company": "Kennametal Inc",
@@ -7282,6 +7480,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "PVH",
+      "date": "2026-09-11 23:35",
+      "price_at_alert": 70.64,
+      "price_now": 70.64,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "UPST",
       "date": "2026-09-11 14:27",
       "price_at_alert": 25.56,
@@ -8069,14 +8275,6 @@
       "ticker": "QRVO",
       "date": "2026-08-24 20:09",
       "price_at_alert": 95.37,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "EMN",
-      "date": "2026-08-24 20:09",
-      "price_at_alert": 72.7,
       "price_now": null,
       "change_pct": null
     }
