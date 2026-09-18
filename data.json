@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-18 23:00 CEST",
-  "count": 21,
+  "generated_at": "2026-09-18 23:19 CEST",
+  "count": 22,
   "eur_rate": 0.86088,
   "records": [
+    {
+      "ticker": "ELOG",
+      "company": "Eastern International Ltd.",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "market_cap": "6.54M",
+      "avg_volume": "195.35K",
+      "beta": "0.91",
+      "recom": "-",
+      "earnings": "-",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "47.40%",
+      "total_value_usd": 200000.0,
+      "price_usd": 0.51,
+      "price_eur": 0.44,
+      "ek_usd": 1.0,
+      "ek_eur": 0.86,
+      "vs_entry_pct": -49.0,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-34.35%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -34.35% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-1.76%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -1.76% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.45",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.45 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.71",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.71 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.14",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.14 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.43",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.43 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-83.39%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -83.39% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "29.66",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 29.66 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "0.06%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 0.06% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Upside to target",
+              "value": "n/a",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target n/a (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-2.52%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -2.52% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-2.3%",
+              "ideal": "> 0%",
+              "text": "Operating margin -2.3% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Wong Albert",
+          "title": "CEO, 10%",
+          "date": "2026-08-27",
+          "delta_own": "New",
+          "ek_usd": 1.0,
+          "value": "+$200,000",
+          "value_usd": 200000.0
+        }
+      ],
+      "last_buy_date": "2026-08-27",
+      "last_filing_date": "2026-09-18 17:00:03",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "BWMX",
       "company": "Betterware De Mexico, S.A.P.I. De C.V",
@@ -8085,6 +8283,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "ELOG",
+      "date": "2026-09-18 21:15",
+      "price_at_alert": 0.51,
+      "price_now": 0.51,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "BWMX",
       "date": "2026-09-17 21:02",
       "price_at_alert": 15.97,
@@ -8872,14 +9078,6 @@
       "ticker": "UAL",
       "date": "2026-08-24 20:11",
       "price_at_alert": 113.57,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "JCI",
-      "date": "2026-08-24 20:10",
-      "price_at_alert": 143.0,
       "price_now": null,
       "change_pct": null
     }
