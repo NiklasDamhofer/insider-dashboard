@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18 05:55 CEST",
-  "count": 22,
+  "generated_at": "2026-09-18 06:14 CEST",
+  "count": 21,
   "eur_rate": 0.86088,
   "records": [
     {
@@ -4193,204 +4193,6 @@
       "congress_bought": false,
       "congress_count": 0,
       "congress_matches": []
-    },
-    {
-      "ticker": "ENOV",
-      "company": "Enovis Corp",
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": "1.03B",
-      "avg_volume": "1.39M",
-      "beta": "1.17",
-      "recom": "1.23",
-      "earnings": "Aug 06 BMO",
-      "pe": "-",
-      "forward_pe": "4.82",
-      "insider_own": "2.48%",
-      "total_value_usd": 249620.0,
-      "price_usd": 17.8,
-      "price_eur": 15.32,
-      "ek_usd": 19.15,
-      "ek_eur": 16.49,
-      "vs_entry_pct": -7.0,
-      "score": 5,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-30.58%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -30.58% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "3.23%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 3.23% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.93",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.93 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "1.98",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 1.98 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "0.45",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.45 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "0.69",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 0.69 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-48.07%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -48.07% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "32.55",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 32.55 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "16.17%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 16.17% (> 10% especially interesting \ud83d\udd25)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "115.3%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 115.3% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-47.9%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -47.9% (> 0% (profitable))"
-            },
-            {
-              "status": "pass",
-              "label": "Operating margin",
-              "value": "3.41%",
-              "ideal": "> 0%",
-              "text": "Operating margin 3.41% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "McDonald Damien",
-          "title": "CEO",
-          "date": "2026-09-04",
-          "delta_own": "+6%",
-          "ek_usd": 19.15,
-          "value": "+$249,620",
-          "value_usd": 249620.0
-        }
-      ],
-      "last_buy_date": "2026-09-04",
-      "last_filing_date": "2026-09-04 21:00:03",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     }
   ],
   "watchlist": {
@@ -5004,7 +4806,7 @@
         "recom": "1.87",
         "earnings": "Aug 06 BMO",
         "pe": "21.66",
-        "forward_pe": "16.54",
+        "forward_pe": "16.55",
         "insider_own": "24.36%",
         "price_usd": 73.29,
         "price_eur": 63.09,
@@ -5092,9 +4894,9 @@
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-1.9%",
-                "ideal": "margin of safety, intrinsic ~$71.93",
-                "text": "Intrinsic value (DCF) -1.9% (margin of safety, intrinsic ~$71.93)"
+                "value": "-2.2%",
+                "ideal": "margin of safety, intrinsic ~$71.7",
+                "text": "Intrinsic value (DCF) -2.2% (margin of safety, intrinsic ~$71.7)"
               }
             ]
           },
@@ -8686,8 +8488,8 @@
       "ticker": "PRE",
       "date": "2026-08-26 12:40",
       "price_at_alert": 23.98,
-      "price_now": 24.19,
-      "change_pct": 0.9
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "insider",
