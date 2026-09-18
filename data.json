@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-18 23:37 CEST",
-  "count": 22,
+  "generated_at": "2026-09-18 23:56 CEST",
+  "count": 23,
   "eur_rate": 0.86088,
   "records": [
+    {
+      "ticker": "THM",
+      "company": "International Tower Hill Mines Ltd",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "market_cap": "680.26M",
+      "avg_volume": "1.07M",
+      "beta": "1.01",
+      "recom": "1.00",
+      "earnings": "Aug 12 AMC",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "12.78%",
+      "total_value_usd": 200000.0,
+      "price_usd": 2.6,
+      "price_eur": 2.24,
+      "ek_usd": 2.39,
+      "ek_eur": 2.06,
+      "vs_entry_pct": 8.8,
+      "score": 1,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-8.13%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -8.13% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "46.12",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 46.12 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Price / Sales",
+              "value": "n/a",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales n/a (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "4.11",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 4.11 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-28.77%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -28.77% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "fail",
+              "label": "RSI (14)",
+              "value": "55.99",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 55.99 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "1.19%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 1.19% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Upside to target",
+              "value": "-23.1%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target -23.1% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Net margin",
+              "value": "n/a",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin n/a (> 0% (profitable))"
+            },
+            {
+              "status": "na",
+              "label": "Operating margin",
+              "value": "n/a",
+              "ideal": "> 0%",
+              "text": "Operating margin n/a (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Wiens David Victor",
+          "title": "CEO",
+          "date": "2026-09-16",
+          "delta_own": "+14%",
+          "ek_usd": 2.39,
+          "value": "+$200,000",
+          "value_usd": 200000.0
+        }
+      ],
+      "last_buy_date": "2026-09-16",
+      "last_filing_date": "2026-09-18 17:34:41",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "ELOG",
       "company": "Eastern International Ltd.",
@@ -8283,6 +8481,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "THM",
+      "date": "2026-09-18 21:52",
+      "price_at_alert": 2.6,
+      "price_now": 2.6,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "ELOG",
       "date": "2026-09-18 21:15",
       "price_at_alert": 0.51,
@@ -9070,14 +9276,6 @@
       "ticker": "ZTS",
       "date": "2026-08-24 20:11",
       "price_at_alert": 77.15,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "UAL",
-      "date": "2026-08-24 20:11",
-      "price_at_alert": 113.57,
       "price_now": null,
       "change_pct": null
     }
