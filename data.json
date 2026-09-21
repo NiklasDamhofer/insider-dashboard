@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-21 22:33 CEST",
-  "count": 23,
+  "generated_at": "2026-09-21 22:52 CEST",
+  "count": 24,
   "eur_rate": 0.86088,
   "records": [
+    {
+      "ticker": "SKIL",
+      "company": "Skillsoft Corp.",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "market_cap": "54.05M",
+      "avg_volume": "97.92K",
+      "beta": "2.41",
+      "recom": "2.00",
+      "earnings": "Sep 09 AMC",
+      "pe": "-",
+      "forward_pe": "1.28",
+      "insider_own": "48.27%",
+      "total_value_usd": 99866.0,
+      "price_usd": 5.94,
+      "price_eur": 5.11,
+      "ek_usd": 6.46,
+      "ek_eur": 5.56,
+      "vs_entry_pct": -8.0,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-27.12%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -27.12% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Sales growth Q/Q",
+              "value": "-23.73%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q -23.73% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Debt / Equity",
+              "value": "n/a",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.87",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.87 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "0.12",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 0.12 (< 4, opt. < 2)"
+            },
+            {
+              "status": "na",
+              "label": "Price / Book",
+              "value": "n/a",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book n/a (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-67.8%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -67.8% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "44.57",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 44.57 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "12.9%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 12.9% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "741.8%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 741.8% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Net margin",
+              "value": "-30.08%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin -30.08% (> 0% (profitable))"
+            },
+            {
+              "status": "fail",
+              "label": "Operating margin",
+              "value": "-2.89%",
+              "ideal": "> 0%",
+              "text": "Operating margin -2.89% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Hovsepian Ronald W",
+          "title": "CEO, Exec Chair",
+          "date": "2026-09-17",
+          "delta_own": "+4%",
+          "ek_usd": 6.46,
+          "value": "+$99,866",
+          "value_usd": 99866.0
+        }
+      ],
+      "last_buy_date": "2026-09-17",
+      "last_filing_date": "2026-09-21 16:34:27",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "THM",
       "company": "International Tower Hill Mines Ltd",
@@ -8075,6 +8273,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "SKIL",
+      "date": "2026-09-21 20:48",
+      "price_at_alert": 5.94,
+      "price_now": 5.94,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "THM",
       "date": "2026-09-18 21:52",
       "price_at_alert": 2.6,
@@ -8862,14 +9068,6 @@
       "ticker": "NRG",
       "date": "2026-08-24 20:11",
       "price_at_alert": 111.79,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "ZTS",
-      "date": "2026-08-24 20:11",
-      "price_at_alert": 77.15,
       "price_now": null,
       "change_pct": null
     }
