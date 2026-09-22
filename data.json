@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-22 02:35 CEST",
-  "count": 25,
+  "generated_at": "2026-09-22 02:53 CEST",
+  "count": 26,
   "eur_rate": 0.86088,
   "records": [
+    {
+      "ticker": "GRAB",
+      "company": "Grab Holdings Ltd",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": "11.87B",
+      "avg_volume": "47.68M",
+      "beta": "0.92",
+      "recom": "1.25",
+      "earnings": "Aug 04 BMO",
+      "pe": "21.01",
+      "forward_pe": "16.63",
+      "insider_own": "31.70%",
+      "total_value_usd": 29876310.0,
+      "price_usd": 2.91,
+      "price_eur": 2.51,
+      "ek_usd": 2.89,
+      "ek_eur": 2.49,
+      "vs_entry_pct": 0.7,
+      "score": 6,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-17.09%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -17.09% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "21.73%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 21.73% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.3",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.3 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "1.52",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 1.52 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "3.18",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 3.18 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "1.75",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 1.75 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "+21.6%",
+              "ideal": "margin of safety, intrinsic ~$3.71",
+              "text": "Intrinsic value (DCF) +21.6% (margin of safety, intrinsic ~$3.71)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-56.04%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -56.04% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "32.3",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 32.3 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "9.39%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 9.39% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "99.7%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 99.7% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "15.97%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 15.97% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "8.84%",
+              "ideal": "> 0%",
+              "text": "Operating margin 8.84% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Tan Anthony Ping Yeow",
+          "title": "CEO",
+          "date": "2026-09-21",
+          "delta_own": ">999%",
+          "ek_usd": 2.89,
+          "value": "+$29,876,310",
+          "value_usd": 29876310.0
+        }
+      ],
+      "last_buy_date": "2026-09-21",
+      "last_filing_date": "2026-09-21 20:40:35",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "CYBN",
       "company": "Cybin Inc.",
@@ -6950,6 +7148,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "GRAB",
+      "date": "2026-09-22 00:50",
+      "price_at_alert": 2.91,
+      "price_now": 2.91,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "CYBN",
       "date": "2026-09-21 21:26",
       "price_at_alert": 13.66,
@@ -7737,14 +7943,6 @@
       "ticker": "TMUS",
       "date": "2026-08-24 20:11",
       "price_at_alert": 182.62,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "CMS",
-      "date": "2026-08-24 20:11",
-      "price_at_alert": 68.41,
       "price_now": null,
       "change_pct": null
     }
