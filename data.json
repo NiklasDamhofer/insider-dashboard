@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22 22:22 CEST",
+  "generated_at": "2026-09-22 22:40 CEST",
   "count": 22,
   "eur_rate": 0.87032,
   "records": [
@@ -8,20 +8,20 @@
       "company": "Bcb Bancorp Inc",
       "sector": "Financial",
       "industry": "Banks - Regional",
-      "market_cap": "252.75M",
+      "market_cap": "252.32M",
       "avg_volume": "230.07K",
       "beta": "0.68",
       "recom": "3.00",
       "earnings": "Aug 03 BMO",
       "pe": "-",
-      "forward_pe": "12.77",
+      "forward_pe": "12.75",
       "insider_own": "12.83%",
       "total_value_usd": 1240000.0,
-      "price_usd": 8.69,
-      "price_eur": 7.56,
+      "price_usd": 8.67,
+      "price_eur": 7.55,
       "ek_usd": 7.75,
       "ek_eur": 6.74,
-      "vs_entry_pct": 12.1,
+      "vs_entry_pct": 11.9,
       "score": 1,
       "total": 6,
       "financial": true,
@@ -34,9 +34,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-0.86%",
+              "value": "-1.03%",
               "ideal": ">5% up or down? No",
-              "text": "Price move 1M -0.86% (>5% up or down? No)"
+              "text": "Price move 1M -1.03% (>5% up or down? No)"
             }
           ]
         },
@@ -83,9 +83,9 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "1.61",
+              "value": "1.6",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 1.61 (< 4, opt. < 2)"
+              "text": "Price / Sales 1.6 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
@@ -111,16 +111,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-25.79%",
+              "value": "-25.96%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -25.79% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -25.96% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "46.98",
+              "value": "46.5",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 46.98 (< 45, ideal < 40)"
+              "text": "RSI (14) 46.5 (< 45, ideal < 40)"
             }
           ]
         },
@@ -146,9 +146,9 @@
             {
               "status": "fail",
               "label": "Upside to target",
-              "value": "3%",
+              "value": "3.2%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 3% (>= 15%, ideal 20%)"
+              "text": "Upside to target 3.2% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -199,20 +199,20 @@
       "company": "Grab Holdings Ltd",
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": "12.89B",
+      "market_cap": "12.93B",
       "avg_volume": "48.03M",
       "beta": "0.90",
       "recom": "1.25",
       "earnings": "Aug 04 BMO",
-      "pe": "22.82",
-      "forward_pe": "18.33",
+      "pe": "22.89",
+      "forward_pe": "18.38",
       "insider_own": "31.70%",
       "total_value_usd": 29876310.0,
-      "price_usd": 3.16,
-      "price_eur": 2.75,
+      "price_usd": 3.17,
+      "price_eur": 2.76,
       "ek_usd": 2.89,
       "ek_eur": 2.52,
-      "vs_entry_pct": 9.3,
+      "vs_entry_pct": 9.7,
       "score": 5,
       "total": 6,
       "financial": false,
@@ -225,9 +225,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-9.18%",
+              "value": "-8.91%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -9.18% (>5% up or down? Yes)"
+              "text": "Price move 1M -8.91% (>5% up or down? Yes)"
             }
           ]
         },
@@ -281,9 +281,9 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "3.46",
+              "value": "3.47",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 3.46 (< 4, opt. < 2)"
+              "text": "Price / Sales 3.47 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
@@ -295,9 +295,9 @@
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "+14.8%",
+              "value": "+14.6%",
               "ideal": "margin of safety, intrinsic ~$3.71",
-              "text": "Intrinsic value (DCF) +14.8% (margin of safety, intrinsic ~$3.71)"
+              "text": "Intrinsic value (DCF) +14.6% (margin of safety, intrinsic ~$3.71)"
             }
           ]
         },
@@ -309,16 +309,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-52.27%",
+              "value": "-52.11%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -52.27% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -52.11% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "46.91",
+              "value": "47.33",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 46.91 (< 45, ideal < 40)"
+              "text": "RSI (14) 47.33 (< 45, ideal < 40)"
             }
           ]
         },
@@ -344,9 +344,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "83.9%",
+              "value": "83.3%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 83.9% (>= 15%, ideal 20%)"
+              "text": "Upside to target 83.3% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -4003,7 +4003,7 @@
       "company": "Grace Therapeutics, Inc.",
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": "45.34M",
+      "market_cap": "45.02M",
       "avg_volume": "209.77K",
       "beta": "0.34",
       "recom": "1.00",
@@ -4012,11 +4012,11 @@
       "forward_pe": "-",
       "insider_own": "18.68%",
       "total_value_usd": 214000.0,
-      "price_usd": 2.15,
-      "price_eur": 1.87,
+      "price_usd": 2.14,
+      "price_eur": 1.86,
       "ek_usd": 2.14,
       "ek_eur": 1.86,
-      "vs_entry_pct": 0.5,
+      "vs_entry_pct": 0.0,
       "score": 3,
       "total": 6,
       "financial": false,
@@ -4029,9 +4029,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-2.05%",
+              "value": "-2.73%",
               "ideal": ">5% up or down? No",
-              "text": "Price move 1M -2.05% (>5% up or down? No)"
+              "text": "Price move 1M -2.73% (>5% up or down? No)"
             }
           ]
         },
@@ -4092,9 +4092,9 @@
             {
               "status": "pass",
               "label": "Price / Book",
-              "value": "0.73",
+              "value": "0.72",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 0.73 (< 3, opt. < 1.5)"
+              "text": "Price / Book 0.72 (< 3, opt. < 1.5)"
             },
             {
               "status": "na",
@@ -4113,16 +4113,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-58.49%",
+              "value": "-58.69%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -58.49% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -58.69% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "48.84",
+              "value": "47.44",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 48.84 (< 45, ideal < 40)"
+              "text": "RSI (14) 47.44 (< 45, ideal < 40)"
             }
           ]
         },
@@ -4148,9 +4148,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "179.1%",
+              "value": "180.4%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 179.1% (>= 15%, ideal 20%)"
+              "text": "Upside to target 180.4% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -7896,8 +7896,8 @@
       "ticker": "BCBP",
       "date": "2026-09-22 18:27",
       "price_at_alert": 8.68,
-      "price_now": 8.69,
-      "change_pct": 0.1
+      "price_now": 8.67,
+      "change_pct": -0.1
     },
     {
       "type": "politician",
@@ -7976,7 +7976,7 @@
       "ticker": "MGEE",
       "date": "2026-09-22 16:51",
       "price_at_alert": 73.14,
-      "price_now": 72.67,
+      "price_now": 72.7,
       "change_pct": -0.6
     },
     {
