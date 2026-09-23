@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23 05:49 CEST",
-  "count": 22,
+  "generated_at": "2026-09-23 06:07 CEST",
+  "count": 21,
   "eur_rate": 0.87032,
   "records": [
     {
@@ -1798,7 +1798,7 @@
       "recom": "2.17",
       "earnings": "Aug 06 BMO",
       "pe": "14.95",
-      "forward_pe": "9.75",
+      "forward_pe": "9.73",
       "insider_own": "68.72%",
       "total_value_usd": 10274977.0,
       "price_usd": 57.32,
@@ -1888,9 +1888,9 @@
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "+23%",
-              "ideal": "margin of safety, intrinsic ~$74.41",
-              "text": "Intrinsic value (DCF) +23% (margin of safety, intrinsic ~$74.41)"
+              "value": "+23.1%",
+              "ideal": "margin of safety, intrinsic ~$74.54",
+              "text": "Intrinsic value (DCF) +23.1% (margin of safety, intrinsic ~$74.54)"
             }
           ]
         },
@@ -3389,7 +3389,7 @@
       "pe": "-",
       "forward_pe": "-",
       "insider_own": "21.23%",
-      "total_value_usd": 882534.0,
+      "total_value_usd": 133295.0,
       "price_usd": 8.44,
       "price_eur": 7.35,
       "ek_usd": 10.06,
@@ -3565,15 +3565,6 @@
           "ek_usd": 10.06,
           "value": "+$133,295",
           "value_usd": 133295.0
-        },
-        {
-          "name": "Meniane David",
-          "title": "CEO",
-          "date": "2026-09-04",
-          "delta_own": "+36%",
-          "ek_usd": 9.42,
-          "value": "+$749,239",
-          "value_usd": 749239.0
         }
       ],
       "last_buy_date": "2026-09-10",
@@ -4191,204 +4182,6 @@
       ],
       "last_buy_date": "2026-09-09",
       "last_filing_date": "2026-09-10 07:30:38",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
-    },
-    {
-      "ticker": "GWAV",
-      "company": "Greenwave Technology Solutions, Inc.",
-      "sector": "Industrials",
-      "industry": "Waste Management",
-      "market_cap": "7.70M",
-      "avg_volume": "112.30K",
-      "beta": "0.20",
-      "recom": "1.00",
-      "earnings": "-",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "73.56%",
-      "total_value_usd": 8000002.0,
-      "price_usd": 2.58,
-      "price_eur": 2.25,
-      "ek_usd": 3.72,
-      "ek_eur": 3.24,
-      "vs_entry_pct": -30.6,
-      "score": 3,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-26.29%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -26.29% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "45.47%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 45.47% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "0.61",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 0.61 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "fail",
-              "label": "Current / Quick ratio",
-              "value": "0.23",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 0.23 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "0.13",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.13 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "0.1",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 0.1 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-89.25%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -89.25% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "38.06",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 38.06 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "3.27%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 3.27% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Upside to target",
-              "value": "-7%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target -7% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-27.67%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -27.67% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-25.52%",
-              "ideal": "> 0%",
-              "text": "Operating margin -25.52% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Meeks Danny",
-          "title": "CEO, 10%",
-          "date": "2026-08-27",
-          "delta_own": ">999%",
-          "ek_usd": 3.72,
-          "value": "+$8,000,002",
-          "value_usd": 8000002.0
-        }
-      ],
-      "last_buy_date": "2026-08-27",
-      "last_filing_date": "2026-09-09 17:42:38",
       "congress_status": "ok",
       "congress_bought": false,
       "congress_count": 0,
@@ -5572,7 +5365,7 @@
         "market_cap": "192.99B",
         "avg_volume": "25.39M",
         "beta": "0.24",
-        "recom": "2.36",
+        "recom": "2.32",
         "earnings": "Jul 24 BMO",
         "pe": "12.10",
         "forward_pe": "8.84",
@@ -6946,7 +6739,7 @@
         "market_cap": "903.78B",
         "avg_volume": "7.89M",
         "beta": "1.01",
-        "recom": "2.03",
+        "recom": "2.00",
         "earnings": "Oct 13 BMO",
         "pe": "14.57",
         "forward_pe": "13.51",
