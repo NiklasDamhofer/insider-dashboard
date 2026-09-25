@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25 09:25 CEST",
+  "generated_at": "2026-09-25 09:43 CEST",
   "count": 16,
   "eur_rate": 0.87032,
   "records": [
@@ -5897,7 +5897,7 @@
         "beta": "0.88",
         "recom": "1.84",
         "earnings": "Sep 24 AMC",
-        "pe": "45.09",
+        "pe": "43.18",
         "forward_pe": "36.06",
         "insider_own": "0.12%",
         "price_usd": 896.48,
@@ -5930,16 +5930,16 @@
               {
                 "status": "pass",
                 "label": "Sales growth Q/Q",
-                "value": "11.58%",
+                "value": "11.1%",
                 "ideal": "> 0%, ideal 10-15%",
-                "text": "Sales growth Q/Q 11.58% (> 0%, ideal 10-15%)"
+                "text": "Sales growth Q/Q 11.1% (> 0%, ideal 10-15%)"
               },
               {
                 "status": "pass",
                 "label": "Sales growth 5Y",
-                "value": "10.54%",
+                "value": "9.12%",
                 "ideal": "> 5%",
-                "text": "Sales growth 5Y 10.54% (> 5%)"
+                "text": "Sales growth 5Y 9.12% (> 5%)"
               }
             ]
           },
@@ -5951,16 +5951,16 @@
               {
                 "status": "pass",
                 "label": "Debt / Equity",
-                "value": "0.25",
+                "value": "0.24",
                 "ideal": "< 1.5 (max 2.0)",
-                "text": "Debt / Equity 0.25 (< 1.5 (max 2.0))"
+                "text": "Debt / Equity 0.24 (< 1.5 (max 2.0))"
               },
               {
                 "status": "pass",
                 "label": "Current / Quick ratio",
-                "value": "1.07",
+                "value": "1.06",
                 "ideal": "> 1.0",
-                "text": "Current / Quick ratio 1.07 (> 1.0)"
+                "text": "Current / Quick ratio 1.06 (> 1.0)"
               }
             ]
           },
@@ -5972,23 +5972,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "1.35",
+                "value": "1.31",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 1.35 (< 4, opt. < 2)"
+                "text": "Price / Sales 1.31 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "11.87",
+                "value": "11.1",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 11.87 (< 3, opt. < 1.5)"
+                "text": "Price / Book 11.1 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-110.8%",
-                "ideal": "margin of safety, intrinsic ~$425.2",
-                "text": "Intrinsic value (DCF) -110.8% (margin of safety, intrinsic ~$425.2)"
+                "value": "-101.9%",
+                "ideal": "margin of safety, intrinsic ~$444.02",
+                "text": "Intrinsic value (DCF) -101.9% (margin of safety, intrinsic ~$444.02)"
               }
             ]
           },
@@ -6049,16 +6049,16 @@
               {
                 "status": "pass",
                 "label": "Net margin",
-                "value": "3.01%",
+                "value": "3.04%",
                 "ideal": "> 0% (profitable)",
-                "text": "Net margin 3.01% (> 0% (profitable))"
+                "text": "Net margin 3.04% (> 0% (profitable))"
               },
               {
                 "status": "pass",
                 "label": "Operating margin",
-                "value": "3.82%",
+                "value": "3.85%",
                 "ideal": "> 0%",
-                "text": "Operating margin 3.82% (> 0%)"
+                "text": "Operating margin 3.85% (> 0%)"
               }
             ]
           }
