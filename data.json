@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-28 12:48 CEST",
-  "count": 17,
+  "generated_at": "2026-09-28 13:07 CEST",
+  "count": 18,
   "eur_rate": 0.87696,
   "records": [
     {
-      "ticker": "ANNX",
-      "company": "Annexon, Inc.",
+      "ticker": "DMRA",
+      "company": "Damora Therapeutics, Inc.",
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": "712.82M",
-      "avg_volume": "3.50M",
-      "beta": "1.32",
-      "recom": "1.36",
-      "earnings": "Aug 12 BMO",
+      "market_cap": "1.32B",
+      "avg_volume": "669.71K",
+      "beta": "1.41",
+      "recom": "1.00",
+      "earnings": "Aug 10 AMC",
       "pe": "-",
       "forward_pe": "-",
-      "insider_own": "12.98%",
-      "total_value_usd": 99829.0,
-      "price_usd": 3.76,
-      "price_eur": 3.3,
-      "ek_usd": 3.83,
-      "ek_eur": 3.36,
-      "vs_entry_pct": -1.8,
+      "insider_own": "22.06%",
+      "total_value_usd": 252875.0,
+      "price_usd": 21.41,
+      "price_eur": 18.78,
+      "ek_usd": 20.23,
+      "ek_eur": 17.74,
+      "vs_entry_pct": 5.8,
       "score": 3,
       "total": 6,
       "financial": false,
@@ -34,9 +34,207 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-28.38%",
+              "value": "-30.03%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -28.38% (>5% up or down? Yes)"
+              "text": "Price move 1M -30.03% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "pass",
+              "label": "Current / Quick ratio",
+              "value": "19.73",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 19.73 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Price / Sales",
+              "value": "n/a",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales n/a (< 4, opt. < 2)"
+            },
+            {
+              "status": "fail",
+              "label": "Price / Book",
+              "value": "3.42",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 3.42 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-44.14%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -44.14% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "32.58",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 32.58 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "9.83%",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float 9.83% (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "119%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 119% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Net margin",
+              "value": "n/a",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin n/a (> 0% (profitable))"
+            },
+            {
+              "status": "na",
+              "label": "Operating margin",
+              "value": "n/a",
+              "ideal": "> 0%",
+              "text": "Operating margin n/a (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Jarrett Jennifer",
+          "title": "Dir, Pres, CEO",
+          "date": "2026-09-25",
+          "delta_own": "+3%",
+          "ek_usd": 20.23,
+          "value": "+$252,875",
+          "value_usd": 252875.0
+        }
+      ],
+      "last_buy_date": "2026-09-25",
+      "last_filing_date": "2026-09-28 07:00:04",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
+    {
+      "ticker": "ANNX",
+      "company": "Annexon, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": "720.40M",
+      "avg_volume": "3.50M",
+      "beta": "1.32",
+      "recom": "1.36",
+      "earnings": "Aug 12 BMO",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "12.98%",
+      "total_value_usd": 99829.0,
+      "price_usd": 3.8,
+      "price_eur": 3.33,
+      "ek_usd": 3.83,
+      "ek_eur": 3.36,
+      "vs_entry_pct": -0.8,
+      "score": 3,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-27.62%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -27.62% (>5% up or down? Yes)"
             }
           ]
         },
@@ -97,9 +295,9 @@
             {
               "status": "fail",
               "label": "Price / Book",
-              "value": "3.53",
+              "value": "3.57",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 3.53 (< 3, opt. < 1.5)"
+              "text": "Price / Book 3.57 (< 3, opt. < 1.5)"
             },
             {
               "status": "na",
@@ -118,16 +316,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-47.63%",
+              "value": "-47.08%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -47.63% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -47.08% (<= -10%, ideal -15%)"
             },
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "31.35",
+              "value": "32.87",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 31.35 (< 45, ideal < 40)"
+              "text": "RSI (14) 32.87 (< 45, ideal < 40)"
             }
           ]
         },
@@ -153,9 +351,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "312.2%",
+              "value": "307.9%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 312.2% (>= 15%, ideal 20%)"
+              "text": "Upside to target 307.9% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -206,7 +404,7 @@
       "company": "Magnachip Semiconductor Corp",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": "136.18M",
+      "market_cap": "133.26M",
       "avg_volume": "904.39K",
       "beta": "1.69",
       "recom": "1.00",
@@ -215,11 +413,11 @@
       "forward_pe": "-",
       "insider_own": "23.93%",
       "total_value_usd": 318496.0,
-      "price_usd": 3.73,
-      "price_eur": 3.27,
+      "price_usd": 3.65,
+      "price_eur": 3.2,
       "ek_usd": 3.18,
       "ek_eur": 2.79,
-      "vs_entry_pct": 17.3,
+      "vs_entry_pct": 14.8,
       "score": 2,
       "total": 6,
       "financial": false,
@@ -232,9 +430,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "15.12%",
+              "value": "12.65%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 15.12% (>5% up or down? Yes)"
+              "text": "Price move 1M 12.65% (>5% up or down? Yes)"
             }
           ]
         },
@@ -288,16 +486,16 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "0.76",
+              "value": "0.75",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.76 (< 4, opt. < 2)"
+              "text": "Price / Sales 0.75 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
               "label": "Price / Book",
-              "value": "0.6",
+              "value": "0.59",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 0.6 (< 3, opt. < 1.5)"
+              "text": "Price / Book 0.59 (< 3, opt. < 1.5)"
             },
             {
               "status": "na",
@@ -316,16 +514,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-62.17%",
+              "value": "-62.98%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -62.17% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -62.98% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "67.34",
+              "value": "65.63",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 67.34 (< 45, ideal < 40)"
+              "text": "RSI (14) 65.63 (< 45, ideal < 40)"
             }
           ]
         },
@@ -351,9 +549,9 @@
             {
               "status": "fail",
               "label": "Upside to target",
-              "value": "7.2%",
+              "value": "9.6%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 7.2% (>= 15%, ideal 20%)"
+              "text": "Upside to target 9.6% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -404,7 +602,7 @@
       "company": "Intercont (Cayman) Ltd",
       "sector": "Industrials",
       "industry": "Marine Shipping",
-      "market_cap": "5.26M",
+      "market_cap": "5.22M",
       "avg_volume": "331.65K",
       "beta": "5.79",
       "recom": "-",
@@ -413,11 +611,11 @@
       "forward_pe": "-",
       "insider_own": "10.25%",
       "total_value_usd": 650000.0,
-      "price_usd": 4.3,
-      "price_eur": 3.77,
+      "price_usd": 4.27,
+      "price_eur": 3.74,
       "ek_usd": 0.4,
       "ek_eur": 0.35,
-      "vs_entry_pct": 975.0,
+      "vs_entry_pct": 967.5,
       "score": 2,
       "total": 6,
       "financial": false,
@@ -430,9 +628,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-96.32%",
+              "value": "-96.34%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -96.32% (>5% up or down? Yes)"
+              "text": "Price move 1M -96.34% (>5% up or down? Yes)"
             }
           ]
         },
@@ -486,9 +684,9 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "0.22",
+              "value": "0.21",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.22 (< 4, opt. < 2)"
+              "text": "Price / Sales 0.21 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
@@ -521,9 +719,9 @@
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "23.31",
+              "value": "23.3",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 23.31 (< 45, ideal < 40)"
+              "text": "RSI (14) 23.3 (< 45, ideal < 40)"
             }
           ]
         },
@@ -602,7 +800,7 @@
       "company": "Dick'S Sporting Goods, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Specialty Retail",
-      "market_cap": "12.12B",
+      "market_cap": "12.11B",
       "avg_volume": "2.91M",
       "beta": "1.10",
       "recom": "2.19",
@@ -611,8 +809,8 @@
       "forward_pe": "10.26",
       "insider_own": "29.77%",
       "total_value_usd": 999983.0,
-      "price_usd": 136.24,
-      "price_eur": 119.48,
+      "price_usd": 136.2,
+      "price_eur": 119.44,
       "ek_usd": 129.75,
       "ek_eur": 113.79,
       "vs_entry_pct": 5.0,
@@ -628,9 +826,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "3.39%",
+              "value": "3.36%",
               "ideal": ">5% up or down? No",
-              "text": "Price move 1M 3.39% (>5% up or down? No)"
+              "text": "Price move 1M 3.36% (>5% up or down? No)"
             }
           ]
         },
@@ -712,16 +910,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-44.25%",
+              "value": "-44.27%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -44.25% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -44.27% (<= -10%, ideal -15%)"
             },
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "42.83",
+              "value": "42.8",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 42.83 (< 45, ideal < 40)"
+              "text": "RSI (14) 42.8 (< 45, ideal < 40)"
             }
           ]
         },
@@ -1189,7 +1387,7 @@
       "company": "Grab Holdings Ltd",
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": "12.72B",
+      "market_cap": "12.73B",
       "avg_volume": "51.98M",
       "beta": "0.90",
       "recom": "1.25",
@@ -1306,9 +1504,9 @@
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "45.43",
+              "value": "45.44",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 45.43 (< 45, ideal < 40)"
+              "text": "RSI (14) 45.44 (< 45, ideal < 40)"
             }
           ]
         },
@@ -1387,7 +1585,7 @@
       "company": "Cybin Inc.",
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": "919.83M",
+      "market_cap": "927.13M",
       "avg_volume": "1.81M",
       "beta": "0.54",
       "recom": "1.09",
@@ -1396,11 +1594,11 @@
       "forward_pe": "-",
       "insider_own": "32.71%",
       "total_value_usd": 1347050.0,
-      "price_usd": 12.59,
-      "price_eur": 11.04,
+      "price_usd": 12.69,
+      "price_eur": 11.13,
       "ek_usd": 13.47,
       "ek_eur": 11.81,
-      "vs_entry_pct": -6.5,
+      "vs_entry_pct": -5.8,
       "score": 2,
       "total": 6,
       "financial": false,
@@ -1413,9 +1611,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-4.91%",
+              "value": "-4.15%",
               "ideal": ">5% up or down? No",
-              "text": "Price move 1M -4.91% (>5% up or down? No)"
+              "text": "Price move 1M -4.15% (>5% up or down? No)"
             }
           ]
         },
@@ -1476,9 +1674,9 @@
             {
               "status": "fail",
               "label": "Price / Book",
-              "value": "3.22",
+              "value": "3.25",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 3.22 (< 3, opt. < 1.5)"
+              "text": "Price / Book 3.25 (< 3, opt. < 1.5)"
             },
             {
               "status": "na",
@@ -1497,16 +1695,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-16.9%",
+              "value": "-16.24%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -16.9% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -16.24% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "51.02",
+              "value": "51.72",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 51.02 (< 45, ideal < 40)"
+              "text": "RSI (14) 51.72 (< 45, ideal < 40)"
             }
           ]
         },
@@ -1532,9 +1730,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "222.5%",
+              "value": "219.9%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 222.5% (>= 15%, ideal 20%)"
+              "text": "Upside to target 219.9% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -1585,20 +1783,20 @@
       "company": "Gamestop Corp.",
       "sector": "Consumer Cyclical",
       "industry": "Specialty Retail",
-      "market_cap": "11.73B",
+      "market_cap": "11.70B",
       "avg_volume": "6.72M",
       "beta": "1.66",
       "recom": "3.00",
       "earnings": "Sep 08 BMO",
-      "pe": "15.42",
-      "forward_pe": "12.51",
+      "pe": "15.37",
+      "forward_pe": "12.47",
       "insider_own": "9.89%",
       "total_value_usd": 26393723.0,
-      "price_usd": 23.26,
-      "price_eur": 20.4,
+      "price_usd": 23.19,
+      "price_eur": 20.34,
       "ek_usd": 22.94,
       "ek_eur": 20.12,
-      "vs_entry_pct": 1.4,
+      "vs_entry_pct": 1.1,
       "score": 3,
       "total": 6,
       "financial": false,
@@ -1611,9 +1809,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "27.45%",
+              "value": "27.05%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M 27.45% (>5% up or down? Yes)"
+              "text": "Price move 1M 27.05% (>5% up or down? Yes)"
             }
           ]
         },
@@ -1667,9 +1865,9 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "3.3",
+              "value": "3.29",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 3.3 (< 4, opt. < 2)"
+              "text": "Price / Sales 3.29 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
@@ -1681,9 +1879,9 @@
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "-8.9%",
+              "value": "-8.6%",
               "ideal": "margin of safety, intrinsic ~$21.35",
-              "text": "Intrinsic value (DCF) -8.9% (margin of safety, intrinsic ~$21.35)"
+              "text": "Intrinsic value (DCF) -8.6% (margin of safety, intrinsic ~$21.35)"
             }
           ]
         },
@@ -1695,16 +1893,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-17.22%",
+              "value": "-17.47%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -17.22% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -17.47% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "63.84",
+              "value": "63.16",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 63.84 (< 45, ideal < 40)"
+              "text": "RSI (14) 63.16 (< 45, ideal < 40)"
             }
           ]
         },
@@ -1730,9 +1928,9 @@
             {
               "status": "fail",
               "label": "Upside to target",
-              "value": "-42%",
+              "value": "-41.8%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target -42% (>= 15%, ideal 20%)"
+              "text": "Upside to target -41.8% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -1809,9 +2007,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-13.27%",
+              "value": "-10.26%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -13.27% (>5% up or down? Yes)"
+              "text": "Price move 1M -10.26% (>5% up or down? Yes)"
             }
           ]
         },
@@ -2377,20 +2575,20 @@
       "company": "Betterware De Mexico, S.A.P.I. De C.V",
       "sector": "Consumer Cyclical",
       "industry": "Specialty Retail",
-      "market_cap": "603.30M",
+      "market_cap": "649.03M",
       "avg_volume": "78.84K",
       "beta": "1.00",
       "recom": "1.00",
       "earnings": "Jul 23 AMC",
-      "pe": "8.72",
-      "forward_pe": "5.44",
+      "pe": "9.38",
+      "forward_pe": "5.85",
       "insider_own": "67.43%",
       "total_value_usd": 739785.0,
-      "price_usd": 16.2,
-      "price_eur": 14.21,
+      "price_usd": 17.43,
+      "price_eur": 15.29,
       "ek_usd": 16.44,
       "ek_eur": 14.42,
-      "vs_entry_pct": -1.5,
+      "vs_entry_pct": 6.0,
       "score": 3,
       "total": 6,
       "financial": false,
@@ -2403,9 +2601,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "1.75%",
-              "ideal": ">5% up or down? No",
-              "text": "Price move 1M 1.75% (>5% up or down? No)"
+              "value": "9.46%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M 9.46% (>5% up or down? Yes)"
             }
           ]
         },
@@ -2459,23 +2657,23 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "0.73",
+              "value": "0.78",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.73 (< 4, opt. < 2)"
+              "text": "Price / Sales 0.78 (< 4, opt. < 2)"
             },
             {
               "status": "fail",
               "label": "Price / Book",
-              "value": "4.63",
+              "value": "4.98",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 4.63 (< 3, opt. < 1.5)"
+              "text": "Price / Book 4.98 (< 3, opt. < 1.5)"
             },
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "+67.1%",
+              "value": "+64.6%",
               "ideal": "margin of safety, intrinsic ~$49.3",
-              "text": "Intrinsic value (DCF) +67.1% (margin of safety, intrinsic ~$49.3)"
+              "text": "Intrinsic value (DCF) +64.6% (margin of safety, intrinsic ~$49.3)"
             }
           ]
         },
@@ -2487,16 +2685,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-18.14%",
+              "value": "-11.93%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -18.14% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -11.93% (<= -10%, ideal -15%)"
             },
             {
               "status": "fail",
               "label": "RSI (14)",
-              "value": "48.94",
+              "value": "63.72",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 48.94 (< 45, ideal < 40)"
+              "text": "RSI (14) 63.72 (< 45, ideal < 40)"
             }
           ]
         },
@@ -2522,9 +2720,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "82.4%",
+              "value": "69.5%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 82.4% (>= 15%, ideal 20%)"
+              "text": "Upside to target 69.5% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -2575,7 +2773,7 @@
       "company": "Neighborhood Intelligence, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "market_cap": "314.19M",
+      "market_cap": "311.33M",
       "avg_volume": "2.46M",
       "beta": "2.99",
       "recom": "2.14",
@@ -2584,11 +2782,11 @@
       "forward_pe": "-",
       "insider_own": "9.17%",
       "total_value_usd": 101297.0,
-      "price_usd": 3.29,
-      "price_eur": 2.89,
+      "price_usd": 3.26,
+      "price_eur": 2.86,
       "ek_usd": 4.67,
       "ek_eur": 4.1,
-      "vs_entry_pct": -29.6,
+      "vs_entry_pct": -30.2,
       "score": 4,
       "total": 6,
       "financial": false,
@@ -2601,9 +2799,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-16.5%",
+              "value": "-17.26%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -16.5% (>5% up or down? Yes)"
+              "text": "Price move 1M -17.26% (>5% up or down? Yes)"
             }
           ]
         },
@@ -2657,16 +2855,16 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "0.28",
+              "value": "0.27",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.28 (< 4, opt. < 2)"
+              "text": "Price / Sales 0.27 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
               "label": "Price / Book",
-              "value": "1.25",
+              "value": "1.24",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 1.25 (< 3, opt. < 1.5)"
+              "text": "Price / Book 1.24 (< 3, opt. < 1.5)"
             },
             {
               "status": "na",
@@ -2685,16 +2883,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-73.99%",
+              "value": "-74.23%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -73.99% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -74.23% (<= -10%, ideal -15%)"
             },
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "32.01",
+              "value": "30.68",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 32.01 (< 45, ideal < 40)"
+              "text": "RSI (14) 30.68 (< 45, ideal < 40)"
             }
           ]
         },
@@ -2720,9 +2918,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "207.6%",
+              "value": "210.4%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 207.6% (>= 15%, ideal 20%)"
+              "text": "Upside to target 210.4% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -2971,20 +3169,20 @@
       "company": "Star Bulk Carriers Corp.",
       "sector": "Industrials",
       "industry": "Marine Shipping",
-      "market_cap": "3.28B",
+      "market_cap": "3.27B",
       "avg_volume": "1.54M",
       "beta": "0.76",
       "recom": "1.25",
       "earnings": "Aug 05 AMC",
-      "pe": "11.44",
-      "forward_pe": "7.09",
+      "pe": "11.43",
+      "forward_pe": "7.08",
       "insider_own": "26.16%",
       "total_value_usd": 424050.0,
-      "price_usd": 29.25,
-      "price_eur": 25.65,
+      "price_usd": 29.22,
+      "price_eur": 25.62,
       "ek_usd": 28.27,
       "ek_eur": 24.79,
-      "vs_entry_pct": 3.5,
+      "vs_entry_pct": 3.4,
       "score": 6,
       "total": 6,
       "financial": false,
@@ -2997,9 +3195,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-3.85%",
+              "value": "-3.94%",
               "ideal": ">5% up or down? No",
-              "text": "Price move 1M -3.85% (>5% up or down? No)"
+              "text": "Price move 1M -3.94% (>5% up or down? No)"
             }
           ]
         },
@@ -3081,16 +3279,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-11.04%",
+              "value": "-11.13%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -11.04% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -11.13% (<= -10%, ideal -15%)"
             },
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "41.13",
+              "value": "40.96",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 41.13 (< 45, ideal < 40)"
+              "text": "RSI (14) 40.96 (< 45, ideal < 40)"
             }
           ]
         },
@@ -3116,9 +3314,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "21.5%",
+              "value": "21.7%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 21.5% (>= 15%, ideal 20%)"
+              "text": "Upside to target 21.7% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -3379,19 +3577,19 @@
         "company": "Home Depot Inc",
         "sector": "Consumer Cyclical",
         "industry": "Home Improvement Retail",
-        "market_cap": "291.41B",
+        "market_cap": "291.67B",
         "avg_volume": "4.12M",
         "beta": "0.99",
         "recom": "2.03",
         "earnings": "Aug 18 BMO",
-        "pe": "20.44",
-        "forward_pe": "18.29",
+        "pe": "20.46",
+        "forward_pe": "18.31",
         "insider_own": "0.08%",
-        "price_usd": 292.08,
-        "price_eur": 256.14,
+        "price_usd": 292.35,
+        "price_eur": 256.38,
         "entry_est_usd": 331.96,
         "entry_est_eur": 291.12,
-        "vs_entry_pct": -12.0,
+        "vs_entry_pct": -11.9,
         "score": 3,
         "total": 6,
         "checks": [
@@ -3403,9 +3601,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-11.12%",
+                "value": "-11.03%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M -11.12% (>5% up or down? Yes)"
+                "text": "Price move 1M -11.03% (>5% up or down? Yes)"
               }
             ]
           },
@@ -3466,16 +3664,16 @@
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "17.54",
+                "value": "17.56",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 17.54 (< 3, opt. < 1.5)"
+                "text": "Price / Book 17.56 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-13.3%",
+                "value": "-13.5%",
                 "ideal": "margin of safety, intrinsic ~$257.69",
-                "text": "Intrinsic value (DCF) -13.3% (margin of safety, intrinsic ~$257.69)"
+                "text": "Intrinsic value (DCF) -13.5% (margin of safety, intrinsic ~$257.69)"
               }
             ]
           },
@@ -3487,16 +3685,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-29.01%",
+                "value": "-28.94%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -29.01% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -28.94% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "30.4",
+                "value": "30.56",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 30.4 (< 45, ideal < 40)"
+                "text": "RSI (14) 30.56 (< 45, ideal < 40)"
               }
             ]
           },
@@ -3522,9 +3720,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "29.8%",
+                "value": "29.7%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 29.8% (>= 15%, ideal 20%)"
+                "text": "Upside to target 29.7% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -3559,7 +3757,7 @@
             "amount": "$250,001 - $500,000",
             "option": false,
             "entry_est": 331.96,
-            "since_pct": -12.0
+            "since_pct": -11.9
           }
         ],
         "buy_count": 1,
@@ -3572,19 +3770,19 @@
         "company": "Broadcom Inc",
         "sector": "Technology",
         "industry": "Semiconductors",
-        "market_cap": "1663.18B",
+        "market_cap": "1666.86B",
         "avg_volume": "22.96M",
         "beta": "1.47",
         "recom": "1.26",
         "earnings": "Sep 02 AMC",
-        "pe": "44.48",
-        "forward_pe": "18.10",
+        "pe": "44.58",
+        "forward_pe": "18.14",
         "insider_own": "1.91%",
-        "price_usd": 348.41,
-        "price_eur": 305.54,
+        "price_usd": 349.18,
+        "price_eur": 306.22,
         "entry_est_usd": 389.28,
         "entry_est_eur": 341.38,
-        "vs_entry_pct": -10.5,
+        "vs_entry_pct": -10.3,
         "score": 5,
         "total": 6,
         "checks": [
@@ -3596,9 +3794,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-6.23%",
+                "value": "-6.02%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M -6.23% (>5% up or down? Yes)"
+                "text": "Price move 1M -6.02% (>5% up or down? Yes)"
               }
             ]
           },
@@ -3652,23 +3850,23 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "18.67",
+                "value": "18.71",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 18.67 (< 4, opt. < 2)"
+                "text": "Price / Sales 18.71 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "16.68",
+                "value": "16.72",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 16.68 (< 3, opt. < 1.5)"
+                "text": "Price / Book 16.72 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-67.9%",
+                "value": "-68.3%",
                 "ideal": "margin of safety, intrinsic ~$207.52",
-                "text": "Intrinsic value (DCF) -67.9% (margin of safety, intrinsic ~$207.52)"
+                "text": "Intrinsic value (DCF) -68.3% (margin of safety, intrinsic ~$207.52)"
               }
             ]
           },
@@ -3680,16 +3878,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-29.61%",
+                "value": "-29.46%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -29.61% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -29.46% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "41.35",
+                "value": "41.74",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 41.35 (< 45, ideal < 40)"
+                "text": "RSI (14) 41.74 (< 45, ideal < 40)"
               }
             ]
           },
@@ -3715,9 +3913,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "53.3%",
+                "value": "52.9%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 53.3% (>= 15%, ideal 20%)"
+                "text": "Upside to target 52.9% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -3752,7 +3950,7 @@
             "amount": "$250,001 - $500,000",
             "option": false,
             "entry_est": 389.28,
-            "since_pct": -10.5
+            "since_pct": -10.3
           }
         ],
         "buy_count": 1,
@@ -3765,19 +3963,19 @@
         "company": "Procter & Gamble Co",
         "sector": "Consumer Defensive",
         "industry": "Household & Personal Products",
-        "market_cap": "339.92B",
+        "market_cap": "339.79B",
         "avg_volume": "8.80M",
         "beta": "0.38",
         "recom": "2.22",
         "earnings": "Oct 22 BMO",
-        "pe": "22.11",
-        "forward_pe": "19.80",
+        "pe": "22.10",
+        "forward_pe": "19.79",
         "insider_own": "0.07%",
-        "price_usd": 146.35,
-        "price_eur": 128.34,
+        "price_usd": 146.29,
+        "price_eur": 128.29,
         "entry_est_usd": 144.49,
         "entry_est_eur": 126.71,
-        "vs_entry_pct": 1.3,
+        "vs_entry_pct": 1.2,
         "score": 1,
         "total": 6,
         "checks": [
@@ -3789,9 +3987,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "2.24%",
+                "value": "2.2%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M 2.24% (>5% up or down? No)"
+                "text": "Price move 1M 2.2% (>5% up or down? No)"
               }
             ]
           },
@@ -3845,9 +4043,9 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "3.91",
+                "value": "3.9",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 3.91 (< 4, opt. < 2)"
+                "text": "Price / Sales 3.9 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
@@ -3873,16 +4071,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-12.5%",
+                "value": "-12.53%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -12.5% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -12.53% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "51.06",
+                "value": "50.86",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 51.06 (< 45, ideal < 40)"
+                "text": "RSI (14) 50.86 (< 45, ideal < 40)"
               }
             ]
           },
@@ -3945,7 +4143,7 @@
             "amount": "$250,001 - $500,000",
             "option": false,
             "entry_est": 144.49,
-            "since_pct": 1.3
+            "since_pct": 1.2
           }
         ],
         "buy_count": 1,
@@ -3958,7 +4156,7 @@
         "company": "ExxonMobil Holdings Corp",
         "sector": "Energy",
         "industry": "Oil & Gas Integrated",
-        "market_cap": "672.09B",
+        "market_cap": "671.85B",
         "avg_volume": "14.72M",
         "beta": "0.21",
         "recom": "2.34",
@@ -3966,11 +4164,11 @@
         "pe": "21.03",
         "forward_pe": "14.67",
         "insider_own": "0.21%",
-        "price_usd": 163.45,
-        "price_eur": 143.34,
+        "price_usd": 163.39,
+        "price_eur": 143.29,
         "entry_est_usd": 155.44,
         "entry_est_eur": 136.31,
-        "vs_entry_pct": 5.2,
+        "vs_entry_pct": 5.1,
         "score": 4,
         "total": 6,
         "checks": [
@@ -3982,9 +4180,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "4.48%",
+                "value": "4.44%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M 4.48% (>5% up or down? No)"
+                "text": "Price move 1M 4.44% (>5% up or down? No)"
               }
             ]
           },
@@ -4066,16 +4264,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-7.35%",
+                "value": "-7.38%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -7.35% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -7.38% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "53.8",
+                "value": "53.7",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 53.8 (< 45, ideal < 40)"
+                "text": "RSI (14) 53.7 (< 45, ideal < 40)"
               }
             ]
           },
@@ -4138,7 +4336,7 @@
             "amount": "$250,001 - $500,000",
             "option": false,
             "entry_est": 155.44,
-            "since_pct": 5.2
+            "since_pct": 5.1
           }
         ],
         "buy_count": 1,
@@ -4151,19 +4349,19 @@
         "company": "Philip Morris International Inc",
         "sector": "Consumer Defensive",
         "industry": "Tobacco",
-        "market_cap": "298.59B",
+        "market_cap": "298.85B",
         "avg_volume": "4.84M",
         "beta": "0.36",
         "recom": "1.83",
         "earnings": "Oct 21 BMO",
-        "pe": "27.54",
-        "forward_pe": "20.90",
+        "pe": "27.56",
+        "forward_pe": "20.92",
         "insider_own": "0.21%",
-        "price_usd": 191.57,
-        "price_eur": 168.0,
+        "price_usd": 191.74,
+        "price_eur": 168.15,
         "entry_est_usd": 190.82,
         "entry_est_eur": 167.34,
-        "vs_entry_pct": 0.4,
+        "vs_entry_pct": 0.5,
         "score": 2,
         "total": 6,
         "checks": [
@@ -4175,9 +4373,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "0.57%",
+                "value": "0.66%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M 0.57% (>5% up or down? No)"
+                "text": "Price move 1M 0.66% (>5% up or down? No)"
               }
             ]
           },
@@ -4231,9 +4429,9 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "7.03",
+                "value": "7.04",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 7.03 (< 4, opt. < 2)"
+                "text": "Price / Sales 7.04 (< 4, opt. < 2)"
               },
               {
                 "status": "na",
@@ -4245,9 +4443,9 @@
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-27.6%",
+                "value": "-27.7%",
                 "ideal": "margin of safety, intrinsic ~$150.16",
-                "text": "Intrinsic value (DCF) -27.6% (margin of safety, intrinsic ~$150.16)"
+                "text": "Intrinsic value (DCF) -27.7% (margin of safety, intrinsic ~$150.16)"
               }
             ]
           },
@@ -4259,16 +4457,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-7.79%",
+                "value": "-7.71%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -7.79% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -7.71% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "53.76",
+                "value": "54.07",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 53.76 (< 45, ideal < 40)"
+                "text": "RSI (14) 54.07 (< 45, ideal < 40)"
               }
             ]
           },
@@ -4294,9 +4492,9 @@
               {
                 "status": "fail",
                 "label": "Upside to target",
-                "value": "9.5%",
+                "value": "9.4%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 9.5% (>= 15%, ideal 20%)"
+                "text": "Upside to target 9.4% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -4331,7 +4529,7 @@
             "amount": "$250,001 - $500,000",
             "option": false,
             "entry_est": 190.82,
-            "since_pct": 0.4
+            "since_pct": 0.5
           }
         ],
         "buy_count": 1,
@@ -4537,19 +4735,19 @@
         "company": "Verizon Communications Inc",
         "sector": "Communication Services",
         "industry": "Telecom Services",
-        "market_cap": "197.93B",
+        "market_cap": "196.41B",
         "avg_volume": "25.43M",
         "beta": "0.24",
         "recom": "2.32",
         "earnings": "Jul 24 BMO",
-        "pe": "12.41",
-        "forward_pe": "9.06",
+        "pe": "12.31",
+        "forward_pe": "8.99",
         "insider_own": "0.06%",
-        "price_usd": 47.64,
-        "price_eur": 41.78,
+        "price_usd": 47.27,
+        "price_eur": 41.45,
         "entry_est_usd": 46.81,
         "entry_est_eur": 41.05,
-        "vs_entry_pct": 1.8,
+        "vs_entry_pct": 1.0,
         "score": 2,
         "total": 6,
         "checks": [
@@ -4561,9 +4759,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-3.62%",
+                "value": "-4.36%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -3.62% (>5% up or down? No)"
+                "text": "Price move 1M -4.36% (>5% up or down? No)"
               }
             ]
           },
@@ -4617,23 +4815,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "1.43",
+                "value": "1.41",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 1.43 (< 4, opt. < 2)"
+                "text": "Price / Sales 1.41 (< 4, opt. < 2)"
               },
               {
                 "status": "pass",
                 "label": "Price / Book",
-                "value": "1.9",
+                "value": "1.89",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 1.9 (< 3, opt. < 1.5)"
+                "text": "Price / Book 1.89 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "+32.4%",
+                "value": "+33%",
                 "ideal": "margin of safety, intrinsic ~$70.52",
-                "text": "Intrinsic value (DCF) +32.4% (margin of safety, intrinsic ~$70.52)"
+                "text": "Intrinsic value (DCF) +33% (margin of safety, intrinsic ~$70.52)"
               }
             ]
           },
@@ -4645,16 +4843,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-7.82%",
+                "value": "-8.53%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -7.82% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -8.53% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "44.07",
+                "value": "41.3",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 44.07 (< 45, ideal < 40)"
+                "text": "RSI (14) 41.3 (< 45, ideal < 40)"
               }
             ]
           },
@@ -4680,9 +4878,9 @@
               {
                 "status": "fail",
                 "label": "Upside to target",
-                "value": "6.4%",
+                "value": "7.2%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 6.4% (>= 15%, ideal 20%)"
+                "text": "Upside to target 7.2% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -4717,7 +4915,7 @@
             "amount": "$250,001 - $500,000",
             "option": false,
             "entry_est": 46.81,
-            "since_pct": 1.8
+            "since_pct": 1.0
           }
         ],
         "buy_count": 1,
@@ -4923,19 +5121,19 @@
         "company": "Microsoft Corp",
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "market_cap": "3814.50B",
+        "market_cap": "3811.90B",
         "avg_volume": "32.41M",
         "beta": "1.10",
         "recom": "1.22",
         "earnings": "Jul 29 AMC",
-        "pe": "28.63",
-        "forward_pe": "21.88",
+        "pe": "28.61",
+        "forward_pe": "21.86",
         "insider_own": "1.54%",
-        "price_usd": 513.7,
-        "price_eur": 450.49,
+        "price_usd": 513.35,
+        "price_eur": 450.19,
         "entry_est_usd": 495.4,
         "entry_est_eur": 434.45,
-        "vs_entry_pct": 3.7,
+        "vs_entry_pct": 3.6,
         "score": 3,
         "total": 6,
         "checks": [
@@ -4947,9 +5145,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "1.71%",
+                "value": "1.64%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M 1.71% (>5% up or down? No)"
+                "text": "Price move 1M 1.64% (>5% up or down? No)"
               }
             ]
           },
@@ -5003,9 +5201,9 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "11.5",
+                "value": "11.49",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 11.5 (< 4, opt. < 2)"
+                "text": "Price / Sales 11.49 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
@@ -5017,9 +5215,9 @@
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-8%",
+                "value": "-7.9%",
                 "ideal": "margin of safety, intrinsic ~$475.73",
-                "text": "Intrinsic value (DCF) -8% (margin of safety, intrinsic ~$475.73)"
+                "text": "Intrinsic value (DCF) -7.9% (margin of safety, intrinsic ~$475.73)"
               }
             ]
           },
@@ -5031,16 +5229,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-7.23%",
+                "value": "-7.29%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -7.23% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -7.29% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "61.48",
+                "value": "61.24",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 61.48 (< 45, ideal < 40)"
+                "text": "RSI (14) 61.24 (< 45, ideal < 40)"
               }
             ]
           },
@@ -5066,9 +5264,9 @@
               {
                 "status": "fail",
                 "label": "Upside to target",
-                "value": "11.2%",
+                "value": "11.3%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 11.2% (>= 15%, ideal 20%)"
+                "text": "Upside to target 11.3% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -5103,7 +5301,7 @@
             "amount": "$250,001 - $500,000",
             "option": true,
             "entry_est": 495.4,
-            "since_pct": 3.7
+            "since_pct": 3.6
           },
           {
             "politician": "Josh Gottheimer",
@@ -5113,7 +5311,7 @@
             "amount": "$500,001 - $1,000,000",
             "option": true,
             "entry_est": 495.4,
-            "since_pct": 3.7
+            "since_pct": 3.6
           }
         ],
         "buy_count": 2,
@@ -5126,19 +5324,19 @@
         "company": "Applied Materials Inc",
         "sector": "Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "market_cap": "374.47B",
+        "market_cap": "375.23B",
         "avg_volume": "8.20M",
         "beta": "1.60",
         "recom": "1.38",
         "earnings": "Aug 13 AMC",
-        "pe": "40.69",
-        "forward_pe": "25.20",
+        "pe": "40.77",
+        "forward_pe": "25.25",
         "insider_own": "0.50%",
-        "price_usd": 471.87,
-        "price_eur": 413.81,
+        "price_usd": 472.82,
+        "price_eur": 414.64,
         "entry_est_usd": 527.48,
         "entry_est_eur": 462.58,
-        "vs_entry_pct": -10.5,
+        "vs_entry_pct": -10.4,
         "score": 4,
         "total": 6,
         "checks": [
@@ -5150,9 +5348,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-2.17%",
+                "value": "-1.98%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -2.17% (>5% up or down? No)"
+                "text": "Price move 1M -1.98% (>5% up or down? No)"
               }
             ]
           },
@@ -5206,23 +5404,23 @@
               {
                 "status": "fail",
                 "label": "Price / Sales",
-                "value": "12.14",
+                "value": "12.17",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 12.14 (< 4, opt. < 2)"
+                "text": "Price / Sales 12.17 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "14.61",
+                "value": "14.64",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 14.61 (< 3, opt. < 1.5)"
+                "text": "Price / Book 14.64 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-53.5%",
+                "value": "-53.8%",
                 "ideal": "margin of safety, intrinsic ~$307.44",
-                "text": "Intrinsic value (DCF) -53.5% (margin of safety, intrinsic ~$307.44)"
+                "text": "Intrinsic value (DCF) -53.8% (margin of safety, intrinsic ~$307.44)"
               }
             ]
           },
@@ -5234,16 +5432,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-36.21%",
+                "value": "-36.08%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -36.21% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -36.08% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "51.14",
+                "value": "51.44",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 51.14 (< 45, ideal < 40)"
+                "text": "RSI (14) 51.44 (< 45, ideal < 40)"
               }
             ]
           },
@@ -5269,9 +5467,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "41.6%",
+                "value": "41.3%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 41.6% (>= 15%, ideal 20%)"
+                "text": "Upside to target 41.3% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -5306,7 +5504,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 527.48,
-            "since_pct": -10.5
+            "since_pct": -10.4
           }
         ],
         "buy_count": 1,
@@ -5319,19 +5517,19 @@
         "company": "Republic Services Inc",
         "sector": "Industrials",
         "industry": "Waste Management",
-        "market_cap": "64.95B",
+        "market_cap": "65.22B",
         "avg_volume": "1.47M",
         "beta": "0.39",
         "recom": "2.00",
         "earnings": "Aug 06 AMC",
-        "pe": "30.04",
-        "forward_pe": "26.24",
+        "pe": "30.17",
+        "forward_pe": "26.35",
         "insider_own": "38.37%",
-        "price_usd": 212.1,
-        "price_eur": 186.0,
+        "price_usd": 212.98,
+        "price_eur": 186.77,
         "entry_est_usd": 209.59,
         "entry_est_eur": 183.8,
-        "vs_entry_pct": 1.2,
+        "vs_entry_pct": 1.6,
         "score": 3,
         "total": 6,
         "checks": [
@@ -5343,9 +5541,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-4.54%",
+                "value": "-2.87%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -4.54% (>5% up or down? No)"
+                "text": "Price move 1M -2.87% (>5% up or down? No)"
               }
             ]
           },
@@ -5399,23 +5597,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "3.85",
+                "value": "3.86",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 3.85 (< 4, opt. < 2)"
+                "text": "Price / Sales 3.86 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "5.39",
+                "value": "5.42",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 5.39 (< 3, opt. < 1.5)"
+                "text": "Price / Book 5.42 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-49.3%",
+                "value": "-49.9%",
                 "ideal": "margin of safety, intrinsic ~$142.07",
-                "text": "Intrinsic value (DCF) -49.3% (margin of safety, intrinsic ~$142.07)"
+                "text": "Intrinsic value (DCF) -49.9% (margin of safety, intrinsic ~$142.07)"
               }
             ]
           },
@@ -5427,16 +5625,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-9.13%",
+                "value": "-8.76%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -9.13% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -8.76% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "36.22",
+                "value": "38.75",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 36.22 (< 45, ideal < 40)"
+                "text": "RSI (14) 38.75 (< 45, ideal < 40)"
               }
             ]
           },
@@ -5462,9 +5660,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "16.7%",
+                "value": "16.2%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 16.7% (>= 15%, ideal 20%)"
+                "text": "Upside to target 16.2% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -5499,7 +5697,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 209.59,
-            "since_pct": 1.2
+            "since_pct": 1.6
           }
         ],
         "buy_count": 1,
@@ -5705,19 +5903,19 @@
         "company": "Wells Fargo & Co",
         "sector": "Financial",
         "industry": "Banks - Diversified",
-        "market_cap": "249.30B",
+        "market_cap": "250.75B",
         "avg_volume": "14.26M",
         "beta": "0.94",
         "recom": "1.83",
         "earnings": "Oct 13 BMO",
-        "pe": "11.98",
-        "forward_pe": "10.31",
+        "pe": "12.05",
+        "forward_pe": "10.37",
         "insider_own": "0.21%",
-        "price_usd": 82.44,
-        "price_eur": 72.3,
+        "price_usd": 82.92,
+        "price_eur": 72.72,
         "entry_est_usd": 84.97,
         "entry_est_eur": 74.52,
-        "vs_entry_pct": -3.0,
+        "vs_entry_pct": -2.4,
         "score": 6,
         "total": 6,
         "checks": [
@@ -5729,9 +5927,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-2.98%",
+                "value": "-2.41%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -2.98% (>5% up or down? No)"
+                "text": "Price move 1M -2.41% (>5% up or down? No)"
               }
             ]
           },
@@ -5778,23 +5976,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "1.94",
+                "value": "1.95",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 1.94 (< 4, opt. < 2)"
+                "text": "Price / Sales 1.95 (< 4, opt. < 2)"
               },
               {
                 "status": "pass",
                 "label": "Price / Book",
-                "value": "1.51",
+                "value": "1.52",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 1.51 (< 3, opt. < 1.5)"
+                "text": "Price / Book 1.52 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "+52.2%",
+                "value": "+51.9%",
                 "ideal": "margin of safety, intrinsic ~$172.55",
-                "text": "Intrinsic value (DCF) +52.2% (margin of safety, intrinsic ~$172.55)"
+                "text": "Intrinsic value (DCF) +51.9% (margin of safety, intrinsic ~$172.55)"
               }
             ]
           },
@@ -5806,16 +6004,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-15.67%",
+                "value": "-15.18%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -15.67% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -15.18% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "37.01",
+                "value": "38.27",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 37.01 (< 45, ideal < 40)"
+                "text": "RSI (14) 38.27 (< 45, ideal < 40)"
               }
             ]
           },
@@ -5841,9 +6039,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "21.7%",
+                "value": "21%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 21.7% (>= 15%, ideal 20%)"
+                "text": "Upside to target 21% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -5878,7 +6076,7 @@
             "amount": "$50,001 - $100,000",
             "option": false,
             "entry_est": 84.97,
-            "since_pct": -3.0
+            "since_pct": -2.4
           },
           {
             "politician": "Ro Khanna",
@@ -5888,7 +6086,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 87.4,
-            "since_pct": -5.7
+            "since_pct": -5.1
           },
           {
             "politician": "Ro Khanna",
@@ -5898,7 +6096,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 87.4,
-            "since_pct": -5.7
+            "since_pct": -5.1
           }
         ],
         "buy_count": 3,
@@ -5911,19 +6109,19 @@
         "company": "JPMorgan Chase & Co",
         "sector": "Financial",
         "industry": "Banks - Diversified",
-        "market_cap": "907.93B",
+        "market_cap": "905.66B",
         "avg_volume": "7.91M",
         "beta": "1.01",
         "recom": "2.00",
         "earnings": "Oct 13 BMO",
-        "pe": "14.63",
-        "forward_pe": "13.58",
+        "pe": "14.60",
+        "forward_pe": "13.55",
         "insider_own": "0.43%",
-        "price_usd": 341.56,
-        "price_eur": 299.53,
+        "price_usd": 340.71,
+        "price_eur": 298.79,
         "entry_est_usd": 354.22,
         "entry_est_eur": 310.64,
-        "vs_entry_pct": -3.6,
+        "vs_entry_pct": -3.8,
         "score": 4,
         "total": 6,
         "checks": [
@@ -5935,9 +6133,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-3.57%",
+                "value": "-3.82%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -3.57% (>5% up or down? No)"
+                "text": "Price move 1M -3.82% (>5% up or down? No)"
               }
             ]
           },
@@ -5984,23 +6182,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "3.05",
+                "value": "3.04",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 3.05 (< 4, opt. < 2)"
+                "text": "Price / Sales 3.04 (< 4, opt. < 2)"
               },
               {
                 "status": "pass",
                 "label": "Price / Book",
-                "value": "2.57",
+                "value": "2.56",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 2.57 (< 3, opt. < 1.5)"
+                "text": "Price / Book 2.56 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "+34.7%",
+                "value": "+34.9%",
                 "ideal": "margin of safety, intrinsic ~$523.36",
-                "text": "Intrinsic value (DCF) +34.7% (margin of safety, intrinsic ~$523.36)"
+                "text": "Intrinsic value (DCF) +34.9% (margin of safety, intrinsic ~$523.36)"
               }
             ]
           },
@@ -6012,16 +6210,16 @@
               {
                 "status": "fail",
                 "label": "Distance from 52W high",
-                "value": "-6.8%",
+                "value": "-7.04%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -6.8% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -7.04% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "40.19",
+                "value": "39.4",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 40.19 (< 45, ideal < 40)"
+                "text": "RSI (14) 39.4 (< 45, ideal < 40)"
               }
             ]
           },
@@ -6047,9 +6245,9 @@
               {
                 "status": "fail",
                 "label": "Upside to target",
-                "value": "10.4%",
+                "value": "10.7%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 10.4% (>= 15%, ideal 20%)"
+                "text": "Upside to target 10.7% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -6084,7 +6282,7 @@
             "amount": "$100,001 - $250,000",
             "option": false,
             "entry_est": 354.22,
-            "since_pct": -3.6
+            "since_pct": -3.8
           }
         ],
         "buy_count": 1,
@@ -6097,19 +6295,19 @@
         "company": "Costco Wholesale Corp",
         "sector": "Consumer Defensive",
         "industry": "Discount Stores",
-        "market_cap": "410.75B",
+        "market_cap": "411.10B",
         "avg_volume": "2.24M",
         "beta": "0.87",
         "recom": "1.95",
         "earnings": "Sep 24 AMC",
-        "pe": "44.61",
-        "forward_pe": "37.11",
+        "pe": "44.65",
+        "forward_pe": "37.14",
         "insider_own": "0.12%",
-        "price_usd": 926.21,
-        "price_eur": 812.25,
+        "price_usd": 927.0,
+        "price_eur": 812.94,
         "entry_est_usd": 971.4,
         "entry_est_eur": 851.88,
-        "vs_entry_pct": -4.7,
+        "vs_entry_pct": -4.6,
         "score": 4,
         "total": 6,
         "checks": [
@@ -6121,9 +6319,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-0.9%",
+                "value": "-0.82%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -0.9% (>5% up or down? No)"
+                "text": "Price move 1M -0.82% (>5% up or down? No)"
               }
             ]
           },
@@ -6177,23 +6375,23 @@
               {
                 "status": "pass",
                 "label": "Price / Sales",
-                "value": "1.35",
+                "value": "1.36",
                 "ideal": "< 4, opt. < 2",
-                "text": "Price / Sales 1.35 (< 4, opt. < 2)"
+                "text": "Price / Sales 1.36 (< 4, opt. < 2)"
               },
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "11.47",
+                "value": "11.48",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 11.47 (< 3, opt. < 1.5)"
+                "text": "Price / Book 11.48 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-108.6%",
+                "value": "-108.8%",
                 "ideal": "margin of safety, intrinsic ~$444.02",
-                "text": "Intrinsic value (DCF) -108.6% (margin of safety, intrinsic ~$444.02)"
+                "text": "Intrinsic value (DCF) -108.8% (margin of safety, intrinsic ~$444.02)"
               }
             ]
           },
@@ -6205,16 +6403,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-15.53%",
+                "value": "-15.46%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -15.53% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -15.46% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "53.77",
+                "value": "54.09",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 53.77 (< 45, ideal < 40)"
+                "text": "RSI (14) 54.09 (< 45, ideal < 40)"
               }
             ]
           },
@@ -6240,9 +6438,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "16%",
+                "value": "15.9%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 16% (>= 15%, ideal 20%)"
+                "text": "Upside to target 15.9% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -6277,7 +6475,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 971.4,
-            "since_pct": -4.7
+            "since_pct": -4.6
           }
         ],
         "buy_count": 1,
@@ -6290,19 +6488,19 @@
         "company": "Oracle Corp",
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "market_cap": "405.84B",
+        "market_cap": "405.32B",
         "avg_volume": "33.14M",
         "beta": "1.76",
         "recom": "1.58",
         "earnings": "Sep 10 AMC",
-        "pe": "21.04",
-        "forward_pe": "12.18",
+        "pe": "21.02",
+        "forward_pe": "12.17",
         "insider_own": "40.47%",
-        "price_usd": 134.22,
-        "price_eur": 117.71,
+        "price_usd": 134.05,
+        "price_eur": 117.56,
         "entry_est_usd": 142.45,
         "entry_est_eur": 124.92,
-        "vs_entry_pct": -5.8,
+        "vs_entry_pct": -5.9,
         "score": 4,
         "total": 6,
         "checks": [
@@ -6314,9 +6512,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-11.66%",
+                "value": "-11.78%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M -11.66% (>5% up or down? Yes)"
+                "text": "Price move 1M -11.78% (>5% up or down? Yes)"
               }
             ]
           },
@@ -6377,16 +6575,16 @@
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "6.57",
+                "value": "6.56",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 6.57 (< 3, opt. < 1.5)"
+                "text": "Price / Book 6.56 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "+20.6%",
+                "value": "+20.7%",
                 "ideal": "margin of safety, intrinsic ~$169.09",
-                "text": "Intrinsic value (DCF) +20.6% (margin of safety, intrinsic ~$169.09)"
+                "text": "Intrinsic value (DCF) +20.7% (margin of safety, intrinsic ~$169.09)"
               }
             ]
           },
@@ -6398,16 +6596,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-58.39%",
+                "value": "-58.44%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -58.39% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -58.44% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "38.4",
+                "value": "38.28",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 38.4 (< 45, ideal < 40)"
+                "text": "RSI (14) 38.28 (< 45, ideal < 40)"
               }
             ]
           },
@@ -6433,9 +6631,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "82.1%",
+                "value": "82.4%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 82.1% (>= 15%, ideal 20%)"
+                "text": "Upside to target 82.4% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -6470,7 +6668,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 142.45,
-            "since_pct": -5.8
+            "since_pct": -5.9
           }
         ],
         "buy_count": 1,
@@ -6483,19 +6681,19 @@
         "company": "Walmart Inc",
         "sector": "Consumer Defensive",
         "industry": "Discount Stores",
-        "market_cap": "861.05B",
+        "market_cap": "859.35B",
         "avg_volume": "24.29M",
         "beta": "0.58",
         "recom": "1.47",
         "earnings": "Aug 20 BMO",
-        "pe": "39.32",
-        "forward_pe": "33.61",
+        "pe": "39.24",
+        "forward_pe": "33.55",
         "insider_own": "44.21%",
-        "price_usd": 108.53,
-        "price_eur": 95.18,
+        "price_usd": 108.32,
+        "price_eur": 94.99,
         "entry_est_usd": 106.49,
         "entry_est_eur": 93.39,
-        "vs_entry_pct": 1.9,
+        "vs_entry_pct": 1.7,
         "score": 2,
         "total": 6,
         "checks": [
@@ -6507,9 +6705,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "5.75%",
+                "value": "5.54%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M 5.75% (>5% up or down? Yes)"
+                "text": "Price move 1M 5.54% (>5% up or down? Yes)"
               }
             ]
           },
@@ -6570,16 +6768,16 @@
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "8.77",
+                "value": "8.76",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 8.77 (< 3, opt. < 1.5)"
+                "text": "Price / Book 8.76 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-73.1%",
+                "value": "-72.8%",
                 "ideal": "margin of safety, intrinsic ~$62.7",
-                "text": "Intrinsic value (DCF) -73.1% (margin of safety, intrinsic ~$62.7)"
+                "text": "Intrinsic value (DCF) -72.8% (margin of safety, intrinsic ~$62.7)"
               }
             ]
           },
@@ -6591,16 +6789,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-19.7%",
+                "value": "-19.85%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -19.7% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -19.85% (<= -10%, ideal -15%)"
               },
               {
                 "status": "fail",
                 "label": "RSI (14)",
-                "value": "51.04",
+                "value": "50.39",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 51.04 (< 45, ideal < 40)"
+                "text": "RSI (14) 50.39 (< 45, ideal < 40)"
               }
             ]
           },
@@ -6626,9 +6824,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "18.9%",
+                "value": "19.2%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 18.9% (>= 15%, ideal 20%)"
+                "text": "Upside to target 19.2% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -6663,7 +6861,7 @@
             "amount": "$1,001 - $15,000",
             "option": false,
             "entry_est": 106.49,
-            "since_pct": 1.9
+            "since_pct": 1.7
           }
         ],
         "buy_count": 1,
@@ -6676,16 +6874,16 @@
         "company": "American Express Co",
         "sector": "Financial",
         "industry": "Credit Services",
-        "market_cap": "207.86B",
+        "market_cap": "207.66B",
         "avg_volume": "2.91M",
         "beta": "1.08",
         "recom": "2.03",
         "earnings": "Oct 23 BMO",
-        "pe": "18.67",
-        "forward_pe": "15.27",
+        "pe": "18.66",
+        "forward_pe": "15.26",
         "insider_own": "0.12%",
-        "price_usd": 307.8,
-        "price_eur": 269.93,
+        "price_usd": 307.5,
+        "price_eur": 269.67,
         "entry_est_usd": 336.21,
         "entry_est_eur": 294.84,
         "vs_entry_pct": -8.5,
@@ -6700,9 +6898,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-7.89%",
+                "value": "-7.98%",
                 "ideal": ">5% up or down? Yes",
-                "text": "Price move 1M -7.89% (>5% up or down? Yes)"
+                "text": "Price move 1M -7.98% (>5% up or down? Yes)"
               }
             ]
           },
@@ -6756,16 +6954,16 @@
               {
                 "status": "fail",
                 "label": "Price / Book",
-                "value": "6.06",
+                "value": "6.05",
                 "ideal": "< 3, opt. < 1.5",
-                "text": "Price / Book 6.06 (< 3, opt. < 1.5)"
+                "text": "Price / Book 6.05 (< 3, opt. < 1.5)"
               },
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "+27.9%",
+                "value": "+28%",
                 "ideal": "margin of safety, intrinsic ~$426.95",
-                "text": "Intrinsic value (DCF) +27.9% (margin of safety, intrinsic ~$426.95)"
+                "text": "Intrinsic value (DCF) +28% (margin of safety, intrinsic ~$426.95)"
               }
             ]
           },
@@ -6777,16 +6975,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-20.57%",
+                "value": "-20.64%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -20.57% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -20.64% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "35.97",
+                "value": "35.74",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 35.97 (< 45, ideal < 40)"
+                "text": "RSI (14) 35.74 (< 45, ideal < 40)"
               }
             ]
           },
@@ -6812,9 +7010,9 @@
               {
                 "status": "pass",
                 "label": "Upside to target",
-                "value": "23.9%",
+                "value": "24%",
                 "ideal": ">= 15%, ideal 20%",
-                "text": "Upside to target 23.9% (>= 15%, ideal 20%)"
+                "text": "Upside to target 24% (>= 15%, ideal 20%)"
               }
             ]
           },
@@ -6861,34 +7059,42 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "DMRA",
+      "date": "2026-09-28 11:04",
+      "price_at_alert": 21.41,
+      "price_now": 21.41,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "MX",
       "date": "2026-09-25 20:26",
       "price_at_alert": 3.3,
-      "price_now": 3.73,
-      "change_pct": 13.0
+      "price_now": 3.65,
+      "change_pct": 10.6
     },
     {
       "type": "insider",
       "ticker": "ANNX",
       "date": "2026-09-25 20:26",
       "price_at_alert": 3.64,
-      "price_now": 3.76,
-      "change_pct": 3.3
+      "price_now": 3.8,
+      "change_pct": 4.4
     },
     {
       "type": "insider",
       "ticker": "NCT",
       "date": "2026-09-25 10:23",
       "price_at_alert": 5.56,
-      "price_now": 4.3,
-      "change_pct": -22.7
+      "price_now": 4.27,
+      "change_pct": -23.2
     },
     {
       "type": "insider",
       "ticker": "DKS",
       "date": "2026-09-24 20:25",
       "price_at_alert": 133.25,
-      "price_now": 136.24,
+      "price_now": 136.2,
       "change_pct": 2.2
     },
     {
@@ -6912,8 +7118,8 @@
       "ticker": "WM",
       "date": "2026-09-22 16:52",
       "price_at_alert": 207.39,
-      "price_now": 208.0,
-      "change_pct": 0.3
+      "price_now": 207.16,
+      "change_pct": -0.1
     },
     {
       "type": "politician",
@@ -6928,24 +7134,24 @@
       "ticker": "CNC",
       "date": "2026-09-22 16:52",
       "price_at_alert": 63.33,
-      "price_now": 61.18,
-      "change_pct": -3.4
+      "price_now": 61.82,
+      "change_pct": -2.4
     },
     {
       "type": "politician",
       "ticker": "LDOS",
       "date": "2026-09-22 16:52",
       "price_at_alert": 124.18,
-      "price_now": 123.61,
-      "change_pct": -0.5
+      "price_now": 124.61,
+      "change_pct": 0.3
     },
     {
       "type": "politician",
       "ticker": "SYK",
       "date": "2026-09-22 16:52",
       "price_at_alert": 276.64,
-      "price_now": 276.77,
-      "change_pct": 0.0
+      "price_now": 273.56,
+      "change_pct": -1.1
     },
     {
       "type": "politician",
@@ -7368,8 +7574,8 @@
       "ticker": "AMAT",
       "date": "2026-09-22 16:44",
       "price_at_alert": 467.1,
-      "price_now": 471.87,
-      "change_pct": 1.0
+      "price_now": 472.82,
+      "change_pct": 1.2
     },
     {
       "type": "politician",
@@ -7544,8 +7750,8 @@
       "ticker": "JPM",
       "date": "2026-09-22 16:40",
       "price_at_alert": 340.41,
-      "price_now": 341.56,
-      "change_pct": 0.3
+      "price_now": 340.71,
+      "change_pct": 0.1
     },
     {
       "type": "politician",
@@ -7576,8 +7782,8 @@
       "ticker": "AXP",
       "date": "2026-09-22 16:40",
       "price_at_alert": 307.97,
-      "price_now": 307.8,
-      "change_pct": -0.1
+      "price_now": 307.5,
+      "change_pct": -0.2
     },
     {
       "type": "politician",
@@ -7600,8 +7806,8 @@
       "ticker": "RSG",
       "date": "2026-09-22 16:40",
       "price_at_alert": 214.31,
-      "price_now": 212.1,
-      "change_pct": -1.0
+      "price_now": 212.98,
+      "change_pct": -0.6
     },
     {
       "type": "politician",
@@ -7648,16 +7854,8 @@
       "ticker": "WMT",
       "date": "2026-09-22 16:39",
       "price_at_alert": 109.22,
-      "price_now": 108.53,
-      "change_pct": -0.6
-    },
-    {
-      "type": "politician",
-      "ticker": "OMC",
-      "date": "2026-09-22 16:39",
-      "price_at_alert": 74.94,
-      "price_now": null,
-      "change_pct": null
+      "price_now": 108.32,
+      "change_pct": -0.8
     }
   ]
 }
