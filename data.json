@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-09-28 23:47 CEST",
-  "count": 18,
+  "generated_at": "2026-09-29 00:07 CEST",
+  "count": 19,
   "eur_rate": 0.87696,
   "records": [
+    {
+      "ticker": "INR",
+      "company": "Infinity Natural Resources, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": "794.68M",
+      "avg_volume": "300.83K",
+      "beta": "-0.39",
+      "recom": "1.10",
+      "earnings": "Aug 10 AMC",
+      "pe": "5.22",
+      "forward_pe": "4.11",
+      "insider_own": "18.89%",
+      "total_value_usd": 299993.0,
+      "price_usd": 12.53,
+      "price_eur": 10.99,
+      "ek_usd": 13.44,
+      "ek_eur": 11.79,
+      "vs_entry_pct": -6.8,
+      "score": 5,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "-16.91%",
+              "ideal": ">5% up or down? Yes",
+              "text": "Price move 1M -16.91% (>5% up or down? Yes)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Sales growth Q/Q",
+              "value": "129.63%",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q 129.63% (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Debt / Equity",
+              "value": "0.73",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity 0.73 (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "fail",
+              "label": "Current / Quick ratio",
+              "value": "0.87",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio 0.87 (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Price / Sales",
+              "value": "1.52",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales 1.52 (< 4, opt. < 2)"
+            },
+            {
+              "status": "pass",
+              "label": "Price / Book",
+              "value": "0.59",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book 0.59 (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "info",
+              "label": "Intrinsic value (DCF)",
+              "value": "+80.3%",
+              "ideal": "margin of safety, intrinsic ~$63.61",
+              "text": "Intrinsic value (DCF) +80.3% (margin of safety, intrinsic ~$63.61)"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Distance from 52W high",
+              "value": "-36.01%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -36.01% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "pass",
+              "label": "RSI (14)",
+              "value": "33.17",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) 33.17 (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "21.61%",
+              "ideal": "> 10% especially interesting \ud83d\udd25",
+              "text": "Short float 21.61% (> 10% especially interesting \ud83d\udd25)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Upside to target",
+              "value": "80.4%",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target 80.4% (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "pass",
+          "parts": [
+            {
+              "status": "pass",
+              "label": "Net margin",
+              "value": "9.82%",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin 9.82% (> 0% (profitable))"
+            },
+            {
+              "status": "pass",
+              "label": "Operating margin",
+              "value": "43.86%",
+              "ideal": "> 0%",
+              "text": "Operating margin 43.86% (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Baetz Cary D",
+          "title": "EVP, CFO",
+          "date": "2026-09-24",
+          "delta_own": "New",
+          "ek_usd": 13.44,
+          "value": "+$299,993",
+          "value_usd": 299993.0
+        }
+      ],
+      "last_buy_date": "2026-09-24",
+      "last_filing_date": "2026-09-28 18:01:09",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "DMRA",
       "company": "Damora Therapeutics, Inc.",
@@ -7059,6 +7257,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "INR",
+      "date": "2026-09-28 22:03",
+      "price_at_alert": 12.53,
+      "price_now": 12.53,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "DMRA",
       "date": "2026-09-28 11:04",
       "price_at_alert": 21.41,
@@ -7848,14 +8054,6 @@
       "price_at_alert": 960.66,
       "price_now": null,
       "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "WMT",
-      "date": "2026-09-22 16:39",
-      "price_at_alert": 109.22,
-      "price_now": 108.73,
-      "change_pct": -0.4
     }
   ]
 }
