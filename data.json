@@ -1,8 +1,51 @@
 {
-  "generated_at": "2026-10-02 22:27 CEST",
-  "count": 16,
+  "generated_at": "2026-10-02 22:46 CEST",
+  "count": 17,
   "eur_rate": 0.88067,
   "records": [
+    {
+      "ticker": "PORT.",
+      "company": "Southport Acquisition Corp. II",
+      "sector": null,
+      "industry": null,
+      "market_cap": null,
+      "avg_volume": null,
+      "beta": null,
+      "recom": null,
+      "earnings": null,
+      "pe": null,
+      "forward_pe": null,
+      "insider_own": null,
+      "total_value_usd": 5000000.0,
+      "price_usd": null,
+      "price_eur": null,
+      "ek_usd": 10.0,
+      "ek_eur": 8.81,
+      "vs_entry_pct": null,
+      "score": 0,
+      "total": 6,
+      "financial": false,
+      "checks": [],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Spencer Jeb S.",
+          "title": "CEO, CFO, 10%",
+          "date": "2026-09-30",
+          "delta_own": "New",
+          "ek_usd": 10.0,
+          "value": "+$5,000,000",
+          "value_usd": 5000000.0
+        }
+      ],
+      "last_buy_date": "2026-09-30",
+      "last_filing_date": "2026-10-02 16:30:18",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "XENE",
       "company": "Xenon Pharmaceuticals Inc.",
@@ -17,11 +60,11 @@
       "forward_pe": "-",
       "insider_own": "5.21%",
       "total_value_usd": 1681140.0,
-      "price_usd": 37.99,
-      "price_eur": 33.46,
+      "price_usd": 38.02,
+      "price_eur": 33.48,
       "ek_usd": 37.32,
       "ek_eur": 32.87,
-      "vs_entry_pct": 1.8,
+      "vs_entry_pct": 1.9,
       "score": 4,
       "total": 6,
       "financial": false,
@@ -34,9 +77,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-36.84%",
+              "value": "-36.8%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -36.84% (>5% up or down? Yes)"
+              "text": "Price move 1M -36.8% (>5% up or down? Yes)"
             }
           ]
         },
@@ -118,16 +161,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-47.72%",
+              "value": "-47.67%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -47.72% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -47.67% (<= -10%, ideal -15%)"
             },
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "24.25",
+              "value": "24.28",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 24.25 (< 45, ideal < 40)"
+              "text": "RSI (14) 24.28 (< 45, ideal < 40)"
             }
           ]
         },
@@ -153,9 +196,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "93.6%",
+              "value": "93.4%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 93.6% (>= 15%, ideal 20%)"
+              "text": "Upside to target 93.4% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -2389,20 +2432,20 @@
       "company": "Grab Holdings Ltd",
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": "12.62B",
+      "market_cap": "12.56B",
       "avg_volume": "52.86M",
       "beta": "0.81",
       "recom": "1.25",
       "earnings": "Aug 04 BMO",
-      "pe": "22.35",
-      "forward_pe": "17.95",
+      "pe": "22.24",
+      "forward_pe": "17.86",
       "insider_own": "31.96%",
       "total_value_usd": 29876310.0,
-      "price_usd": 3.1,
-      "price_eur": 2.73,
+      "price_usd": 3.08,
+      "price_eur": 2.71,
       "ek_usd": 2.89,
       "ek_eur": 2.55,
-      "vs_entry_pct": 7.3,
+      "vs_entry_pct": 6.6,
       "score": 6,
       "total": 6,
       "financial": false,
@@ -2415,9 +2458,9 @@
             {
               "status": "info",
               "label": "Price move 1M",
-              "value": "-12.32%",
+              "value": "-12.75%",
               "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -12.32% (>5% up or down? Yes)"
+              "text": "Price move 1M -12.75% (>5% up or down? Yes)"
             }
           ]
         },
@@ -2471,23 +2514,23 @@
             {
               "status": "pass",
               "label": "Price / Sales",
-              "value": "3.38",
+              "value": "3.37",
               "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 3.38 (< 4, opt. < 2)"
+              "text": "Price / Sales 3.37 (< 4, opt. < 2)"
             },
             {
               "status": "pass",
               "label": "Price / Book",
-              "value": "1.87",
+              "value": "1.86",
               "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 1.87 (< 3, opt. < 1.5)"
+              "text": "Price / Book 1.86 (< 3, opt. < 1.5)"
             },
             {
               "status": "info",
               "label": "Intrinsic value (DCF)",
-              "value": "+16.4%",
+              "value": "+17%",
               "ideal": "margin of safety, intrinsic ~$3.71",
-              "text": "Intrinsic value (DCF) +16.4% (margin of safety, intrinsic ~$3.71)"
+              "text": "Intrinsic value (DCF) +17% (margin of safety, intrinsic ~$3.71)"
             }
           ]
         },
@@ -2499,16 +2542,16 @@
             {
               "status": "pass",
               "label": "Distance from 52W high",
-              "value": "-53.03%",
+              "value": "-53.33%",
               "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -53.03% (<= -10%, ideal -15%)"
+              "text": "Distance from 52W high -53.33% (<= -10%, ideal -15%)"
             },
             {
               "status": "pass",
               "label": "RSI (14)",
-              "value": "44.5",
+              "value": "43.7",
               "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 44.5 (< 45, ideal < 40)"
+              "text": "RSI (14) 43.7 (< 45, ideal < 40)"
             }
           ]
         },
@@ -2534,9 +2577,9 @@
             {
               "status": "pass",
               "label": "Upside to target",
-              "value": "86.8%",
+              "value": "88%",
               "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 86.8% (>= 15%, ideal 20%)"
+              "text": "Upside to target 88% (>= 15%, ideal 20%)"
             }
           ]
         },
@@ -6297,16 +6340,16 @@
         "company": "Walmart Inc",
         "sector": "Consumer Defensive",
         "industry": "Discount Stores",
-        "market_cap": "827.41B",
+        "market_cap": "827.17B",
         "avg_volume": "23.90M",
         "beta": "0.57",
         "recom": "1.50",
         "earnings": "Aug 20 BMO",
-        "pe": "37.78",
-        "forward_pe": "32.37",
+        "pe": "37.77",
+        "forward_pe": "32.36",
         "insider_own": "44.21%",
-        "price_usd": 104.29,
-        "price_eur": 91.85,
+        "price_usd": 104.26,
+        "price_eur": 91.82,
         "entry_est_usd": 106.49,
         "entry_est_eur": 93.78,
         "vs_entry_pct": -2.1,
@@ -6321,9 +6364,9 @@
               {
                 "status": "info",
                 "label": "Price move 1M",
-                "value": "-1.7%",
+                "value": "-1.72%",
                 "ideal": ">5% up or down? No",
-                "text": "Price move 1M -1.7% (>5% up or down? No)"
+                "text": "Price move 1M -1.72% (>5% up or down? No)"
               }
             ]
           },
@@ -6391,9 +6434,9 @@
               {
                 "status": "info",
                 "label": "Intrinsic value (DCF)",
-                "value": "-67.5%",
+                "value": "-67.4%",
                 "ideal": "margin of safety, intrinsic ~$62.27",
-                "text": "Intrinsic value (DCF) -67.5% (margin of safety, intrinsic ~$62.27)"
+                "text": "Intrinsic value (DCF) -67.4% (margin of safety, intrinsic ~$62.27)"
               }
             ]
           },
@@ -6405,16 +6448,16 @@
               {
                 "status": "pass",
                 "label": "Distance from 52W high",
-                "value": "-22.83%",
+                "value": "-22.86%",
                 "ideal": "<= -10%, ideal -15%",
-                "text": "Distance from 52W high -22.83% (<= -10%, ideal -15%)"
+                "text": "Distance from 52W high -22.86% (<= -10%, ideal -15%)"
               },
               {
                 "status": "pass",
                 "label": "RSI (14)",
-                "value": "40.18",
+                "value": "40.08",
                 "ideal": "< 45, ideal < 40",
-                "text": "RSI (14) 40.18 (< 45, ideal < 40)"
+                "text": "RSI (14) 40.08 (< 45, ideal < 40)"
               }
             ]
           },
@@ -6675,19 +6718,27 @@
   "alerts": [
     {
       "type": "insider",
-      "ticker": "XENE",
-      "date": "2026-10-01 13:21",
-      "price_at_alert": 38.73,
-      "price_now": 37.99,
-      "change_pct": -1.9
+      "ticker": "PORT.",
+      "date": "2026-10-02 20:43",
+      "price_at_alert": null,
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "insider",
       "ticker": "XENE",
       "date": "2026-10-01 13:21",
       "price_at_alert": 38.73,
-      "price_now": 37.99,
-      "change_pct": -1.9
+      "price_now": 38.02,
+      "change_pct": -1.8
+    },
+    {
+      "type": "insider",
+      "ticker": "XENE",
+      "date": "2026-10-01 13:21",
+      "price_at_alert": 38.73,
+      "price_now": 38.02,
+      "change_pct": -1.8
     },
     {
       "type": "insider",
@@ -6894,8 +6945,8 @@
       "ticker": "KMPR",
       "date": "2026-09-22 16:50",
       "price_at_alert": 26.36,
-      "price_now": 25.67,
-      "change_pct": -2.6
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
@@ -7464,14 +7515,6 @@
       "price_at_alert": 806.78,
       "price_now": null,
       "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "RSG",
-      "date": "2026-09-22 16:40",
-      "price_at_alert": 214.31,
-      "price_now": 209.56,
-      "change_pct": -2.2
     }
   ]
 }
