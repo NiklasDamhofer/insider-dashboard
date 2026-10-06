@@ -1,8 +1,206 @@
 {
-  "generated_at": "2026-10-06 03:40 CEST",
-  "count": 14,
+  "generated_at": "2026-10-06 03:59 CEST",
+  "count": 15,
   "eur_rate": 0.88067,
   "records": [
+    {
+      "ticker": "ACCV",
+      "company": "Accelevation Holdings Corp.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "market_cap": "-",
+      "avg_volume": "8.95M",
+      "beta": "-",
+      "recom": "-",
+      "earnings": "-",
+      "pe": "-",
+      "forward_pe": "-",
+      "insider_own": "-",
+      "total_value_usd": 3657600.0,
+      "price_usd": 16.46,
+      "price_eur": 14.5,
+      "ek_usd": 18.0,
+      "ek_eur": 15.85,
+      "vs_entry_pct": -8.6,
+      "score": 0,
+      "total": 6,
+      "financial": false,
+      "checks": [
+        {
+          "n": 1,
+          "title": "Momentum (1 month)",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Price move 1M",
+              "value": "n/a",
+              "ideal": ">5% up or down? No",
+              "text": "Price move 1M n/a (>5% up or down? No)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "Fundamental growth",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Sales growth Q/Q",
+              "value": "n/a",
+              "ideal": "> 0%, ideal 10-15%",
+              "text": "Sales growth Q/Q n/a (> 0%, ideal 10-15%)"
+            },
+            {
+              "status": "na",
+              "label": "Sales growth 5Y",
+              "value": "n/a",
+              "ideal": "> 5%",
+              "text": "Sales growth 5Y n/a (> 5%)"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Financial health",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Debt / Equity",
+              "value": "n/a",
+              "ideal": "< 1.5 (max 2.0)",
+              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
+            },
+            {
+              "status": "na",
+              "label": "Current / Quick ratio",
+              "value": "n/a",
+              "ideal": "> 1.0",
+              "text": "Current / Quick ratio n/a (> 1.0)"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Valuation",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Price / Sales",
+              "value": "n/a",
+              "ideal": "< 4, opt. < 2",
+              "text": "Price / Sales n/a (< 4, opt. < 2)"
+            },
+            {
+              "status": "na",
+              "label": "Price / Book",
+              "value": "n/a",
+              "ideal": "< 3, opt. < 1.5",
+              "text": "Price / Book n/a (< 3, opt. < 1.5)"
+            },
+            {
+              "status": "na",
+              "label": "Intrinsic value (DCF)",
+              "value": "n/a",
+              "ideal": "n/a (no positive TTM earnings)",
+              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Technical dip & timing",
+          "status": "fail",
+          "parts": [
+            {
+              "status": "fail",
+              "label": "Distance from 52W high",
+              "value": "-9.06%",
+              "ideal": "<= -10%, ideal -15%",
+              "text": "Distance from 52W high -9.06% (<= -10%, ideal -15%)"
+            },
+            {
+              "status": "na",
+              "label": "RSI (14)",
+              "value": "n/a",
+              "ideal": "< 45, ideal < 40",
+              "text": "RSI (14) n/a (< 45, ideal < 40)"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Short float",
+          "status": "info",
+          "parts": [
+            {
+              "status": "info",
+              "label": "Short float",
+              "value": "n/a",
+              "ideal": "> 10% especially interesting",
+              "text": "Short float n/a (> 10% especially interesting)"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Analyst target upside",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Upside to target",
+              "value": "n/a",
+              "ideal": ">= 15%, ideal 20%",
+              "text": "Upside to target n/a (>= 15%, ideal 20%)"
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "Profitability",
+          "status": "na",
+          "parts": [
+            {
+              "status": "na",
+              "label": "Net margin",
+              "value": "n/a",
+              "ideal": "> 0% (profitable)",
+              "text": "Net margin n/a (> 0% (profitable))"
+            },
+            {
+              "status": "na",
+              "label": "Operating margin",
+              "value": "n/a",
+              "ideal": "> 0%",
+              "text": "Operating margin n/a (> 0%)"
+            }
+          ]
+        }
+      ],
+      "cluster": false,
+      "cluster_names": [],
+      "insiders": [
+        {
+          "name": "Rubiera Michael",
+          "title": "CEO",
+          "date": "2026-10-01",
+          "delta_own": "+16%",
+          "ek_usd": 18.0,
+          "value": "+$3,657,600",
+          "value_usd": 3657600.0
+        }
+      ],
+      "last_buy_date": "2026-10-01",
+      "last_filing_date": "2026-10-05 21:45:03",
+      "congress_status": "ok",
+      "congress_bought": false,
+      "congress_count": 0,
+      "congress_matches": []
+    },
     {
       "ticker": "VCIG",
       "company": "Vci Global Ltd",
@@ -4967,6 +5165,14 @@
   "alerts": [
     {
       "type": "insider",
+      "ticker": "ACCV",
+      "date": "2026-10-06 01:57",
+      "price_at_alert": 16.46,
+      "price_now": 16.46,
+      "change_pct": 0.0
+    },
+    {
+      "type": "insider",
       "ticker": "VCIG",
       "date": "2026-10-05 10:13",
       "price_at_alert": 1.35,
@@ -5754,14 +5960,6 @@
       "ticker": "AXP",
       "date": "2026-09-22 16:40",
       "price_at_alert": 307.97,
-      "price_now": null,
-      "change_pct": null
-    },
-    {
-      "type": "politician",
-      "ticker": "SPGI",
-      "date": "2026-09-22 16:40",
-      "price_at_alert": 404.6,
       "price_now": null,
       "change_pct": null
     }
