@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 05:45 CEST",
-  "count": 15,
+  "generated_at": "2026-10-06 06:03 CEST",
+  "count": 14,
   "eur_rate": 0.88067,
   "records": [
     {
@@ -2631,197 +2631,6 @@
       "congress_bought": false,
       "congress_count": 0,
       "congress_matches": []
-    },
-    {
-      "ticker": "BCBP",
-      "company": "Bcb Bancorp Inc",
-      "sector": "Financial",
-      "industry": "Banks - Regional",
-      "market_cap": "246.21M",
-      "avg_volume": "249.09K",
-      "beta": "0.68",
-      "recom": "3.00",
-      "earnings": "Aug 03 BMO",
-      "pe": "-",
-      "forward_pe": "12.44",
-      "insider_own": "13.77%",
-      "total_value_usd": 1240000.0,
-      "price_usd": 8.46,
-      "price_eur": 7.45,
-      "ek_usd": 7.75,
-      "ek_eur": 6.83,
-      "vs_entry_pct": 9.2,
-      "score": 2,
-      "total": 6,
-      "financial": true,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-2.2%",
-              "ideal": ">5% up or down? No",
-              "text": "Price move 1M -2.2% (>5% up or down? No)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Sales growth Q/Q",
-              "value": "-11.92%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q -11.92% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "pass",
-              "label": "Sales growth 5Y",
-              "value": "6.51%",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y 6.51% (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health (bank)",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Health rating",
-              "value": "\ud83d\udd34 red",
-              "ideal": "ROE -5.81%, Margin -12.12%, LT Debt/Eq 0.61",
-              "text": "Health rating \ud83d\udd34 red (ROE -5.81%, Margin -12.12%, LT Debt/Eq 0.61)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "1.56",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 1.56 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "0.52",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 0.52 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-27.75%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -27.75% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "39.82",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 39.82 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "4.06%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 4.06% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Upside to target",
-              "value": "5.8%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 5.8% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "fail",
-          "parts": [
-            {
-              "status": "fail",
-              "label": "Net margin",
-              "value": "-12.12%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin -12.12% (> 0% (profitable))"
-            },
-            {
-              "status": "fail",
-              "label": "Operating margin",
-              "value": "-11.44%",
-              "ideal": "> 0%",
-              "text": "Operating margin -11.44% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Obrien Thomas M",
-          "title": "CEO",
-          "date": "2026-09-18",
-          "delta_own": "+23%",
-          "ek_usd": 7.75,
-          "value": "+$1,240,000",
-          "value_usd": 1240000.0
-        }
-      ],
-      "last_buy_date": "2026-09-18",
-      "last_filing_date": "2026-09-22 14:23:16",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     }
   ],
   "watchlist": {
@@ -5400,8 +5209,8 @@
       "ticker": "GPI",
       "date": "2026-09-22 16:51",
       "price_at_alert": 254.28,
-      "price_now": 241.44,
-      "change_pct": -5.0
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
