@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07 05:49 CEST",
-  "count": 15,
+  "generated_at": "2026-10-07 06:07 CEST",
+  "count": 14,
   "eur_rate": 0.88067,
   "records": [
     {
@@ -2631,204 +2631,6 @@
       "congress_bought": false,
       "congress_count": 0,
       "congress_matches": []
-    },
-    {
-      "ticker": "RCT",
-      "company": "Redcloud Holdings Plc",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": "8.76M",
-      "avg_volume": "1.17M",
-      "beta": "4.37",
-      "recom": "1.00",
-      "earnings": "-",
-      "pe": "-",
-      "forward_pe": "-",
-      "insider_own": "51.74%",
-      "total_value_usd": 185000.0,
-      "price_usd": 0.13,
-      "price_eur": 0.11,
-      "ek_usd": 2.5,
-      "ek_eur": 2.2,
-      "vs_entry_pct": -94.8,
-      "score": 3,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-38.16%",
-              "ideal": ">5% up or down? Yes",
-              "text": "Price move 1M -38.16% (>5% up or down? Yes)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "166.95%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 166.95% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "na",
-              "label": "Sales growth 5Y",
-              "value": "n/a",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y n/a (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "na",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Debt / Equity",
-              "value": "n/a",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity n/a (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "na",
-              "label": "Current / Quick ratio",
-              "value": "n/a",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio n/a (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "na",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Price / Sales",
-              "value": "n/a",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales n/a (< 4, opt. < 2)"
-            },
-            {
-              "status": "na",
-              "label": "Price / Book",
-              "value": "n/a",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book n/a (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "na",
-              "label": "Intrinsic value (DCF)",
-              "value": "n/a",
-              "ideal": "n/a (no positive TTM earnings)",
-              "text": "Intrinsic value (DCF) n/a (n/a (no positive TTM earnings))"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-94.44%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -94.44% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "23.17",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 23.17 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "0.2%",
-              "ideal": "> 10% especially interesting",
-              "text": "Short float 0.2% (> 10% especially interesting)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "3746.2%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 3746.2% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "na",
-          "parts": [
-            {
-              "status": "na",
-              "label": "Net margin",
-              "value": "n/a",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin n/a (> 0% (profitable))"
-            },
-            {
-              "status": "na",
-              "label": "Operating margin",
-              "value": "n/a",
-              "ideal": "> 0%",
-              "text": "Operating margin n/a (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Floyd Justin Beck Hinton",
-          "title": "CEO",
-          "date": "2026-09-22",
-          "delta_own": "+5%",
-          "ek_usd": 2.5,
-          "value": "+$185,000",
-          "value_usd": 185000.0
-        }
-      ],
-      "last_buy_date": "2026-09-22",
-      "last_filing_date": "2026-09-23 09:25:02",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     }
   ],
   "watchlist": {
@@ -5407,8 +5209,8 @@
       "ticker": "DXC",
       "date": "2026-09-22 16:51",
       "price_at_alert": 10.75,
-      "price_now": 11.83,
-      "change_pct": 10.0
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
