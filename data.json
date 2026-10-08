@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08 05:49 CEST",
-  "count": 15,
+  "generated_at": "2026-10-08 06:07 CEST",
+  "count": 14,
   "eur_rate": 0.88067,
   "records": [
     {
@@ -2631,204 +2631,6 @@
       "congress_bought": false,
       "congress_count": 0,
       "congress_matches": []
-    },
-    {
-      "ticker": "DKS",
-      "company": "Dick'S Sporting Goods, Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Specialty Retail",
-      "market_cap": "11.67B",
-      "avg_volume": "3.06M",
-      "beta": "1.11",
-      "recom": "2.19",
-      "earnings": "Aug 25 BMO",
-      "pe": "14.09",
-      "forward_pe": "9.93",
-      "insider_own": "29.80%",
-      "total_value_usd": 999983.0,
-      "price_usd": 131.18,
-      "price_eur": 115.53,
-      "ek_usd": 129.75,
-      "ek_eur": 114.27,
-      "vs_entry_pct": 1.1,
-      "score": 6,
-      "total": 6,
-      "financial": false,
-      "checks": [
-        {
-          "n": 1,
-          "title": "Momentum (1 month)",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Price move 1M",
-              "value": "-0.9%",
-              "ideal": ">5% up or down? No",
-              "text": "Price move 1M -0.9% (>5% up or down? No)"
-            }
-          ]
-        },
-        {
-          "n": 2,
-          "title": "Fundamental growth",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Sales growth Q/Q",
-              "value": "53.21%",
-              "ideal": "> 0%, ideal 10-15%",
-              "text": "Sales growth Q/Q 53.21% (> 0%, ideal 10-15%)"
-            },
-            {
-              "status": "pass",
-              "label": "Sales growth 5Y",
-              "value": "12.43%",
-              "ideal": "> 5%",
-              "text": "Sales growth 5Y 12.43% (> 5%)"
-            }
-          ]
-        },
-        {
-          "n": 3,
-          "title": "Financial health",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Debt / Equity",
-              "value": "1.39",
-              "ideal": "< 1.5 (max 2.0)",
-              "text": "Debt / Equity 1.39 (< 1.5 (max 2.0))"
-            },
-            {
-              "status": "pass",
-              "label": "Current / Quick ratio",
-              "value": "1.48",
-              "ideal": "> 1.0",
-              "text": "Current / Quick ratio 1.48 (> 1.0)"
-            }
-          ]
-        },
-        {
-          "n": 4,
-          "title": "Valuation",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Price / Sales",
-              "value": "0.55",
-              "ideal": "< 4, opt. < 2",
-              "text": "Price / Sales 0.55 (< 4, opt. < 2)"
-            },
-            {
-              "status": "pass",
-              "label": "Price / Book",
-              "value": "2.04",
-              "ideal": "< 3, opt. < 1.5",
-              "text": "Price / Book 2.04 (< 3, opt. < 1.5)"
-            },
-            {
-              "status": "info",
-              "label": "Intrinsic value (DCF)",
-              "value": "+16.8%",
-              "ideal": "margin of safety, intrinsic ~$157.69",
-              "text": "Intrinsic value (DCF) +16.8% (margin of safety, intrinsic ~$157.69)"
-            }
-          ]
-        },
-        {
-          "n": 5,
-          "title": "Technical dip & timing",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Distance from 52W high",
-              "value": "-46.32%",
-              "ideal": "<= -10%, ideal -15%",
-              "text": "Distance from 52W high -46.32% (<= -10%, ideal -15%)"
-            },
-            {
-              "status": "pass",
-              "label": "RSI (14)",
-              "value": "39.55",
-              "ideal": "< 45, ideal < 40",
-              "text": "RSI (14) 39.55 (< 45, ideal < 40)"
-            }
-          ]
-        },
-        {
-          "n": 6,
-          "title": "Short float",
-          "status": "info",
-          "parts": [
-            {
-              "status": "info",
-              "label": "Short float",
-              "value": "12.83%",
-              "ideal": "> 10% especially interesting \ud83d\udd25",
-              "text": "Short float 12.83% (> 10% especially interesting \ud83d\udd25)"
-            }
-          ]
-        },
-        {
-          "n": 7,
-          "title": "Analyst target upside",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Upside to target",
-              "value": "20.3%",
-              "ideal": ">= 15%, ideal 20%",
-              "text": "Upside to target 20.3% (>= 15%, ideal 20%)"
-            }
-          ]
-        },
-        {
-          "n": 8,
-          "title": "Profitability",
-          "status": "pass",
-          "parts": [
-            {
-              "status": "pass",
-              "label": "Net margin",
-              "value": "3.97%",
-              "ideal": "> 0% (profitable)",
-              "text": "Net margin 3.97% (> 0% (profitable))"
-            },
-            {
-              "status": "pass",
-              "label": "Operating margin",
-              "value": "6.43%",
-              "ideal": "> 0%",
-              "text": "Operating margin 6.43% (> 0%)"
-            }
-          ]
-        }
-      ],
-      "cluster": false,
-      "cluster_names": [],
-      "insiders": [
-        {
-          "name": "Gupta Navdeep",
-          "title": "EVP, CFO",
-          "date": "2026-09-22",
-          "delta_own": "+10%",
-          "ek_usd": 129.75,
-          "value": "+$999,983",
-          "value_usd": 999983.0
-        }
-      ],
-      "last_buy_date": "2026-09-22",
-      "last_filing_date": "2026-09-24 16:22:12",
-      "congress_status": "ok",
-      "congress_bought": false,
-      "congress_count": 0,
-      "congress_matches": []
     }
   ],
   "watchlist": {
@@ -5407,8 +5209,8 @@
       "ticker": "AGYS",
       "date": "2026-09-22 16:51",
       "price_at_alert": 98.18,
-      "price_now": 101.92,
-      "change_pct": 3.8
+      "price_now": null,
+      "change_pct": null
     },
     {
       "type": "politician",
